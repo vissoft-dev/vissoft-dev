@@ -6152,25 +6152,6 @@
 					"name": "Giai đoạn dự án",
 					"item": [
 						{
-							"name": "lấy giai đoạn theo id",
-							"id": "4dc1f34c-af53-43d7-8a69-90e7b2781af2",
-							"protocolProfileBehavior": {
-								"disableBodyPruning": true
-							},
-							"request": {
-								"auth": {
-									"type": "bearer",
-									"bearer": {
-										"token": "eyJhbGciOiJIUzUxMiJ9.eyJ1c2VySWQiOiIwMUg1UkpQQzFEWUFYQkZXRk1ZN05TWVdZNiIsInVzZXJuYW1lIjoidmlzYWRtaW5Admlzc29mdC52biIsImZ1bGxOYW1lIjoiIiwidXNlclR5cGUiOiJvd25lciIsInVzZXJDb2RlIjoiQURNSU4iLCJlbXBsb3llZUlkIjoiMDFINldLUjFDMUdNOTFZRVZWMkRNVjFZOEEiLCJlbXBsb3llZUNvZGUiOiJBRE1JTiIsImF1dGgiOltdLCJleHAiOjE2OTY5MzQyNzN9.PZ7qctvWiL3C7ex1zPxPdQMhPXy1u-2dKnoHxh0A5IuxTODd9R1if8WKDG03v2GYf8ACX6ZF-5LJegJoCyNcGQ"
-									}
-								},
-								"method": "GET",
-								"header": [],
-								"url": "http://localhost:8080/api/project-phase/01HCBTP6DR3GRQNH0MM10A3MB1"
-							},
-							"response": []
-						},
-						{
 							"name": "thêm mới giai đoạn",
 							"id": "3da6e06e-4e66-428d-bf42-04a88bb802dc",
 							"protocolProfileBehavior": {
