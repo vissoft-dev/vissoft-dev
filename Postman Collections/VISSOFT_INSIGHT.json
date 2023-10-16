@@ -5701,15 +5701,6 @@
 								},
 								"method": "GET",
 								"header": [],
-								"body": {
-									"mode": "raw",
-									"raw": "{\r\n  \"id\": \"\",\r\n  \"projectId\": \"\",\r\n  \"projectCode\": \"\",\r\n  \"projectName\": \"\",\r\n  \"versionCode\": \"\",\r\n  \"status\": 0,\r\n  \"approveId\": \"\",\r\n  \"startDate\": \"2023-10-13 11:40:40\",\r\n  \"endDate\": \"2023-10-13 11:40:40\",\r\n  \"budget\": 0.0,\r\n  \"projectType\": 0,\r\n  \"isLogWork\": false\r\n}",
-									"options": {
-										"raw": {
-											"language": "json"
-										}
-									}
-								},
 								"url": "{{domain}}/v1/project-plan/01HC9EMTD7DCER7Q71QCBR451T"
 							},
 							"response": []
@@ -5799,17 +5790,11 @@
 								"disableBodyPruning": true
 							},
 							"request": {
-								"auth": {
-									"type": "bearer",
-									"bearer": {
-										"token": "{{access_token}}"
-									}
-								},
 								"method": "POST",
 								"header": [],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n  \"id\": \"\",\r\n  \"projectPlanId\": \"\",\r\n  \"employeeId\": \"\",\r\n  \"titleId\": \"\",\r\n  \"employeeLevel\": \"\",\r\n  \"fromDate\": \"2023-10-13 11:40:40\",\r\n  \"toDate\": \"2023-10-13 11:40:40\",\r\n  \"effort\": 0.0,\r\n  \"resourceBudget\": 0.0\r\n}",
+									"raw": "{\r\n  \"projectPlanId\": \"01HC9EMTD7DCER7Q71QCBR451P\",\r\n  \"employeeId\": \"\",\r\n  \"titleId\": \"\",\r\n  \"employeeLevel\": \"\",\r\n  \"fromDate\": \"2023-10-13\",\r\n  \"toDate\": \"2023-10-13\",\r\n  \"effort\": 0.0,\r\n  \"resourceBudget\": 0.0\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -5883,24 +5868,18 @@
 								"disableBodyPruning": true
 							},
 							"request": {
-								"auth": {
-									"type": "bearer",
-									"bearer": {
-										"token": "{{access_token}}"
-									}
-								},
 								"method": "GET",
 								"header": [],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n  \"employeeId\": \"01HCHGV9E41DDA81BJERMTZXFS\",\r\n  \"fromDate\": \"2023-10-01\",\r\n  \"toDate\": \"2023-11-27\",\r\n  \"effort\": 70\r\n}",
+									"raw": "",
 									"options": {
 										"raw": {
 											"language": "json"
 										}
 									}
 								},
-								"url": "{{domain}}/v1/project-resources/01HC9TWYM55FGSZH0EZ0Y0V2DE"
+								"url": "{{domain}}/v1/project-resources/01HC9EMTD7DCER7Q71QCBR451P"
 							},
 							"response": []
 						}
