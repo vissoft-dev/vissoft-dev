@@ -6624,7 +6624,7 @@
 								"header": [],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"postId\": \"01HC9EMTD7DCER7Q71QCBR451P\",\r\n    \"message\": \"Comment test 2\"\r\n}",
+									"raw": "{\r\n    \"postId\": \"01HC9EMTD7DCER7Q71QCBR451P\",\r\n    \"message\": \"People\\nAssignee:\\t\\nthangnd2\\n Nguyễn Đức Thắng\\nReporter:\\t\\nthangnd2\\n Nguyễn Đức Thắng\\nVotes:\\t0\\nWatchers:\\t1 \\nStop watching this issue \\nDates\\nDue:\\t17/Oct/23\\nCreated:\\t2 days ago\\nUpdated:\\t2 days ago\\nStart Date:\\t13/Oct/23\"\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
