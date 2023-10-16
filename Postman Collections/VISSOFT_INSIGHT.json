@@ -6320,23 +6320,14 @@
 								"disableBodyPruning": true
 							},
 							"request": {
-								"auth": {
-									"type": "bearer",
-									"bearer": {
-										"token": "eyJhbGciOiJIUzUxMiJ9.eyJ1c2VySWQiOiIwMUg1UkpQQzFEWUFYQkZXRk1ZN05TWVdZNiIsInVzZXJuYW1lIjoidmlzYWRtaW5Admlzc29mdC52biIsImZ1bGxOYW1lIjoiIiwidXNlclR5cGUiOiJvd25lciIsInVzZXJDb2RlIjoiQURNSU4iLCJlbXBsb3llZUlkIjoiMDFINldLUjFDMUdNOTFZRVZWMkRNVjFZOEEiLCJlbXBsb3llZUNvZGUiOiJBRE1JTiIsImF1dGgiOltdLCJleHAiOjE2OTcwOTcxNTh9.PyWxjWxCM2uU28LIFIBHEjGfvF6d-uwh0Ni9lr0Sp30gazwJtmcTu7Akp24GyRIXIJLbfCXT7S2pXdlNEYTq0Q"
-									}
-								},
 								"method": "GET",
 								"header": [],
 								"url": {
-									"raw": "http://localhost:8080/api/project-client-resource/search?planId=01HC9TWYM55FGSZH0EZ0Y0V2DE",
-									"protocol": "http",
+									"raw": "{{domain}}/project-client-resource/search?planId=01HC9TWYM55FGSZH0EZ0Y0V2DE",
 									"host": [
-										"localhost"
+										"{{domain}}"
 									],
-									"port": "8080",
 									"path": [
-										"api",
 										"project-client-resource",
 										"search"
 									],
@@ -6357,12 +6348,6 @@
 								"disableBodyPruning": true
 							},
 							"request": {
-								"auth": {
-									"type": "bearer",
-									"bearer": {
-										"token": "eyJhbGciOiJIUzUxMiJ9.eyJ1c2VySWQiOiIwMUg1UkpQQzFEWUFYQkZXRk1ZN05TWVdZNiIsInVzZXJuYW1lIjoidmlzYWRtaW5Admlzc29mdC52biIsImZ1bGxOYW1lIjoiIiwidXNlclR5cGUiOiJvd25lciIsInVzZXJDb2RlIjoiQURNSU4iLCJlbXBsb3llZUlkIjoiMDFINldLUjFDMUdNOTFZRVZWMkRNVjFZOEEiLCJlbXBsb3llZUNvZGUiOiJBRE1JTiIsImF1dGgiOltdLCJleHAiOjE2OTcwNDEyMTJ9.n4a_eiNEfdB7wVCfBHT9C00FijEoXBk9d_5GyV_GcWMdq7nWxfl5S1Pz8EZrcFugQuWjexlHtIdZYapZQ1eoeg"
-									}
-								},
 								"method": "POST",
 								"header": [],
 								"body": {
@@ -6374,7 +6359,7 @@
 										}
 									}
 								},
-								"url": "http://localhost:8080/api/project-client-resource"
+								"url": "{{domain}}/project-client-resource"
 							},
 							"response": []
 						},
