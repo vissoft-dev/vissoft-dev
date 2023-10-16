@@ -6323,7 +6323,7 @@
 								"method": "GET",
 								"header": [],
 								"url": {
-									"raw": "{{domain}}/project-client-resource/search?planId=01HC9TWYM55FGSZH0EZ0Y0V2DE",
+									"raw": "{{domain}}/project-client-resource/search?planId=01HC9EMTD7DCER7Q71QCBR451P",
 									"host": [
 										"{{domain}}"
 									],
@@ -6334,7 +6334,7 @@
 									"query": [
 										{
 											"key": "planId",
-											"value": "01HC9TWYM55FGSZH0EZ0Y0V2DE"
+											"value": "01HC9EMTD7DCER7Q71QCBR451P"
 										}
 									]
 								}
@@ -6352,7 +6352,7 @@
 								"header": [],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"projectPlanId\": \"01HC9TWYM55FGSZH0EZ0Y0V2DE\",\r\n    \"clientName\": \"Nguyen Van C\",\r\n    \"clientRole\": \"DEV\",\r\n    \"email\": \"NguyenVanB@gmail.com\",\r\n    \"phoneNumber\": \"0123456789\",\r\n    \"description\": \"mo ta \"\r\n}",
+									"raw": "{\r\n    \"projectPlanId\": \"01HC9EMTD7DCER7Q71QCBR451P\",\r\n    \"clientName\": \"Nguyen Van C\",\r\n    \"clientRole\": \"DEV\",\r\n    \"email\": \"NguyenVanB@gmail.com\",\r\n    \"phoneNumber\": \"0123456789\",\r\n    \"description\": \"mo ta \"\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -6370,12 +6370,6 @@
 								"disableBodyPruning": true
 							},
 							"request": {
-								"auth": {
-									"type": "bearer",
-									"bearer": {
-										"token": "eyJhbGciOiJIUzUxMiJ9.eyJ1c2VySWQiOiIwMUg1UkpQQzFEWUFYQkZXRk1ZN05TWVdZNiIsInVzZXJuYW1lIjoidmlzYWRtaW5Admlzc29mdC52biIsImZ1bGxOYW1lIjoiIiwidXNlclR5cGUiOiJvd25lciIsInVzZXJDb2RlIjoiQURNSU4iLCJlbXBsb3llZUlkIjoiMDFINldLUjFDMUdNOTFZRVZWMkRNVjFZOEEiLCJlbXBsb3llZUNvZGUiOiJBRE1JTiIsImF1dGgiOltdLCJleHAiOjE2OTcwNDEyMTJ9.n4a_eiNEfdB7wVCfBHT9C00FijEoXBk9d_5GyV_GcWMdq7nWxfl5S1Pz8EZrcFugQuWjexlHtIdZYapZQ1eoeg"
-									}
-								},
 								"method": "PUT",
 								"header": [],
 								"body": {
@@ -6387,7 +6381,7 @@
 										}
 									}
 								},
-								"url": "http://localhost:8080/api/project-client-resource"
+								"url": "{{domain}}/project-client-resource"
 							},
 							"response": []
 						},
@@ -6398,15 +6392,9 @@
 								"disableBodyPruning": true
 							},
 							"request": {
-								"auth": {
-									"type": "bearer",
-									"bearer": {
-										"token": "eyJhbGciOiJIUzUxMiJ9.eyJ1c2VySWQiOiIwMUg1UkpQQzFEWUFYQkZXRk1ZN05TWVdZNiIsInVzZXJuYW1lIjoidmlzYWRtaW5Admlzc29mdC52biIsImZ1bGxOYW1lIjoiIiwidXNlclR5cGUiOiJvd25lciIsInVzZXJDb2RlIjoiQURNSU4iLCJlbXBsb3llZUlkIjoiMDFINldLUjFDMUdNOTFZRVZWMkRNVjFZOEEiLCJlbXBsb3llZUNvZGUiOiJBRE1JTiIsImF1dGgiOltdLCJleHAiOjE2OTY5MzQyNzN9.PZ7qctvWiL3C7ex1zPxPdQMhPXy1u-2dKnoHxh0A5IuxTODd9R1if8WKDG03v2GYf8ACX6ZF-5LJegJoCyNcGQ"
-									}
-								},
 								"method": "DELETE",
 								"header": [],
-								"url": "http://localhost:8080/api/project-client-resource/01HCCGN4KZHXYYW44SR2JDYQ9S"
+								"url": "{{domain}}/project-client-resource/01HCCGN4KZHXYYW44SR2JDYQ9S"
 							},
 							"response": []
 						}
