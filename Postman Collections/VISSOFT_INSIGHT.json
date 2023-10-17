@@ -5797,7 +5797,7 @@
 								"header": [],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n  \"projectPlanId\": \"01HC9EMTD7DCER7Q71QCBR451P\",\r\n  \"employeeId\": \"\",\r\n  \"titleId\": \"\",\r\n  \"employeeLevel\": \"\",\r\n  \"fromDate\": \"2023-10-13\",\r\n  \"toDate\": \"2023-10-13\",\r\n  \"effort\": 0.0,\r\n  \"resourceBudget\": 0.0\r\n}",
+									"raw": "{\r\n  \"projectPlanId\": \"01HC9EMTD7DCER7Q71QCBR451P\",\r\n  \"employeeId\": \"\",\r\n  \"titleId\": \"DEV\",\r\n  \"employeeLevel\": \"DEV3\",\r\n  \"fromDate\": \"2023-10-13\",\r\n  \"toDate\": \"2023-10-13\",\r\n  \"effort\": 0.0,\r\n  \"resourceBudget\": 0.0\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -5973,7 +5973,7 @@
 								"header": [],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"id\": \"01HCEV0EMYXYAP64EJJS1Y5D5S\",\r\n    \"projectPlanId\": \"01HC9TWYM55FGSZH0EZ0Y0V2D5\",\r\n    \"communicationPlanConfigId\": \"01HCETDJ79J0FPWQ5TE1T3HEAZ\",\r\n    \"communicationChannel\": 3,\r\n    \"processingTime\": 3,\r\n    \"participants\": \"abcd\",\r\n    \"isDelete\": 0,\r\n    \"description\": \"abcd\"\r\n}",
+									"raw": "{\r\n    \"id\": \"01HCEV0EMYXYAP64EJJS1Y5D5S\",\r\n    \"projectPlanId\": \"01HC9TWYM55FGSZH0EZ0Y0V2D5\",\r\n    \"communicationPlanConfigId\": \"01HCETDJ79J0FPWQ5TE1T3HEAZ\",\r\n    \"communicationChannel\": 3,\r\n    \"processingTime\": 3,\r\n    \"participants\": \"abcd\",\r\n    \"description\": \"abcd\"\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -6729,7 +6729,7 @@
 					"name": "Chi phí thực tế dự án",
 					"item": [
 						{
-							"name": "find by plan id",
+							"name": "Search",
 							"id": "f162ff8b-b8b4-481b-8a02-7a2d87fbc6fb",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
