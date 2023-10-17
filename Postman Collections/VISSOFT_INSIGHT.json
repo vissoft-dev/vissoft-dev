@@ -5693,12 +5693,6 @@
 								"disableBodyPruning": true
 							},
 							"request": {
-								"auth": {
-									"type": "bearer",
-									"bearer": {
-										"token": "{{access_token}}"
-									}
-								},
 								"method": "GET",
 								"header": [],
 								"url": "{{domain}}/v1/project-plan/01HC9EMTD7DCER7Q71QCBR451T"
