@@ -5742,6 +5742,24 @@
 								}
 							},
 							"response": []
+						},
+						{
+							"name": "copy phiên bản dự án",
+							"id": "aca12da8-d6d8-4daa-83ad-1ee7358a5dde",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJ1c2VySWQiOiIwMUg1UkpQQzFEWUFYQkZXRk1ZN05TWVdZNiIsInVzZXJuYW1lIjoidmlzYWRtaW5Admlzc29mdC52biIsImZ1bGxOYW1lIjoiIiwidXNlclR5cGUiOiJvd25lciIsInVzZXJDb2RlIjoiQURNSU4iLCJlbXBsb3llZUlkIjoiMDFINldLUjFDMUdNOTFZRVZWMkRNVjFZOEEiLCJlbXBsb3llZUNvZGUiOiJBRE1JTiIsImF1dGgiOltdLCJleHAiOjE2OTc1MTIzNjJ9.VT4qKo16CFCPixo_4ZBBGZkwzH_LDPKUwlKNAZ3Fpz-H8ZZoDa_hoiJkAL-aA3Dz7LZROAQbMlRrHKrd6ZNcCw"
+									}
+								],
+								"url": "{{domain}}/v1/project-plan/copy/01HC9EMTD7DCER7Q71QCBR451P"
+							},
+							"response": []
 						}
 					],
 					"id": "0f7ab87a-880f-46f3-8ac1-448bffbf4e55"
