@@ -5619,7 +5619,7 @@
 								"header": [],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"projectId\": \"01HCEZ5M64F2NKSB5298F8DGDF\",\r\n    \"versionCode\": \"THUCNV2-Draf001\",\r\n    \"startDate\": \"2023-10-13\",\r\n    \"endDate\": \"2023-10-13\",\r\n    \"projectType\": 1,\r\n    \"isLogWork\": false,\r\n    \"description\": \"123\"\r\n}",
+									"raw": "{\r\n    \"projectId\": \"01HCEZ5M64F2NKSB5298F8DGDF\",\r\n    \"versionCode\": \"THUCNV2-Draf001\",\r\n    \"startDate\": \"2023-10-13\",\r\n    \"endDate\": \"2023-10-13\",\r\n    \"projectType\": 1,\r\n    \"isLogWork\": false,\r\n    \"description\": \"123\",\r\n    \"type\":0 //0 lưu, 1. Lưu và gửi\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -5647,7 +5647,7 @@
 								"header": [],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"id\": \"01HCM3ZHJ1CMPWNQMY9TH8H10P\",\r\n    \"status\": 0,\r\n    \"approveId\": \"\",\r\n    \"budget\": 0.0,\r\n    \"projectId\": \"01HCEZ5M64F2NKSB5298F8DGDF\",\r\n    \"versionCode\": \"THUCNV2-Draf001\",\r\n    \"startDate\": \"2023-10-13\",\r\n    \"endDate\": \"2023-10-13\",\r\n    \"projectType\": 1,\r\n    \"isLogWork\": false,\r\n    \"descreption\": \"12345\"\r\n}",
+									"raw": "{\r\n    \"id\": \"01HCM3ZHJ1CMPWNQMY9TH8H10P\",\r\n    \"status\": 0,\r\n    \"approveId\": \"\",\r\n    \"budget\": 0.0,\r\n    \"projectId\": \"01HCEZ5M64F2NKSB5298F8DGDF\",\r\n    \"versionCode\": \"THUCNV2-Draf001\",\r\n    \"startDate\": \"2023-10-13\",\r\n    \"endDate\": \"2023-10-13\",\r\n    \"projectType\": 1,\r\n    \"isLogWork\": false,\r\n    \"descreption\": \"12345\",\r\n    \"type\":0 //0 lưu, 1. Lưu và gửi\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
