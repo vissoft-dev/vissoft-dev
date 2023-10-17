@@ -3930,6 +3930,30 @@
 					"response": []
 				},
 				{
+					"name": "findALL",
+					"id": "fe488067-a5d8-4ce4-a686-8c262cfa2131",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": {
+								"token": "{{access_token}}"
+							}
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJ1c2VySWQiOiIwMUg4TkhUVFhQRERNMTlZMTZRNDNLNTVWViIsInVzZXJuYW1lIjoidmFubnRAdmlzc29mdC52biIsImZ1bGxOYW1lIjoiTmd1eeG7hW4gVGjhu4sgVsOibiIsInVzZXJDb2RlIjoiVmFuTlQiLCJlbXBsb3llZUlkIjoiMDFIOE5IVFRCOVlKODlHNFJNSzhLMFhSRTQiLCJlbXBsb3llZUNvZGUiOiJWYW5OVCIsImF1dGgiOltdLCJleHAiOjE2OTQxNjUzODF9.rma9sadM1bifQ1L6Saa5Xz43_xIS0jCg22vCtVzHWqP0RQLvYnMsdAUh-qvwSUD8Y7WxiffOWkeCM8q1cGkAXg"
+							}
+						],
+						"url": "{{domain}}/title/get-all-title"
+					},
+					"response": []
+				},
+				{
 					"name": "create",
 					"id": "752c5baa-8708-44fa-8765-cc2fd01e36f5",
 					"protocolProfileBehavior": {
