@@ -6198,7 +6198,7 @@
 								"method": "GET",
 								"header": [],
 								"url": {
-									"raw": "http://localhost:8080/api/project-phase/search?planId=01HC9EMTD7DCER7Q71QCBR451P&delete=0",
+									"raw": "http://localhost:8080/api/project-phase/search?planId=01HC9EMTD7DCER7Q71QCBR451P",
 									"protocol": "http",
 									"host": [
 										"localhost"
@@ -6215,8 +6215,9 @@
 											"value": "01HC9EMTD7DCER7Q71QCBR451P"
 										},
 										{
-											"key": "delete",
-											"value": "0"
+											"key": "",
+											"value": "",
+											"disabled": true
 										}
 									]
 								}
@@ -6240,7 +6241,7 @@
 								"header": [],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"id\": \"01HCBWQ0RZGD45CNGD1KR2FAV5\",\r\n    \"projectPlanId\": \"01HC9EMTD7DCER7Q71QCBR451P\",\r\n    \"startDate\": \"10/10/2023\",\r\n    \"endDate\": \"15/10/2023\",\r\n    \"status\": \"3\",\r\n    \"workItem\": \"lam tai lieu up date lan nua\",\r\n    \"endCondition\": \"end task\",\r\n    \"deleted\": 0\r\n}",
+									"raw": "{\r\n    \"id\": \"01HCBWQ0RZGD45CNGD1KR2FAV5\",\r\n    \"projectPlanId\": \"01HC9EMTD7DCER7Q71QCBR451P\",\r\n    \"startDate\": \"10/10/2023\",\r\n    \"endDate\": \"15/10/2023\",\r\n    \"status\": \"3\",\r\n    \"workItem\": \"lam tai lieu up date lan nua\",\r\n    \"endCondition\": \"end task\"\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -6663,7 +6664,7 @@
 								"header": [],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"projectPlanId\": \"01HC9EMTD7DCER7Q71QCBR451P\",\r\n    \"budgetConfigId\": \"01HCEF8M1XQG7K8GVDMNCS5737\",\r\n    \"estimatedBudget\": 2,\r\n    \"description\": \"lam viec\",\r\n    \"isDeleted\": 0\r\n}",
+									"raw": "{\r\n    \"projectPlanId\": \"01HC9EMTD7DCER7Q71QCBR451P\",\r\n    \"budgetConfigId\": \"01HCEF8M1XQG7K8GVDMNCS5737\",\r\n    \"estimatedBudget\": 2,\r\n    \"description\": \"lam viec\"\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -6691,7 +6692,7 @@
 								"header": [],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"id\": \"01HCKNRAYVAM4BVB54BTM2Z3D5\",\r\n    \"projectPlanId\": \"01HC9EMTD7DCER7Q71QCBR451P\",\r\n    \"budgetConfigId\": \"01HCEF8M1XQG7K8GVDMNCS5737\",\r\n    \"estimatedBudget\": 4,\r\n    \"description\": \"lam viec\",\r\n    \"isDeleted\": \"0\"\r\n}",
+									"raw": "{\r\n    \"id\": \"01HCKNRAYVAM4BVB54BTM2Z3D5\",\r\n    \"projectPlanId\": \"01HC9EMTD7DCER7Q71QCBR451P\",\r\n    \"budgetConfigId\": \"01HCEF8M1XQG7K8GVDMNCS5737\",\r\n    \"estimatedBudget\": 4,\r\n    \"description\": \"lam viec\"\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
