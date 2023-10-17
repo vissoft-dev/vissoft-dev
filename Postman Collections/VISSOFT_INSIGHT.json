@@ -5797,7 +5797,7 @@
 								"header": [],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n  \"projectPlanId\": \"01HC9EMTD7DCER7Q71QCBR451P\",\r\n  \"employeeId\": \"\",\r\n  \"titleId\": \"DEV\",\r\n  \"employeeLevel\": \"DEV3\",\r\n  \"fromDate\": \"2023-10-13\",\r\n  \"toDate\": \"2023-10-13\",\r\n  \"effort\": 0.0,\r\n  \"resourceBudget\": 0.0\r\n}",
+									"raw": "{\r\n  \"projectPlanId\": \"01HC9EMTD7DCER7Q71QCBR451P\",\r\n  \"employeeId\": \"01H8NHTT8FAF45FQ20ZY9FSP48\",\r\n  \"titleId\": \"DEV\",\r\n  \"employeeLevel\": \"DEV3\",\r\n  \"fromDate\": \"2023-10-13\",\r\n  \"toDate\": \"2023-10-13\",\r\n  \"effort\": 0.0,\r\n  \"resourceBudget\": 0.0\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -5882,7 +5882,7 @@
 										}
 									}
 								},
-								"url": "{{domain}}/v1/project-resources/01HC9EMTD7DCER7Q71QCBR451P"
+								"url": "{{domain}}/v1/project-resources/01HC9TWYM55FGSZH0EZ0Y0V2DE"
 							},
 							"response": []
 						}
@@ -6738,34 +6738,12 @@
 								"auth": {
 									"type": "bearer",
 									"bearer": {
-										"token": "eyJhbGciOiJIUzUxMiJ9.eyJ1c2VySWQiOiIwMUg1UkpQQzFEWUFYQkZXRk1ZN05TWVdZNiIsInVzZXJuYW1lIjoidmlzYWRtaW5Admlzc29mdC52biIsImZ1bGxOYW1lIjoiIiwidXNlclR5cGUiOiJvd25lciIsInVzZXJDb2RlIjoiQURNSU4iLCJlbXBsb3llZUlkIjoiMDFINldLUjFDMUdNOTFZRVZWMkRNVjFZOEEiLCJlbXBsb3llZUNvZGUiOiJBRE1JTiIsImF1dGgiOltdLCJleHAiOjE2OTcxODA4Nzd9.uuQ160ccHWwWTgl04Xt2C1bJRk2oB5EUYD18pP0SMvDo0193p0MPJIKI5jH7DGwm3TOB6JD6WLRW_O3DLHMcEQ"
+										"token": "{{access_token}}"
 									}
 								},
 								"method": "GET",
 								"header": [],
-								"url": {
-									"raw": "localhost:8080/api/v1/project-budget/get-all-by-project-plan-id?planId=01HC9EMTD7DCER7Q71QCBR451P&sort",
-									"host": [
-										"localhost"
-									],
-									"port": "8080",
-									"path": [
-										"api",
-										"v1",
-										"project-budget",
-										"get-all-by-project-plan-id"
-									],
-									"query": [
-										{
-											"key": "planId",
-											"value": "01HC9EMTD7DCER7Q71QCBR451P"
-										},
-										{
-											"key": "sort",
-											"value": null
-										}
-									]
-								}
+								"url": "{{domain}}/v1/project-budget-actual"
 							},
 							"response": []
 						},
