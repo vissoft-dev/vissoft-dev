@@ -4220,19 +4220,18 @@
 							}
 						],
 						"url": {
-							"raw": "{{domain}}/api/search/contract-type?q=de&page=0&size=10",
+							"raw": "{{domain}}/search/contract-type?q=&page=0&size=10",
 							"host": [
 								"{{domain}}"
 							],
 							"path": [
-								"api",
 								"search",
 								"contract-type"
 							],
 							"query": [
 								{
 									"key": "q",
-									"value": "de"
+									"value": ""
 								},
 								{
 									"key": "page",
@@ -4394,19 +4393,18 @@
 							}
 						],
 						"url": {
-							"raw": "{{domain}}/api/search/holiday?q=Quo&page=0&size=10",
+							"raw": "{{domain}}/search/holiday?q=&page=0&size=10",
 							"host": [
 								"{{domain}}"
 							],
 							"path": [
-								"api",
 								"search",
 								"holiday"
 							],
 							"query": [
 								{
 									"key": "q",
-									"value": "Quo"
+									"value": ""
 								},
 								{
 									"key": "page",
@@ -4455,6 +4453,486 @@
 				}
 			],
 			"id": "4af61627-7106-4fb0-97a2-22d7d65583e1"
+		},
+		{
+			"name": "Xếp hạng chuyên môn(Thiết lập)",
+			"item": [
+				{
+					"name": "Thêm mới danh mục xếp hạng chuyên môn",
+					"id": "675e0c2e-60b1-44eb-a895-a07ab5fc6a87",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": {
+								"token": "eyJhbGciOiJIUzUxMiJ9.eyJ1c2VySWQiOiIwMUg1UkpQQzFEWUFYQkZXRk1ZN05TWVdZNiIsInVzZXJuYW1lIjoidmlzYWRtaW5Admlzc29mdC52biIsImZ1bGxOYW1lIjoiIiwidXNlclR5cGUiOiJvd25lciIsInVzZXJDb2RlIjoiQURNSU4iLCJlbXBsb3llZUlkIjoiMDFINldLUjFDMUdNOTFZRVZWMkRNVjFZOEEiLCJlbXBsb3llZUNvZGUiOiJBRE1JTiIsImF1dGgiOltdLCJleHAiOjE2OTcxODU0MDR9.4UNoCd4LVTNleNvKpGYg1zq5FUG_XMQhBy-adQwC8HzYsdq5m6KZKKeyRar_wtrXzyij7PfO0d8xIH7-hvN8Nw"
+							}
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"qualificationCode\": \"PM4\",\r\n    \"description\": \"PM4\",\r\n    \"qualificationName\": \"PM4\",\r\n    \"rate\": 3,\r\n    \"status\": 1\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{domain}}/api/menu/qualifications"
+					},
+					"response": []
+				},
+				{
+					"name": "Cập nhật danh mục xếp hạng chuyên môn",
+					"id": "ebd2284f-d5ec-4690-96fa-9ee05696e89f",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": {
+								"token": "{{access_token}}"
+							}
+						},
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"qualificationId\": \"01HCHM609AFBXT8VPVXF45MMST\",\r\n    \"qualificationCode\": \"DEV2\",\r\n    \"qualificationName\": \"dev 123131\",\r\n    \"description\": \"DEV2\",\r\n    \"status\": 0,\r\n    \"rate\": 1.45,\r\n    \"createdBy\": \"ADMIN\",\r\n    \"createdDate\": \"2023-10-12T09:41:15.689+0000\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{domain}}/api/menu/qualifications/01HCHM609AFBXT8VPVXF45MMST"
+					},
+					"response": []
+				},
+				{
+					"name": "Lấy danh sách danh mục xếp hạng chuyên môn",
+					"id": "ca2d2076-4269-4560-96d8-89e65a11e036",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": {
+								"token": "{{access_token}}"
+							}
+						},
+						"method": "GET",
+						"header": [],
+						"url": "{{domain}}/api/menu/qualifications"
+					},
+					"response": []
+				},
+				{
+					"name": "Tìm kiếm danh mục xếp hạng chuyên môn",
+					"id": "58d1aca9-5b64-4bee-b93d-3b8c72785853",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJ1c2VySWQiOiIwMUg1UkpQQzFEWUFYQkZXRk1ZN05TWVdZNiIsInVzZXJuYW1lIjoidmlzYWRtaW5Admlzc29mdC52biIsImZ1bGxOYW1lIjoiIiwidXNlclR5cGUiOiJvd25lciIsInVzZXJDb2RlIjoiQURNSU4iLCJlbXBsb3llZUlkIjoiMDFINldLUjFDMUdNOTFZRVZWMkRNVjFZOEEiLCJlbXBsb3llZUNvZGUiOiJBRE1JTiIsImF1dGgiOltdLCJleHAiOjE2OTY5OTE5OTd9.h-sKnnABSNB6F-n_7Vse91HuG1Yt0G3ZpSAGQNYTiSUyoxnaTYba2IdG0WjR-jdatUXC_y1zswxuR8kkyOw_-Q"
+							}
+						],
+						"url": "http://localhost:8080/api/menu/qualifications/01HCE7JFKZ10GTZTSAGT4Q4B2M"
+					},
+					"response": []
+				},
+				{
+					"name": "Xóa danh mục xếp hạng chuyên môn",
+					"id": "fadc8dff-4720-4b14-a751-8177e5dd6688",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": {
+								"token": "{{access_token}}"
+							}
+						},
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJ1c2VySWQiOiIwMUg1UkpQQzFEWUFYQkZXRk1ZN05TWVdZNiIsInVzZXJuYW1lIjoidmlzYWRtaW5Admlzc29mdC52biIsImZ1bGxOYW1lIjoiIiwidXNlclR5cGUiOiJvd25lciIsInVzZXJDb2RlIjoiQURNSU4iLCJlbXBsb3llZUlkIjoiMDFINldLUjFDMUdNOTFZRVZWMkRNVjFZOEEiLCJlbXBsb3llZUNvZGUiOiJBRE1JTiIsImF1dGgiOltdLCJleHAiOjE2OTY5OTE5OTd9.h-sKnnABSNB6F-n_7Vse91HuG1Yt0G3ZpSAGQNYTiSUyoxnaTYba2IdG0WjR-jdatUXC_y1zswxuR8kkyOw_-Q"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "[\r\n    \"KJNASDUBNQWOAL\", \"01HCE96493N0BA4NYAPKP85DF2\"\r\n]",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://localhost:8080/api/menu/qualifications"
+					},
+					"response": []
+				},
+				{
+					"name": "Search Xếp hạng chuyên môn",
+					"id": "fca23120-f328-456b-9f27-07065a37105a",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": {
+								"token": "{{access_token}}"
+							}
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "*"
+							},
+							{
+								"key": "Accept-Language",
+								"value": "vi-VN"
+							},
+							{
+								"key": "App-Code",
+								"value": "vissoft-insight-system-client"
+							},
+							{
+								"key": "Connection",
+								"value": "keep-alive"
+							},
+							{
+								"key": "Origin",
+								"value": "https://web-staging.vissoft.vn"
+							},
+							{
+								"key": "Referer",
+								"value": "https://web-staging.vissoft.vn/"
+							},
+							{
+								"key": "Sec-Fetch-Dest",
+								"value": "empty"
+							},
+							{
+								"key": "Sec-Fetch-Mode",
+								"value": "cors"
+							},
+							{
+								"key": "Sec-Fetch-Site",
+								"value": "same-site"
+							},
+							{
+								"key": "User-Agent",
+								"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36"
+							},
+							{
+								"key": "sec-ch-ua",
+								"value": "\"Not/A)Brand\";v=\"99\", \"Google Chrome\";v=\"115\", \"Chromium\";v=\"115\""
+							},
+							{
+								"key": "sec-ch-ua-mobile",
+								"value": "?0"
+							},
+							{
+								"key": "sec-ch-ua-platform",
+								"value": "\"Windows\""
+							},
+							{
+								"key": "x-client-request-id",
+								"value": "dac0cbe6-e8bb-4a78-bd59-71e3d3b20a18"
+							}
+						],
+						"url": {
+							"raw": "{{domain}}/search/qualifications?q=&page=0&size=10",
+							"host": [
+								"{{domain}}"
+							],
+							"path": [
+								"search",
+								"qualifications"
+							],
+							"query": [
+								{
+									"key": "q",
+									"value": ""
+								},
+								{
+									"key": "page",
+									"value": "0"
+								},
+								{
+									"key": "size",
+									"value": "10"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"id": "a6849af6-71b7-4471-beaa-c2c1788856e1"
+		},
+		{
+			"name": "Chỉ tiêu đánh giá",
+			"item": [
+				{
+					"name": "Lấy danh sách chỉ tiêu đánh giá",
+					"id": "25429ca3-5775-434e-bc72-69eeb5610e74",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": {
+								"token": "{{access_token}}"
+							}
+						},
+						"method": "GET",
+						"header": [],
+						"url": "{{domain}}/api/v1/evaluate-target/get-list"
+					},
+					"response": []
+				},
+				{
+					"name": "Thêm mới chỉ tiêu đánh giá",
+					"id": "d81ac45a-0ad1-4088-85e2-ba8c300cad72",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": {
+								"token": "{{access_token}}"
+							}
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"evaluateTargetCode\": \"FE00123231313\",\r\n    \"evaluateTargetName\": \"FE0012323331\",\r\n    \"description\": \"frontEnd\",\r\n    \"status\": 1\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{domain}}/api/v1/evaluate-target/create"
+					},
+					"response": []
+				},
+				{
+					"name": "Cập nhật chỉ tiêu đánh giá",
+					"id": "90c79e98-84ee-4788-b97d-ab4b170e9fbf",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": {
+								"token": "{{access_token}}"
+							}
+						},
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"evaluateTargetId\": \"01HCKE1JTGXYQ6KE27EV8GY000\",\r\n    \"evaluateTargetCode\": \"FE00123231313\",\r\n    \"evaluateTargetName\": \"FE0012323331\",\r\n    \"description\": \"frontEnd111\",\r\n    \"status\": 0\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{domain}}/api/v1/evaluate-target/update"
+					},
+					"response": []
+				},
+				{
+					"name": "Xóa chỉ tiêu đánh giá",
+					"id": "f3af1c01-2cab-464c-b1c8-643466697692",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": {
+								"token": "{{access_token}}"
+							}
+						},
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "[\r\n    \"01HCCDPDENAZRJE2147EHTJRWT\", \"01HCCEHBS59T8CKWNYVSSVSS2J\"\r\n]",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{domain}}/api/v1/evaluate-target/delete"
+					},
+					"response": []
+				},
+				{
+					"name": "Tìm kiếm chỉ tiêu đánh giá",
+					"id": "916a3be5-fa66-401b-98a9-71396416f7f8",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": {
+								"token": "{{access_token}}"
+							}
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{domain}}/api/v1/evaluate-target/find-one?id=01HCCDPDENAZRJE2147EHTJRWT",
+							"host": [
+								"{{domain}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"evaluate-target",
+								"find-one"
+							],
+							"query": [
+								{
+									"key": "id",
+									"value": "01HCCDPDENAZRJE2147EHTJRWT"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Search Chỉ tiêu đánh giá",
+					"id": "2bfb4673-851c-4592-b01a-f8baabe1e4c0",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": {
+								"token": "{{access_token}}"
+							}
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "*"
+							},
+							{
+								"key": "Accept-Language",
+								"value": "vi-VN"
+							},
+							{
+								"key": "App-Code",
+								"value": "vissoft-insight-system-client"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJ1c2VySWQiOiIwMUg1UkpQQzFEWUFYQkZXRk1ZN05TWVdZNiIsInVzZXJuYW1lIjoidmlzYWRtaW5Admlzc29mdC52biIsImZ1bGxOYW1lIjoiIiwidXNlclR5cGUiOiJvd25lciIsInVzZXJDb2RlIjoiQURNSU4iLCJlbXBsb3llZUlkIjoiMDFINldLUjFDMUdNOTFZRVZWMkRNVjFZOEEiLCJlbXBsb3llZUNvZGUiOiJBRE1JTiIsImF1dGgiOltdLCJleHAiOjE2OTcwMTU4MTJ9.DYAwm-AKy1fHnE3JAgqqoibZEb_HXYdb5bRbxiHj5cmloJo3A-XPQlrYmrV4PiHS9kz7TztpFP29PmRKDWld1w",
+								"disabled": true
+							},
+							{
+								"key": "Connection",
+								"value": "keep-alive"
+							},
+							{
+								"key": "Origin",
+								"value": "https://web-staging.vissoft.vn"
+							},
+							{
+								"key": "Referer",
+								"value": "https://web-staging.vissoft.vn/"
+							},
+							{
+								"key": "Sec-Fetch-Dest",
+								"value": "empty"
+							},
+							{
+								"key": "Sec-Fetch-Mode",
+								"value": "cors"
+							},
+							{
+								"key": "Sec-Fetch-Site",
+								"value": "same-site"
+							},
+							{
+								"key": "User-Agent",
+								"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36"
+							},
+							{
+								"key": "sec-ch-ua",
+								"value": "\"Not/A)Brand\";v=\"99\", \"Google Chrome\";v=\"115\", \"Chromium\";v=\"115\""
+							},
+							{
+								"key": "sec-ch-ua-mobile",
+								"value": "?0"
+							},
+							{
+								"key": "sec-ch-ua-platform",
+								"value": "\"Windows\""
+							},
+							{
+								"key": "x-client-request-id",
+								"value": "dac0cbe6-e8bb-4a78-bd59-71e3d3b20a18"
+							}
+						],
+						"url": {
+							"raw": "{{domain}}/search/evaluate-target?q=&page=0&size=10",
+							"host": [
+								"{{domain}}"
+							],
+							"path": [
+								"search",
+								"evaluate-target"
+							],
+							"query": [
+								{
+									"key": "q",
+									"value": ""
+								},
+								{
+									"key": "page",
+									"value": "0"
+								},
+								{
+									"key": "size",
+									"value": "10"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"id": "448e2d1e-b881-44f8-939d-8e73abab0ef9"
 		},
 		{
 			"name": "Scheduler",
