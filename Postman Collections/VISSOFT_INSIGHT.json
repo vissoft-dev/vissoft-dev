@@ -6201,6 +6201,19 @@
 							"response": []
 						},
 						{
+							"name": "Search",
+							"id": "3214458f-492a-4e81-9615-7f20a9fafe63",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": "{{domain}}/v1/project-plan/01HC9EMTD7DCER7Q71QCBR451P"
+							},
+							"response": []
+						},
+						{
 							"name": "Lấy version mới nhất của dự án",
 							"id": "c5a83342-86a5-42b4-81c0-e0d1a1d869b6",
 							"protocolProfileBehavior": {
