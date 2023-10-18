@@ -3902,9 +3902,9 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "[\r\n    \"01H8E6F1KMKXVC2X6R5B9045N7\"\r\n]"
+							"raw": "[\r\n    \"01HC22M1AARP0F1T3W889Z6ACH\"\r\n]"
 						},
-						"url": "{{domain}}/api/department/delete"
+						"url": "{{domain}}/department/delete"
 					},
 					"response": []
 				}
@@ -4099,9 +4099,9 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "[\r\n    \"01HA8SH3CBHQCVYP3117E6T8S2\"\r\n]"
+							"raw": "[\r\n    \"01HCKGTHMW9WJS2SC7VN64NQBE\"\r\n]"
 						},
-						"url": "{{domain}}/api/title/delete"
+						"url": "{{domain}}/title/delete"
 					},
 					"response": []
 				}
