@@ -3988,9 +3988,9 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"code\": \"DEV1\",\r\n    \"name\": \"DEV1\",\r\n    \"status\": 1\r\n}"
+							"raw": "{\r\n    \"code\": \"DEV1\",\r\n    \"name\": \"DEV1\"\r\n}"
 						},
-						"url": "{{domain}}/api/title/create"
+						"url": "{{domain}}/title/create"
 					},
 					"response": []
 				},
@@ -4160,10 +4160,21 @@
 							}
 						],
 						"body": {
-							"mode": "raw",
-							"raw": "{\r\n    \"contractTypeName\": \"Thử việc\",\r\n    \"contractTypeCode\": \"TV\"\r\n}"
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "contractTypeName",
+									"value": "duongtest",
+									"type": "text"
+								},
+								{
+									"key": "contractTypeCode",
+									"value": "duongtest",
+									"type": "text"
+								}
+							]
 						},
-						"url": "{{domain}}/api/contract-type/create"
+						"url": "{{domain}}/contract-type/create"
 					},
 					"response": []
 				},
