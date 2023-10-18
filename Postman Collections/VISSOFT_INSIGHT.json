@@ -3562,13 +3562,13 @@
 						"auth": {
 							"type": "bearer",
 							"bearer": {
-								"token": "eyJhbGciOiJIUzUxMiJ9.eyJ1c2VySWQiOiIwMUg1UkpQQzFEWUFYQkZXRk1ZN05TWVdZNiIsInVzZXJuYW1lIjoidmlzYWRtaW5Admlzc29mdC52biIsImZ1bGxOYW1lIjoiIiwidXNlclR5cGUiOiJvd25lciIsInVzZXJDb2RlIjoiQURNSU4iLCJhdXRoIjpbXSwiZXhwIjoxNjkwODc3MjkyfQ.v2THmi-dPO9ig3d82w0-GjfLv4q02ZxxAUulKJNVOYjc-6xS5Knq1J6bo9N1vT31CM27HAwi3ql_JQZo9x77vw"
+								"token": "{{access_token}}"
 							}
 						},
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "{{domain}}/search/workplace?q=",
+							"raw": "{{domain}}/search/workplace?q=&page=0&size=10",
 							"host": [
 								"{{domain}}"
 							],
@@ -3580,6 +3580,16 @@
 								{
 									"key": "q",
 									"value": ""
+								},
+								{
+									"key": "page",
+									"value": "0",
+									"type": "text"
+								},
+								{
+									"key": "size",
+									"value": "10",
+									"type": "text"
 								}
 							]
 						}
@@ -3840,12 +3850,11 @@
 							}
 						],
 						"url": {
-							"raw": "{{domain}}/api/search/department?q=pha&page=0&size=10",
+							"raw": "{{domain}}/search/department?q=pha&page=0&size=10",
 							"host": [
 								"{{domain}}"
 							],
 							"path": [
-								"api",
 								"search",
 								"department"
 							],
@@ -4038,12 +4047,11 @@
 							}
 						],
 						"url": {
-							"raw": "{{domain}}/api/search/title?q=de&page=0&size=10",
+							"raw": "{{domain}}/search/title?q=de&page=0&size=10",
 							"host": [
 								"{{domain}}"
 							],
 							"path": [
-								"api",
 								"search",
 								"title"
 							],
