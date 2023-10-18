@@ -6225,7 +6225,35 @@
 							"request": {
 								"method": "GET",
 								"header": [],
-								"url": "{{domain}}/v1/project-plan/01HC9EMTD7DCER7Q71QCBR451P"
+								"url": {
+									"raw": "{{domain}}/v1/project/search-plan?q=&clientId=&status&managerId",
+									"host": [
+										"{{domain}}"
+									],
+									"path": [
+										"v1",
+										"project",
+										"search-plan"
+									],
+									"query": [
+										{
+											"key": "q",
+											"value": ""
+										},
+										{
+											"key": "clientId",
+											"value": ""
+										},
+										{
+											"key": "status",
+											"value": null
+										},
+										{
+											"key": "managerId",
+											"value": null
+										}
+									]
+								}
 							},
 							"response": []
 						},
