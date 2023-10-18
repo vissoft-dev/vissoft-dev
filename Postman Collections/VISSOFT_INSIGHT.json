@@ -4171,6 +4171,11 @@
 									"key": "contractTypeCode",
 									"value": "duongtest",
 									"type": "text"
+								},
+								{
+									"key": "file",
+									"type": "file",
+									"src": "/C:/Users/duongnt/Desktop/Ảnh lich tinh/mk-vision-logo-lite.png"
 								}
 							]
 						},
@@ -4735,14 +4740,14 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"evaluateTargetCode\": \"FE00123231313\",\r\n    \"evaluateTargetName\": \"FE0012323331\",\r\n    \"description\": \"frontEnd\",\r\n    \"status\": 1\r\n}",
+							"raw": "{\r\n    \"evaluateTargetCode\": \"FE00123231332323213\",\r\n    \"evaluateTargetName\": \"FE0012323331\",\r\n    \"description\": \"frontEnd\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
 								}
 							}
 						},
-						"url": "{{domain}}/api/v1/evaluate-target/create"
+						"url": "{{domain}}/v1/evaluate-target/create"
 					},
 					"response": []
 				},
