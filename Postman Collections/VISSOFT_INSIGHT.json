@@ -3478,14 +3478,14 @@
 						"auth": {
 							"type": "bearer",
 							"bearer": {
-								"token": "eyJhbGciOiJIUzUxMiJ9.eyJ1c2VySWQiOiIwMUg1UkpQQzFEWUFYQkZXRk1ZN05TWVdZNiIsInVzZXJuYW1lIjoidmlzYWRtaW5Admlzc29mdC52biIsImZ1bGxOYW1lIjoiIiwidXNlclR5cGUiOiJvd25lciIsInVzZXJDb2RlIjoiQURNSU4iLCJhdXRoIjpbXSwiZXhwIjoxNjkwODc3MjkyfQ.v2THmi-dPO9ig3d82w0-GjfLv4q02ZxxAUulKJNVOYjc-6xS5Knq1J6bo9N1vT31CM27HAwi3ql_JQZo9x77vw"
+								"token": "{{access_token}}"
 							}
 						},
 						"method": "POST",
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"location\":\"123\",\r\n    \"code\":\"code22\",\r\n    \"name\":\"vij tris 1\",\r\n    \"latitude\":\"latitude\",\r\n    \"longitude\":\"longitude\",\r\n    \"deviation\" : 1,\r\n    \"description\":\"mo ta\",\r\n    \"workplaceEmployee\":[\r\n        {\r\n            \"employeeId\":1,\r\n            \"startDate\":\"2023-03-03\",\r\n            \"endDate\":\"2023-03-03\",\r\n            \"description\":\"mo ta\"\r\n        }\r\n    ]\r\n\r\n}",
+							"raw": "{\r\n    \"location\":\"123\",\r\n    \"code\":\"code22\",\r\n    \"name\":\"vij tris 1\",\r\n    \"latitude\":\"1235441234\",\r\n    \"longitude\":\"52312311\",\r\n    \"deviation\" : 1,\r\n    \"description\":\"mo ta\",\r\n    \"workplaceEmployee\":[\r\n        {\r\n            \"employeeId\":\"01H8NHTTJ5XEHDAS5S7MDQSKSQ\",\r\n            \"startDate\":\"2023-03-03\",\r\n            \"endDate\":\"2023-03-03\",\r\n            \"description\":\"mo ta\"\r\n        }\r\n    ]\r\n\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -3791,9 +3791,9 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"departmentCode\": 8,\r\n    \"departmentName\": \"Phát triển\",\r\n    \"status\": 1\r\n}"
+							"raw": "{\r\n    \"departmentCode\": \"testCreate\",\r\n    \"departmentName\": \"Phát triển\"\r\n}"
 						},
-						"url": "{{domain}}/api/department/create"
+						"url": "{{domain}}/department/create"
 					},
 					"response": []
 				},
