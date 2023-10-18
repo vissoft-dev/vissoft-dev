@@ -4272,7 +4272,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "[\r\n    \"01HA0X0J0D83WHYEG46GPQTW3C\"\r\n]"
+							"raw": "[\r\n    \"01HD08A9NGPHYNMJGV52AMJNCP\"\r\n]"
 						},
 						"url": "{{domain}}/contract-type/delete"
 					},
@@ -4447,7 +4447,7 @@
 							"mode": "raw",
 							"raw": "[\r\n    \"01HA1TD4AWHHM2KJRR3MT4GKHY\"\r\n]"
 						},
-						"url": "{{domain}}/api/holiday/delete"
+						"url": "{{domain}}/holiday/delete"
 					},
 					"response": []
 				}
@@ -4467,21 +4467,21 @@
 						"auth": {
 							"type": "bearer",
 							"bearer": {
-								"token": "eyJhbGciOiJIUzUxMiJ9.eyJ1c2VySWQiOiIwMUg1UkpQQzFEWUFYQkZXRk1ZN05TWVdZNiIsInVzZXJuYW1lIjoidmlzYWRtaW5Admlzc29mdC52biIsImZ1bGxOYW1lIjoiIiwidXNlclR5cGUiOiJvd25lciIsInVzZXJDb2RlIjoiQURNSU4iLCJlbXBsb3llZUlkIjoiMDFINldLUjFDMUdNOTFZRVZWMkRNVjFZOEEiLCJlbXBsb3llZUNvZGUiOiJBRE1JTiIsImF1dGgiOltdLCJleHAiOjE2OTcxODU0MDR9.4UNoCd4LVTNleNvKpGYg1zq5FUG_XMQhBy-adQwC8HzYsdq5m6KZKKeyRar_wtrXzyij7PfO0d8xIH7-hvN8Nw"
+								"token": "{{access_token}}"
 							}
 						},
 						"method": "POST",
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"qualificationCode\": \"PM4\",\r\n    \"description\": \"PM4\",\r\n    \"qualificationName\": \"PM4\",\r\n    \"rate\": 3,\r\n    \"status\": 1\r\n}",
+							"raw": "{\r\n    \"qualificationCode\": \"TestStatus\",\r\n    \"description\": \"PM4\",\r\n    \"qualificationName\": \"PM4\",\r\n    \"rate\": 3\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
 								}
 							}
 						},
-						"url": "{{domain}}/api/menu/qualifications"
+						"url": "{{domain}}/menu/qualifications"
 					},
 					"response": []
 				},
@@ -4572,14 +4572,14 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "[\r\n    \"KJNASDUBNQWOAL\", \"01HCE96493N0BA4NYAPKP85DF2\"\r\n]",
+							"raw": "[\r\n    \"01HCYFT2P324SKG3HA8TTDC59C\"\r\n]",
 							"options": {
 								"raw": {
 									"language": "json"
 								}
 							}
 						},
-						"url": "http://localhost:8080/api/menu/qualifications"
+						"url": "{{domain}}/menu/qualifications"
 					},
 					"response": []
 				},
@@ -4780,14 +4780,14 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "[\r\n    \"01HCCDPDENAZRJE2147EHTJRWT\", \"01HCCEHBS59T8CKWNYVSSVSS2J\"\r\n]",
+							"raw": "[\r\n    \"01HCYG3Q6REBY89V4WS87NX1CW\"\r\n]",
 							"options": {
 								"raw": {
 									"language": "json"
 								}
 							}
 						},
-						"url": "{{domain}}/api/v1/evaluate-target/delete"
+						"url": "{{domain}}/v1/evaluate-target/delete"
 					},
 					"response": []
 				},
