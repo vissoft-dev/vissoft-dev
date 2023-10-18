@@ -6660,12 +6660,12 @@
 									},
 									{
 										"key": "Authorization",
-										"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJ1c2VySWQiOiIwMUg1UkpQQzFEWUFYQkZXRk1ZN05TWVdZNiIsInVzZXJuYW1lIjoidmlzYWRtaW5Admlzc29mdC52biIsImZ1bGxOYW1lIjoiIiwidXNlclR5cGUiOiJvd25lciIsInVzZXJDb2RlIjoiQURNSU4iLCJlbXBsb3llZUlkIjoiMDFINldLUjFDMUdNOTFZRVZWMkRNVjFZOEEiLCJlbXBsb3llZUNvZGUiOiJBRE1JTiIsImF1dGgiOltdLCJleHAiOjE2OTc0MzEwNjR9.pxT1hfxqs6oSQykcwqhaNacB_1nohHGLaF5ysPUTRe_boO9Ka9s-v6Bt1ALblT4JYgX15N5futCU3M0N3jH1hQ"
+										"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJ1c2VySWQiOiIwMUg1UkpQQzFEWUFYQkZXRk1ZN05TWVdZNiIsInVzZXJuYW1lIjoidmlzYWRtaW5Admlzc29mdC52biIsImZ1bGxOYW1lIjoiIiwidXNlclR5cGUiOiJvd25lciIsInVzZXJDb2RlIjoiQURNSU4iLCJlbXBsb3llZUlkIjoiMDFINldLUjFDMUdNOTFZRVZWMkRNVjFZOEEiLCJlbXBsb3llZUNvZGUiOiJBRE1JTiIsImF1dGgiOltdLCJleHAiOjE2OTc2MTkyMjh9.bfqHmrPLl0Lfw2NopEWL1qujzy7OLRIh5pU0Io2piTWYZGB9zQQcjYyO7AR7VXnlSniLSSfE6LOWUMss6DnSzQ"
 									}
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "[\"01HCGXJ9KKV57MZHYR31M490NP\", \"01HCE9CYYETK2N3FJBK8X7ZKF8\"]"
+									"raw": "[\"01HC9HCVZAQ1QMQPHWG3JQ8BNR\", \"01HCGXJ9KKV57MZHYR31M490NP\"]"
 								},
 								"url": "http://localhost:8080/api/project-client"
 							},
