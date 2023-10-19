@@ -7409,7 +7409,78 @@
 		},
 		{
 			"name": "Báo cáo log work",
-			"item": [],
+			"item": [
+				{
+					"name": "tìm kiếm báo cáo",
+					"id": "adcf5def-8872-47ae-9207-9b918fc06048",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"dateType\": \"WEEK\",\r\n    \"fromDate\": \"40/2023\",\r\n    \"toDate\": \"42/2023\",\r\n    \"dataType\": 0,\r\n    \"dataValue\": [\"LuuLV\"],\r\n    \"isDetail\": true\r\n}"
+						},
+						"url": "https://gw-staging.vissoft.vn/insight-service/api/v1/worklog/search"
+					},
+					"response": []
+				},
+				{
+					"name": "cảnh báo log work không đủ",
+					"id": "54468ea1-224e-49bb-b039-0948c382c1fd",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "https://gw-staging.vissoft.vn/insight-service/api/v1/worklog/notify-work-log-every-day"
+					},
+					"response": []
+				},
+				{
+					"name": "đồng bộ data từ jira lên",
+					"id": "2cc1971b-00ec-4950-8007-4ac3dd469f60",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "https://gw-staging.vissoft.vn/insight-service/api/v1/worklog/sync-data-log-work"
+					},
+					"response": []
+				},
+				{
+					"name": "Chốt log work",
+					"id": "e34556cb-9f5b-4a0c-b0f5-7e6a7b27a882",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"fromDate\": \"2023-10-18\",\r\n    \"toDate\": \"2023-10-19\",\r\n    \"projectCode\": \"VI\"\r\n}"
+						},
+						"url": "https://gw-staging.vissoft.vn/insight-service/api/v1/worklog/approve-logwork"
+					},
+					"response": []
+				}
+			],
 			"id": "6513bb9d-6f70-4b9b-b857-d43c552f4c54"
 		}
 	],
