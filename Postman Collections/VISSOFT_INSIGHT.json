@@ -6137,7 +6137,7 @@
 								"header": [],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"projectId\": \"01HCEZ5M64F2NKSB5298F8DGDF\",\r\n    \"versionCode\": \"THUCNV2-Draf001\",\r\n    \"startDate\": \"2023-10-13\",\r\n    \"endDate\": \"2023-10-13\",\r\n    \"projectType\": 1,\r\n    \"isLogWork\": false,\r\n    \"description\": \"123\",\r\n    \"type\":0 //0 lưu, 1. Lưu và gửi\r\n}",
+									"raw": "{\r\n    \"projectId\": \"01HD3PEZ7BC3JAKJN3AK9DD0KR\",\r\n    \"versionCode\": \"THUCNV2-Draf001\",\r\n    \"startDate\": \"2023-10-13\",\r\n    \"endDate\": \"2023-10-13\",\r\n    \"projectType\": 1,\r\n    \"isLogWork\": false,\r\n    \"description\": \"123\",\r\n    \"type\":0 //0 lưu, 1. Lưu và gửi\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -7311,7 +7311,34 @@
 								},
 								"method": "GET",
 								"header": [],
-								"url": "{{domain}}/v1/project-budget-actual"
+								"url": {
+									"raw": "{{domain}}/v1/project-budget-actual?q=&clientId=&status&managerId",
+									"host": [
+										"{{domain}}"
+									],
+									"path": [
+										"v1",
+										"project-budget-actual"
+									],
+									"query": [
+										{
+											"key": "q",
+											"value": ""
+										},
+										{
+											"key": "clientId",
+											"value": ""
+										},
+										{
+											"key": "status",
+											"value": null
+										},
+										{
+											"key": "managerId",
+											"value": null
+										}
+									]
+								}
 							},
 							"response": []
 						},
