@@ -5069,7 +5069,7 @@
 							"formdata": [
 								{
 									"key": "id",
-									"value": "01HCA08YAT4AWAF4KSFJ40237A",
+									"value": "01HD33Q6GYFDSSH486AZ2R0QRY",
 									"type": "text"
 								},
 								{
@@ -5079,7 +5079,7 @@
 								},
 								{
 									"key": "vissoftEmail",
-									"value": "duongnt12345@vissoft.vn",
+									"value": "duongnt@vissoft.vn",
 									"type": "text"
 								},
 								{
@@ -5130,6 +5130,7 @@
 								{
 									"key": "file",
 									"type": "file",
+									"fileNotInWorkingDirectoryWarning": "This file isn't in your working directory. Teammates you share this request with won't be able to use this file. To make collaboration easier you can setup your working directory in Settings.",
 									"src": "/C:/Users/duongnt/Desktop/Ảnh lich tinh/photo_2023-08-22_16-20-03.jpg"
 								},
 								{
@@ -5139,7 +5140,7 @@
 								}
 							]
 						},
-						"url": "{{domain}}/api/v1/employee/update-info"
+						"url": "{{domain}}/v1/employee/update-info"
 					},
 					"response": []
 				},
