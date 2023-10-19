@@ -7406,6 +7406,11 @@
 				}
 			],
 			"id": "a9fa9c1c-da72-4204-bd3e-b7e38ece36e7"
+		},
+		{
+			"name": "Báo cáo log work",
+			"item": [],
+			"id": "6513bb9d-6f70-4b9b-b857-d43c552f4c54"
 		}
 	],
 	"auth": {
