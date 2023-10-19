@@ -5355,7 +5355,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"employeeCode\": \"DuongNT\",\r\n    \"employeeId\": \"01HCC8YQ6ATBX68PY7V9DX8FZY\",\r\n    \"startDate\": \"2022-10-03\",\r\n    \"qualificationId\": \"KJNASDUBNQWOALBSWA\",\r\n    \"description\": \"lập trình java\"\r\n}",
+							"raw": "{\r\n    \"employeeCode\": \"DuongNT\",\r\n    \"employeeId\": \"01H8NHTTJ5XEHDAS5S7MDQSKSQ\",\r\n    \"startDate\": \"2022-10-03\",\r\n    \"qualificationId\": \"KJNASDUBNQWOALBSWA\",\r\n    \"description\": \"lập trình java\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
