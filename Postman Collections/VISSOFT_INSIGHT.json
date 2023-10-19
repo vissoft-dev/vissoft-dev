@@ -5160,14 +5160,14 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"employeeCode\": \"aaaaaaaaaâa\",\r\n    \"fullName\": \"duong\",\r\n    \"email\": \"\",\r\n    \"employeeType\": \"STAFF\",\r\n    \"titleId\": \"12312312\",\r\n    \"departmentId\": \"123123\",\r\n    \"profileCode\": \"0001\",\r\n    \"createAccount\": false\r\n}",
+							"raw": "{\r\n    \"employeeCode\": \"aaaaaaaaaâa\",\r\n    \"fullName\": \"duong\",\r\n    \"email\": \"\",\r\n    \"employeeType\": \"STAFF\",\r\n    \"titleId\": \"12312312\",\r\n    \"departmentId\": \"123123\",\r\n    \"profileCode\": \"0001\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
 								}
 							}
 						},
-						"url": "{{domain}}/api/v1/employee/create"
+						"url": "{{domain}}/v1/employee/create"
 					},
 					"response": []
 				},
