@@ -7316,6 +7316,25 @@
 							"response": []
 						},
 						{
+							"name": "Detail",
+							"id": "c470146e-1e34-43ed-a7ba-1096b4ac8dae",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": {
+										"token": "{{access_token}}"
+									}
+								},
+								"method": "GET",
+								"header": [],
+								"url": "{{domain}}/v1/project-budget-actual/01HC9EMTD7DCER7Q71QCBR451P"
+							},
+							"response": []
+						},
+						{
 							"name": "create",
 							"id": "317aea90-119d-47b3-b51d-b87f5e8ef5a6",
 							"protocolProfileBehavior": {
