@@ -7474,6 +7474,28 @@
 					"response": []
 				},
 				{
+					"name": "xuất báo cáo",
+					"id": "f2b18569-8b02-46fc-8285-79422547b56a",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"dateType\": \"WEEK\",\r\n    \"fromDate\": \"40/2023\",\r\n    \"toDate\": \"42/2023\",\r\n    \"dataType\": 0,\r\n    \"dataValue\": [\"LuuLV\"],\r\n    \"isDetail\": true\r\n}"
+						},
+						"url": "https://gw-staging.vissoft.vn/insight-service/api/v1/worklog/export-excel"
+					},
+					"response": []
+				},
+				{
 					"name": "cảnh báo log work không đủ",
 					"id": "54468ea1-224e-49bb-b039-0948c382c1fd",
 					"protocolProfileBehavior": {
