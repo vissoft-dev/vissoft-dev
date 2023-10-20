@@ -7565,5 +7565,11 @@
 				]
 			}
 		}
+	],
+	"variable": [
+		{
+			"key": "domain",
+			"value": "gw-staging.vissoft.vn/insight-service"
+		}
 	]
 }
