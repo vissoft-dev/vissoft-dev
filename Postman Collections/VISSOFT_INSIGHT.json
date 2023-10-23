@@ -6319,6 +6319,24 @@
 								"url": "{{domain}}/v1/project-plan/copy/01HCXS6YK1PWBJ32SQ7718HC6E"
 							},
 							"response": []
+						},
+						{
+							"name": "Phê duyệt dự án",
+							"id": "0ea46efe-35bc-4d9e-b451-3eb8ee240e90",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "PUT",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJ1c2VySWQiOiIwMUg1UkpQQzFEWUFYQkZXRk1ZN05TWVdZNiIsInVzZXJuYW1lIjoidmlzYWRtaW5Admlzc29mdC52biIsImZ1bGxOYW1lIjoiIiwidXNlclR5cGUiOiJvd25lciIsInVzZXJDb2RlIjoiQURNSU4iLCJlbXBsb3llZUlkIjoiMDFINldLUjFDMUdNOTFZRVZWMkRNVjFZOEEiLCJlbXBsb3llZUNvZGUiOiJBRE1JTiIsImF1dGgiOltdLCJleHAiOjE2OTc1MTIzNjJ9.VT4qKo16CFCPixo_4ZBBGZkwzH_LDPKUwlKNAZ3Fpz-H8ZZoDa_hoiJkAL-aA3Dz7LZROAQbMlRrHKrd6ZNcCw"
+									}
+								],
+								"url": "{{domain}}/v1/project-plan/approve/01HCXS6YK1PWBJ32SQ7718HC6E"
+							},
+							"response": []
 						}
 					],
 					"id": "0f7ab87a-880f-46f3-8ac1-448bffbf4e55"
