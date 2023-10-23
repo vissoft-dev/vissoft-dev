@@ -5953,7 +5953,7 @@
 							}
 						],
 						"url": {
-							"raw": "http://localhost:8080/api/project-measurements/get-by-project?id=122333",
+							"raw": "http://localhost:8080/api/project-measurements/get-by-project?id=01HD68PW10590QFS2DE9MQVGDB",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -5967,7 +5967,7 @@
 							"query": [
 								{
 									"key": "id",
-									"value": "122333"
+									"value": "01HD68PW10590QFS2DE9MQVGDB"
 								}
 							]
 						}
