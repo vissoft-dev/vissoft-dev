@@ -5383,14 +5383,14 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"qualificationEmployeeId\": \"01HCHJNPJPFFPWZK38EF10NZYH\",\r\n    \"employeeCode\": \"Duongnt\",\r\n    \"employeeId\": \"123\",\r\n    \"rate\": 1.6,\r\n    \"qualificationId\": \"KJNASDUBNQWOALBSWA\",\r\n    \"startDate\": \"2023-02-02T00:00:00.000+0000\",\r\n    \"endDate\": \"2023-04-05T00:00:00.000+0000\",\r\n    \"level\": \"DEV3\",\r\n    \"description\": \"lập trình java\"\r\n}",
+							"raw": "{\r\n    \"qualificationEmployeeId\": \"01HCHJNPJPFFPWZK38EF10NZYH\",\r\n    \"employeeCode\": \"Duongnt\",\r\n    \"employeeId\": \"123\",\r\n    \"qualificationId\": \"KJNASDUBNQWOALBSWA\",\r\n    \"startDate\": \"2023-02-02T00:00:00.000+0000\",\r\n    \"description\": \"lập trình java\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
 								}
 							}
 						},
-						"url": "{{domain}}/api/v1/qualification/update-qualification"
+						"url": "{{domain}}/v1/qualification/update-qualification"
 					},
 					"response": []
 				},
