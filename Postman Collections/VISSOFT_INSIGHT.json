@@ -7399,7 +7399,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\n  \"projectId\": \"01HCXRHE0WS7K9EF5Q0T7QN7H9\",\n  \"budgetConfigId\": \"01HCW32WVAGV7EYRQSY3903XSQ\",\n  \"spendingDate\": \"2023-10-13\",  \n  \"spendingCost\": 20,        \n  \"description\": \"Mô tả\"\n}\n"
+									"raw": "{\n  \"projectId\": \"01HCXRHE0WS7K9EF5Q0T7QN7H9\",\n  \"budgetConfigId\": \"01HCW32WVAGV7EYRQSY3903XSQ\",\n  \"spendingDate\": \"2023-10-13\",  \n  \"spentBudget\": 20,        \n  \"description\": \"Mô tả\"\n}\n"
 								},
 								"url": "http://localhost:8080/api/v1/project-budget-actual"
 							},
@@ -7425,7 +7425,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\n    \"id\": \"01HCYGG51ZRZ24RBSSDXNW3B91\",\n    \"projectId\": \"01HCXRHE0WS7K9EF5Q0T7QN7H9\",\n    \"budgetConfigId\": \"01HCW32WVAGV7EYRQSY3903XSQ\",\n    \"spendingDate\": \"2023-10-13\",\n    \"spendingCost\": 2000.0,\n    \"description\": \"Mô tả update\"\n}"
+									"raw": "{\n    \"id\": \"01HCYGG51ZRZ24RBSSDXNW3B91\",\n    \"projectId\": \"01HCXRHE0WS7K9EF5Q0T7QN7H9\",\n    \"budgetConfigId\": \"01HCW32WVAGV7EYRQSY3903XSQ\",\n    \"spendingDate\": \"2023-10-13\",\n    \"spentBudget\": 2000.0,\n    \"description\": \"Mô tả update\"\n}"
 								},
 								"url": "http://localhost:8080/api/v1/project-budget-actual"
 							},
