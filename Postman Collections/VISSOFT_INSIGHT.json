@@ -7747,6 +7747,113 @@
 								"url": "{{domain}}/budget-config"
 							},
 							"response": []
+						},
+						{
+							"name": "quick search",
+							"id": "03c26e19-6ef4-477b-b47a-d64b8fc7876e",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJ1c2VySWQiOiIwMUg1UkpQQzFEWUFYQkZXRk1ZN05TWVdZNiIsInVzZXJuYW1lIjoidmlzYWRtaW5Admlzc29mdC52biIsImZ1bGxOYW1lIjoiIiwidXNlclR5cGUiOiJvd25lciIsInVzZXJDb2RlIjoiQURNSU4iLCJlbXBsb3llZUlkIjoiMDFINldLUjFDMUdNOTFZRVZWMkRNVjFZOEEiLCJlbXBsb3llZUNvZGUiOiJBRE1JTiIsImF1dGgiOltdLCJleHAiOjE2OTcwMDIxMjZ9.4I1C7jtYFSqXOSqyzONaXnVJp8HoMSQmkfafTJT01-d76sYqUnNomfJkA8kPh928OaPGF7zQTaoW3R79KArgCw"
+									}
+								],
+								"url": {
+									"raw": "{{domain}}/search/budget-config?q=",
+									"host": [
+										"{{domain}}"
+									],
+									"path": [
+										"search",
+										"budget-config"
+									],
+									"query": [
+										{
+											"key": "q",
+											"value": ""
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "thêm",
+							"id": "8f6261e4-9b38-4eb2-8ebc-fbfee45800eb",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Authorization",
+										"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJ1c2VySWQiOiIwMUg1UkpQQzFEWUFYQkZXRk1ZN05TWVdZNiIsInVzZXJuYW1lIjoidmlzYWRtaW5Admlzc29mdC52biIsImZ1bGxOYW1lIjoiIiwidXNlclR5cGUiOiJvd25lciIsInVzZXJDb2RlIjoiQURNSU4iLCJlbXBsb3llZUlkIjoiMDFINldLUjFDMUdNOTFZRVZWMkRNVjFZOEEiLCJlbXBsb3llZUNvZGUiOiJBRE1JTiIsImF1dGgiOltdLCJleHAiOjE2OTY5OTk2Mjl9.XULC1C9bnAMJGSxsh83lYNDvip_CInOKkmcBstvpaT6ZblXk6KH5zUW0CRbRgj7mB9rtWnIQqdhFw43HYj2q1g"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"code\" : \"Test dele\",\n    \"name\" : \"test\",\n    \"description\" : \"test update\"\n}"
+								},
+								"url": "{{domain}}/budget-config"
+							},
+							"response": []
+						},
+						{
+							"name": "sửa",
+							"id": "ee4e65dd-06a4-46de-97ee-b9a0fd150d27",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "PUT",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"id\" : \"id\",\n    \"code\" : \"Test\",\n    \"name\" : \"test\",\n    \"description\" : \"test\",\n    \"status\" : 1\n}"
+								},
+								"url": "{{domain}}/budget-config"
+							},
+							"response": []
+						},
+						{
+							"name": "xóa",
+							"id": "257d6ffc-7815-45af-b634-89e80c0d1c59",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "DELETE",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Authorization",
+										"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJ1c2VySWQiOiIwMUg1UkpQQzFEWUFYQkZXRk1ZN05TWVdZNiIsInVzZXJuYW1lIjoidmlzYWRtaW5Admlzc29mdC52biIsImZ1bGxOYW1lIjoiIiwidXNlclR5cGUiOiJvd25lciIsInVzZXJDb2RlIjoiQURNSU4iLCJlbXBsb3llZUlkIjoiMDFINldLUjFDMUdNOTFZRVZWMkRNVjFZOEEiLCJlbXBsb3llZUNvZGUiOiJBRE1JTiIsImF1dGgiOltdLCJleHAiOjE2OTY5OTk2Mjl9.XULC1C9bnAMJGSxsh83lYNDvip_CInOKkmcBstvpaT6ZblXk6KH5zUW0CRbRgj7mB9rtWnIQqdhFw43HYj2q1g"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "[\"01HCEFC92SJNCVGXVWNWJYF001\"] "
+								},
+								"url": "{{domain}}/budget-config"
+							},
+							"response": []
 						}
 					],
 					"id": "c2790919-8f3f-4d2d-8ce1-f3a8aaaa4172"
