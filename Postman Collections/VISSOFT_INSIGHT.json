@@ -7459,8 +7459,93 @@
 			"name": "danh mục qlda",
 			"item": [
 				{
-					"name": "New Folder",
-					"item": [],
+					"name": "Thiết lập kế hoạch giao tiếp",
+					"item": [
+						{
+							"name": "get all",
+							"id": "f2c83224-85ec-4d0a-b9c1-54ff63f076e2",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJ1c2VySWQiOiIwMUg4TkhUVjhZMVRZQkFBNUVZV0NCUEZGMyIsInVzZXJuYW1lIjoidGh1eXB0QHZpc3NvZnQudm4iLCJmdWxsTmFtZSI6IlBo4bqhbSBUxrDhu51uZyBUaOG7pXkiLCJ1c2VyQ29kZSI6IlRIVVlQVCIsImVtcGxveWVlSWQiOiIwMUg4TkhUVFBGNkFINFpUN1hRNktNQ1pKQiIsImVtcGxveWVlQ29kZSI6IlRIVVlQVCIsInRpdGxlSWQiOiIwMUg2M0Y2N0FaUjBDQ1owUzVLQ01WMDJOVyIsInRpdGxlQ29kZSI6IlBNIiwiYXV0aCI6W10sImV4cCI6MTY5ODExNTQ2NH0.6VfFK67KJk3DDtbqusxOMbRi2zVqZ1GczCClUAhY-r6eAJoO8_nIv8wVvezhDSP9aylsd3QfzO3daaeJSocucA"
+									}
+								],
+								"url": "{{domain}}communication-plan-config"
+							},
+							"response": []
+						},
+						{
+							"name": "quick search",
+							"id": "adf44793-ccd0-40a8-988e-2daa401883b6",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJ1c2VySWQiOiIwMUg4TkhUVjhZMVRZQkFBNUVZV0NCUEZGMyIsInVzZXJuYW1lIjoidGh1eXB0QHZpc3NvZnQudm4iLCJmdWxsTmFtZSI6IlBo4bqhbSBUxrDhu51uZyBUaOG7pXkiLCJ1c2VyQ29kZSI6IlRIVVlQVCIsImVtcGxveWVlSWQiOiIwMUg4TkhUVFBGNkFINFpUN1hRNktNQ1pKQiIsImVtcGxveWVlQ29kZSI6IlRIVVlQVCIsInRpdGxlSWQiOiIwMUg2M0Y2N0FaUjBDQ1owUzVLQ01WMDJOVyIsInRpdGxlQ29kZSI6IlBNIiwiYXV0aCI6W10sImV4cCI6MTY5ODExNTQ2NH0.6VfFK67KJk3DDtbqusxOMbRi2zVqZ1GczCClUAhY-r6eAJoO8_nIv8wVvezhDSP9aylsd3QfzO3daaeJSocucA"
+									}
+								],
+								"url": {
+									"raw": "{{domain}}/search/communication-plan?q=",
+									"host": [
+										"{{domain}}"
+									],
+									"path": [
+										"search",
+										"communication-plan"
+									],
+									"query": [
+										{
+											"key": "q",
+											"value": ""
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "quick search Copy",
+							"id": "9e03430d-ab6c-4d29-b390-23ad17203f9b",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJ1c2VySWQiOiIwMUg4TkhUVjhZMVRZQkFBNUVZV0NCUEZGMyIsInVzZXJuYW1lIjoidGh1eXB0QHZpc3NvZnQudm4iLCJmdWxsTmFtZSI6IlBo4bqhbSBUxrDhu51uZyBUaOG7pXkiLCJ1c2VyQ29kZSI6IlRIVVlQVCIsImVtcGxveWVlSWQiOiIwMUg4TkhUVFBGNkFINFpUN1hRNktNQ1pKQiIsImVtcGxveWVlQ29kZSI6IlRIVVlQVCIsInRpdGxlSWQiOiIwMUg2M0Y2N0FaUjBDQ1owUzVLQ01WMDJOVyIsInRpdGxlQ29kZSI6IlBNIiwiYXV0aCI6W10sImV4cCI6MTY5ODExNTQ2NH0.6VfFK67KJk3DDtbqusxOMbRi2zVqZ1GczCClUAhY-r6eAJoO8_nIv8wVvezhDSP9aylsd3QfzO3daaeJSocucA"
+									}
+								],
+								"url": {
+									"raw": "{{domain}}/search/communication-plan?q=",
+									"host": [
+										"{{domain}}"
+									],
+									"path": [
+										"search",
+										"communication-plan"
+									],
+									"query": [
+										{
+											"key": "q",
+											"value": ""
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					],
 					"id": "a1d72bbd-4896-43b9-9c6f-3fdcf3adaf77"
 				}
 			],
