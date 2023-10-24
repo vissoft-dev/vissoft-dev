@@ -7647,8 +7647,92 @@
 							"response": []
 						},
 						{
-							"name": "quick search Copy",
+							"name": "thêm",
 							"id": "b3ba5948-66eb-4216-be17-cdeced878aa7",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Authorization",
+										"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJ1c2VySWQiOiIwMUg1UkpQQzFEWUFYQkZXRk1ZN05TWVdZNiIsInVzZXJuYW1lIjoidmlzYWRtaW5Admlzc29mdC52biIsImZ1bGxOYW1lIjoiIiwidXNlclR5cGUiOiJvd25lciIsInVzZXJDb2RlIjoiQURNSU4iLCJlbXBsb3llZUlkIjoiMDFINldLUjFDMUdNOTFZRVZWMkRNVjFZOEEiLCJlbXBsb3llZUNvZGUiOiJBRE1JTiIsImF1dGgiOltdLCJleHAiOjE2OTcwMTgwMjl9.3A7nt1xuvs2sCtJq5mn4oMYP6E745UlNZ370XS-ncTrlm1ShtcxW3u2EwgUioVpF2w-pnq7phN8mkLg3G7tisg"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"code\" : \"test\",\n    \"name\" : \"test\", \n    \"description\" : \"test\",\n    \"measure\" : \"test\",\n    \"target\" : \"test\",\n    \"isDefault\": false\n}"
+								},
+								"url": "{{domain}}/measurement-config"
+							},
+							"response": []
+						},
+						{
+							"name": "sửa",
+							"id": "7b335b73-49f1-4546-ad17-81a681e1a4ce",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "PUT",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Authorization",
+										"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJ1c2VySWQiOiIwMUg1UkpQQzFEWUFYQkZXRk1ZN05TWVdZNiIsInVzZXJuYW1lIjoidmlzYWRtaW5Admlzc29mdC52biIsImZ1bGxOYW1lIjoiIiwidXNlclR5cGUiOiJvd25lciIsInVzZXJDb2RlIjoiQURNSU4iLCJlbXBsb3llZUlkIjoiMDFINldLUjFDMUdNOTFZRVZWMkRNVjFZOEEiLCJlbXBsb3llZUNvZGUiOiJBRE1JTiIsImF1dGgiOltdLCJleHAiOjE2OTcwMTgwMjl9.3A7nt1xuvs2sCtJq5mn4oMYP6E745UlNZ370XS-ncTrlm1ShtcxW3u2EwgUioVpF2w-pnq7phN8mkLg3G7tisg"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"id\" : \"01HCEZ8K6P7FQ6SESQM55XWSHD\",\n    \"code\" : \"test update\",\n    \"name\" : \"test\", \n    \"description\" : \"test\",\n    \"measure\" : \"test\",\n    \"target\" : \"test\",\n    \"isDefault\": false\n}"
+								},
+								"url": "{{domain}}/measurement-config"
+							},
+							"response": []
+						},
+						{
+							"name": "xóa",
+							"id": "6faf65cc-2c23-4d00-b3bb-7cdc26ad42ad",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "DELETE",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Authorization",
+										"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJ1c2VySWQiOiIwMUg1UkpQQzFEWUFYQkZXRk1ZN05TWVdZNiIsInVzZXJuYW1lIjoidmlzYWRtaW5Admlzc29mdC52biIsImZ1bGxOYW1lIjoiIiwidXNlclR5cGUiOiJvd25lciIsInVzZXJDb2RlIjoiQURNSU4iLCJlbXBsb3llZUlkIjoiMDFINldLUjFDMUdNOTFZRVZWMkRNVjFZOEEiLCJlbXBsb3llZUNvZGUiOiJBRE1JTiIsImF1dGgiOltdLCJleHAiOjE2OTcwMTgwMjl9.3A7nt1xuvs2sCtJq5mn4oMYP6E745UlNZ370XS-ncTrlm1ShtcxW3u2EwgUioVpF2w-pnq7phN8mkLg3G7tisg"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "[\"01HCEZ8K6P7FQ6SESQM55XWSHD\"]"
+								},
+								"url": "{{domain}}/measurement-config"
+							},
+							"response": []
+						}
+					],
+					"id": "5a345237-f83d-471f-a707-e3f84abe6f83"
+				},
+				{
+					"name": "Thiết lập chi phí dự án",
+					"item": [
+						{
+							"name": "get all",
+							"id": "e583e6a5-a182-4cc5-b357-ad9f0c0f6d8d",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -7660,26 +7744,12 @@
 										"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJ1c2VySWQiOiIwMUg4TkhUVjhZMVRZQkFBNUVZV0NCUEZGMyIsInVzZXJuYW1lIjoidGh1eXB0QHZpc3NvZnQudm4iLCJmdWxsTmFtZSI6IlBo4bqhbSBUxrDhu51uZyBUaOG7pXkiLCJ1c2VyQ29kZSI6IlRIVVlQVCIsImVtcGxveWVlSWQiOiIwMUg4TkhUVFBGNkFINFpUN1hRNktNQ1pKQiIsImVtcGxveWVlQ29kZSI6IlRIVVlQVCIsInRpdGxlSWQiOiIwMUg2M0Y2N0FaUjBDQ1owUzVLQ01WMDJOVyIsInRpdGxlQ29kZSI6IlBNIiwiYXV0aCI6W10sImV4cCI6MTY5ODExNTQ2NH0.6VfFK67KJk3DDtbqusxOMbRi2zVqZ1GczCClUAhY-r6eAJoO8_nIv8wVvezhDSP9aylsd3QfzO3daaeJSocucA"
 									}
 								],
-								"url": {
-									"raw": "{{domain}}/measurement-config?q=",
-									"host": [
-										"{{domain}}"
-									],
-									"path": [
-										"measurement-config"
-									],
-									"query": [
-										{
-											"key": "q",
-											"value": ""
-										}
-									]
-								}
+								"url": "{{domain}}/budget-config"
 							},
 							"response": []
 						}
 					],
-					"id": "5a345237-f83d-471f-a707-e3f84abe6f83"
+					"id": "c2790919-8f3f-4d2d-8ce1-f3a8aaaa4172"
 				}
 			],
 			"id": "a9fa9c1c-da72-4204-bd3e-b7e38ece36e7"
