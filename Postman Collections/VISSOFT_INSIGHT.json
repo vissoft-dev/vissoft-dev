@@ -7513,8 +7513,110 @@
 							"response": []
 						},
 						{
-							"name": "quick search Copy",
+							"name": "thêm mới",
 							"id": "9e03430d-ab6c-4d29-b390-23ad17203f9b",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Authorization",
+										"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJ1c2VySWQiOiIwMUg1UkpQQzFEWUFYQkZXRk1ZN05TWVdZNiIsInVzZXJuYW1lIjoidmlzYWRtaW5Admlzc29mdC52biIsImZ1bGxOYW1lIjoiIiwidXNlclR5cGUiOiJvd25lciIsInVzZXJDb2RlIjoiQURNSU4iLCJlbXBsb3llZUlkIjoiMDFINldLUjFDMUdNOTFZRVZWMkRNVjFZOEEiLCJlbXBsb3llZUNvZGUiOiJBRE1JTiIsImF1dGgiOltdLCJleHAiOjE2OTcwMTIxODd9.E_myFwGJshb8IvIOAPZCUeWQml2YvgwlZWKrdJ8AUWouk7GVhbjsEjKYXyRzd2cKaTOLcikN0AdPW6gJySWRIg"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"code\" : \"Test 2\",\n    \"name\" : \"test\",\n    \"description\" : \"test update\",\n    \"status\" : 1\n}"
+								},
+								"url": "{{domain}}/communication-plan-config"
+							},
+							"response": []
+						},
+						{
+							"name": "sửa",
+							"id": "0dbaac51-c364-46c3-becf-e8756fc05c7e",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "PUT",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Authorization",
+										"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJ1c2VySWQiOiIwMUg1UkpQQzFEWUFYQkZXRk1ZN05TWVdZNiIsInVzZXJuYW1lIjoidmlzYWRtaW5Admlzc29mdC52biIsImZ1bGxOYW1lIjoiIiwidXNlclR5cGUiOiJvd25lciIsInVzZXJDb2RlIjoiQURNSU4iLCJlbXBsb3llZUlkIjoiMDFINldLUjFDMUdNOTFZRVZWMkRNVjFZOEEiLCJlbXBsb3llZUNvZGUiOiJBRE1JTiIsImF1dGgiOltdLCJleHAiOjE2OTcwMTIxODd9.E_myFwGJshb8IvIOAPZCUeWQml2YvgwlZWKrdJ8AUWouk7GVhbjsEjKYXyRzd2cKaTOLcikN0AdPW6gJySWRIg"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"id\" :  \"01HCET33E38FHNH3KV4R29J2BZ\",\n    \"code\" : \"Test 1\",\n    \"name\" : \"test\",\n    \"description\" : \"test update\",\n    \"status\" : 1\n}"
+								},
+								"url": "{{domain}}/communication-plan-config"
+							},
+							"response": []
+						},
+						{
+							"name": "xóa",
+							"id": "2a66a71e-5c04-4029-94ce-ec81c2eda2b0",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "DELETE",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Authorization",
+										"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJ1c2VySWQiOiIwMUg4TkhUVjhZMVRZQkFBNUVZV0NCUEZGMyIsInVzZXJuYW1lIjoidGh1eXB0QHZpc3NvZnQudm4iLCJmdWxsTmFtZSI6IlBo4bqhbSBUxrDhu51uZyBUaOG7pXkiLCJ1c2VyQ29kZSI6IlRIVVlQVCIsImVtcGxveWVlSWQiOiIwMUg4TkhUVFBGNkFINFpUN1hRNktNQ1pKQiIsImVtcGxveWVlQ29kZSI6IlRIVVlQVCIsInRpdGxlSWQiOiIwMUg2M0Y2N0FaUjBDQ1owUzVLQ01WMDJOVyIsInRpdGxlQ29kZSI6IlBNIiwiYXV0aCI6W10sImV4cCI6MTY5ODExNTQ2NH0.6VfFK67KJk3DDtbqusxOMbRi2zVqZ1GczCClUAhY-r6eAJoO8_nIv8wVvezhDSP9aylsd3QfzO3daaeJSocucA"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "[ \"01HDDZN97S8PD70P3DA3JFCQY7\", \"01HDDZMWTKXC76KWZ284DVTWX1\"]"
+								},
+								"url": "{{domain}}/communication-plan-config"
+							},
+							"response": []
+						}
+					],
+					"id": "a1d72bbd-4896-43b9-9c6f-3fdcf3adaf77"
+				},
+				{
+					"name": "thiết lập chỉ số đo lường",
+					"item": [
+						{
+							"name": "get all",
+							"id": "4f62abf4-f855-41ce-af4a-2c7bc03908f7",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJ1c2VySWQiOiIwMUg4TkhUVjhZMVRZQkFBNUVZV0NCUEZGMyIsInVzZXJuYW1lIjoidGh1eXB0QHZpc3NvZnQudm4iLCJmdWxsTmFtZSI6IlBo4bqhbSBUxrDhu51uZyBUaOG7pXkiLCJ1c2VyQ29kZSI6IlRIVVlQVCIsImVtcGxveWVlSWQiOiIwMUg4TkhUVFBGNkFINFpUN1hRNktNQ1pKQiIsImVtcGxveWVlQ29kZSI6IlRIVVlQVCIsInRpdGxlSWQiOiIwMUg2M0Y2N0FaUjBDQ1owUzVLQ01WMDJOVyIsInRpdGxlQ29kZSI6IlBNIiwiYXV0aCI6W10sImV4cCI6MTY5ODExNTQ2NH0.6VfFK67KJk3DDtbqusxOMbRi2zVqZ1GczCClUAhY-r6eAJoO8_nIv8wVvezhDSP9aylsd3QfzO3daaeJSocucA"
+									}
+								],
+								"url": "{{domain}}/measurement-config"
+							},
+							"response": []
+						},
+						{
+							"name": "quick search",
+							"id": "0b7f2bd1-2241-4695-a44c-59b2aed4991c",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -7527,13 +7629,44 @@
 									}
 								],
 								"url": {
-									"raw": "{{domain}}/search/communication-plan?q=",
+									"raw": "{{domain}}/measurement-config?q=",
 									"host": [
 										"{{domain}}"
 									],
 									"path": [
-										"search",
-										"communication-plan"
+										"measurement-config"
+									],
+									"query": [
+										{
+											"key": "q",
+											"value": ""
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "quick search Copy",
+							"id": "b3ba5948-66eb-4216-be17-cdeced878aa7",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJ1c2VySWQiOiIwMUg4TkhUVjhZMVRZQkFBNUVZV0NCUEZGMyIsInVzZXJuYW1lIjoidGh1eXB0QHZpc3NvZnQudm4iLCJmdWxsTmFtZSI6IlBo4bqhbSBUxrDhu51uZyBUaOG7pXkiLCJ1c2VyQ29kZSI6IlRIVVlQVCIsImVtcGxveWVlSWQiOiIwMUg4TkhUVFBGNkFINFpUN1hRNktNQ1pKQiIsImVtcGxveWVlQ29kZSI6IlRIVVlQVCIsInRpdGxlSWQiOiIwMUg2M0Y2N0FaUjBDQ1owUzVLQ01WMDJOVyIsInRpdGxlQ29kZSI6IlBNIiwiYXV0aCI6W10sImV4cCI6MTY5ODExNTQ2NH0.6VfFK67KJk3DDtbqusxOMbRi2zVqZ1GczCClUAhY-r6eAJoO8_nIv8wVvezhDSP9aylsd3QfzO3daaeJSocucA"
+									}
+								],
+								"url": {
+									"raw": "{{domain}}/measurement-config?q=",
+									"host": [
+										"{{domain}}"
+									],
+									"path": [
+										"measurement-config"
 									],
 									"query": [
 										{
@@ -7546,7 +7679,7 @@
 							"response": []
 						}
 					],
-					"id": "a1d72bbd-4896-43b9-9c6f-3fdcf3adaf77"
+					"id": "5a345237-f83d-471f-a707-e3f84abe6f83"
 				}
 			],
 			"id": "a9fa9c1c-da72-4204-bd3e-b7e38ece36e7"
