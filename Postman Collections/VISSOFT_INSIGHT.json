@@ -7451,6 +7451,125 @@
 						}
 					],
 					"id": "25252264-0f35-42ad-8da2-9f2aa7ad27c1"
+				},
+				{
+					"name": "Phê duyệt dự án",
+					"item": [
+						{
+							"name": "get ds dự án phê duyệt",
+							"id": "826e0685-ef37-4a8a-b5b6-3267c119f01e",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Accept",
+										"value": "*"
+									},
+									{
+										"key": "Accept-Language",
+										"value": "vi-VN"
+									},
+									{
+										"key": "App-Code",
+										"value": "vissoft-insight-system-client"
+									},
+									{
+										"key": "Authorization",
+										"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJ1c2VySWQiOiIwMUg1UkpQQzFEWUFYQkZXRk1ZN05TWVdZNiIsInVzZXJuYW1lIjoidmlzYWRtaW5Admlzc29mdC52biIsImZ1bGxOYW1lIjoiIiwidXNlclR5cGUiOiJvd25lciIsInVzZXJDb2RlIjoiQURNSU4iLCJlbXBsb3llZUlkIjoiMDFINldLUjFDMUdNOTFZRVZWMkRNVjFZOEEiLCJlbXBsb3llZUNvZGUiOiJBRE1JTiIsImF1dGgiOltdLCJleHAiOjE2OTgyMjQ1MDh9.KH-EqL4RRxyktAx21XDbUTQi5lHFFfGg2Yqk9emAzspNbZW2xhUUgGf07iLdB76ELPnalef0HaQq3HMRKox3rw"
+									},
+									{
+										"key": "Connection",
+										"value": "keep-alive"
+									},
+									{
+										"key": "Origin",
+										"value": "https://web-staging.vissoft.vn"
+									},
+									{
+										"key": "Referer",
+										"value": "https://web-staging.vissoft.vn/"
+									},
+									{
+										"key": "Sec-Fetch-Dest",
+										"value": "empty"
+									},
+									{
+										"key": "Sec-Fetch-Mode",
+										"value": "cors"
+									},
+									{
+										"key": "Sec-Fetch-Site",
+										"value": "same-site"
+									},
+									{
+										"key": "User-Agent",
+										"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.61"
+									},
+									{
+										"key": "sec-ch-ua",
+										"value": "\"Chromium\";v=\"118\", \"Microsoft Edge\";v=\"118\", \"Not=A?Brand\";v=\"99\""
+									},
+									{
+										"key": "sec-ch-ua-mobile",
+										"value": "?0"
+									},
+									{
+										"key": "sec-ch-ua-platform",
+										"value": "\"Windows\""
+									},
+									{
+										"key": "x-client-request-id",
+										"value": "42f24f06-7ea8-4d03-b96e-5974795027ed"
+									}
+								],
+								"url": {
+									"raw": "{{domain}}/v1/project/search-plan-approve?page=0&size=20&q=&clientId&status&managerId",
+									"host": [
+										"{{domain}}"
+									],
+									"path": [
+										"v1",
+										"project",
+										"search-plan-approve"
+									],
+									"query": [
+										{
+											"key": "page",
+											"value": "0"
+										},
+										{
+											"key": "size",
+											"value": "20"
+										},
+										{
+											"key": "q",
+											"value": ""
+										},
+										{
+											"key": "clientId",
+											"value": null,
+											"type": "text"
+										},
+										{
+											"key": "status",
+											"value": null,
+											"type": "text"
+										},
+										{
+											"key": "managerId",
+											"value": null,
+											"type": "text"
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					],
+					"id": "fc00bcab-af94-4deb-b7e0-e8680cf7d3ef"
 				}
 			],
 			"id": "8b6b17c9-c149-4b49-806d-8c3bb82fc121"
