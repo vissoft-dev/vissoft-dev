@@ -7550,18 +7550,15 @@
 										},
 										{
 											"key": "clientId",
-											"value": null,
-											"type": "text"
+											"value": null
 										},
 										{
 											"key": "status",
-											"value": null,
-											"type": "text"
+											"value": null
 										},
 										{
 											"key": "managerId",
-											"value": null,
-											"type": "text"
+											"value": null
 										}
 									]
 								}
