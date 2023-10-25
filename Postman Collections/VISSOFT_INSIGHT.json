@@ -4490,7 +4490,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"qualificationCode\": \"TestStatus\",\r\n    \"description\": \"PM4\",\r\n    \"qualificationName\": \"PM4\",\r\n    \"rate\": 3\r\n}",
+							"raw": "{\r\n    \"qualificationCode\": \"TestStatus1\",\r\n    \"description\": \"PM4\",\r\n    \"qualificationName\": \"PM4\",\r\n    \"rate\": 1.5\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -5069,7 +5069,7 @@
 							"formdata": [
 								{
 									"key": "id",
-									"value": "01HD33Q6GYFDSSH486AZ2R0QRY",
+									"value": "01H8NHTTJ5XEHDAS5S7MDQSKSQ",
 									"type": "text"
 								},
 								{
@@ -5079,7 +5079,7 @@
 								},
 								{
 									"key": "vissoftEmail",
-									"value": "duongnt@vissoft.vn",
+									"value": "12duongnt@vissoft.vn",
 									"type": "text"
 								},
 								{
@@ -5099,7 +5099,7 @@
 								},
 								{
 									"key": "employeeCode",
-									"value": "tee123",
+									"value": "DuongNT",
 									"type": "text"
 								},
 								{
@@ -5114,7 +5114,7 @@
 								},
 								{
 									"key": "layOffDate",
-									"value": "2023-04-05",
+									"value": "2024-06-15",
 									"type": "text"
 								},
 								{
@@ -5161,7 +5161,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"employeeCode\": \"aaaaaaaaaâa\",\r\n    \"fullName\": \"duong\",\r\n    \"email\": \"\",\r\n    \"employeeType\": \"STAFF\",\r\n    \"titleId\": \"12312312\",\r\n    \"departmentId\": \"123123\",\r\n    \"profileCode\": \"0001\"\r\n}",
+							"raw": "{\r\n    \"employeeCode\": \"testAddWorkPlace1234\",\r\n    \"fullName\": \"duong\",\r\n    \"email\": \"\",\r\n    \"employeeType\": \"STAFF\",\r\n    \"titleId\": \"12312312\",\r\n    \"departmentId\": \"123123\",\r\n    \"profileCode\": \"1242\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -5355,7 +5355,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"employeeCode\": \"DuongNT\",\r\n    \"employeeId\": \"01H8NHTTJ5XEHDAS5S7MDQSKSQ\",\r\n    \"startDate\": \"2022-10-03\",\r\n    \"qualificationId\": \"KJNASDUBNQWOALBSWA\",\r\n    \"description\": \"lập trình java\"\r\n}",
+							"raw": "{\r\n    \"employeeCode\": \"DuongNT\",\r\n    \"employeeId\": \"01H8NHTTJ5XEHDAS5S7MDQSKSQ\",\r\n    \"startDate\": \"2023-10-12\",\r\n    \"qualificationId\": \"KJNASDUBNQWOALBSWA\",\r\n    \"description\": \"lập trình java\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -5383,7 +5383,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"qualificationEmployeeId\": \"01HCHJNPJPFFPWZK38EF10NZYH\",\r\n    \"employeeCode\": \"Duongnt\",\r\n    \"employeeId\": \"123\",\r\n    \"qualificationId\": \"KJNASDUBNQWOALBSWA\",\r\n    \"startDate\": \"2023-02-02T00:00:00.000+0000\",\r\n    \"description\": \"lập trình java\"\r\n}",
+							"raw": "{\r\n    \"qualificationEmployeeId\": \"01HCC9134ZAAWFC9GKSNFWS6P9\",\r\n    \"employeeCode\": \"DuongNT\",\r\n    \"employeeId\": \"01H8NHTTJ5XEHDAS5S7MDQSKSQ\",\r\n    \"qualificationId\": \"01HCHQ6YJD5XYWVCYA3ZFRXM22\",\r\n    \"startDate\": \"2023-10-22\",\r\n    \"description\": \"lập trình java\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
