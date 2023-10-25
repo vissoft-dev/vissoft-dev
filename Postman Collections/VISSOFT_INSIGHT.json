@@ -5319,7 +5319,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "{{domain}}/v1/qualification/get-list?employeeId=123",
+							"raw": "{{domain}}/v1/qualification/get-list?employeeId=01HDFP95TE0PECSSDGYA6DGK3D",
 							"host": [
 								"{{domain}}"
 							],
@@ -5331,7 +5331,7 @@
 							"query": [
 								{
 									"key": "employeeId",
-									"value": "123"
+									"value": "01HDFP95TE0PECSSDGYA6DGK3D"
 								}
 							]
 						}
@@ -5383,7 +5383,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"qualificationEmployeeId\": \"01HCC9134ZAAWFC9GKSNFWS6P9\",\r\n    \"employeeCode\": \"DuongNT\",\r\n    \"employeeId\": \"01H8NHTTJ5XEHDAS5S7MDQSKSQ\",\r\n    \"qualificationId\": \"01HCHQ6YJD5XYWVCYA3ZFRXM22\",\r\n    \"startDate\": \"2023-10-22\",\r\n    \"description\": \"lập trình java\"\r\n}",
+							"raw": "{\r\n    \"qualificationEmployeeId\": \"01HDJQ75WEFW90CJ1VZ3ZVHBH4\",\r\n    \"employeeCode\": \"DuongNT1\",\r\n    \"employeeId\": \"01HDFP95TE0PECSSDGYA6DGK3D\",\r\n    \"qualificationId\": \"01HCHQ6YJD5XYWVCYA3ZFRXM22\",\r\n    \"startDate\": \"2023-10-03\",\r\n    \"description\": \"lập trình java\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
