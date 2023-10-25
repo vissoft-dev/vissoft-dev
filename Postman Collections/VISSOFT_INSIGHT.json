@@ -6110,7 +6110,25 @@
 								},
 								"method": "GET",
 								"header": [],
-								"url": "{{domain}}/v1/project/01H63F2C16YESTCYPGJN2VX75F"
+								"url": {
+									"raw": "{{domain}}/v1/project/01H63F2C16YESTCYPGJN2VX75F?draftStatus=0",
+									"host": [
+										"{{domain}}"
+									],
+									"path": [
+										"v1",
+										"project",
+										"01H63F2C16YESTCYPGJN2VX75F"
+									],
+									"query": [
+										{
+											"key": "draftStatus",
+											"value": "0",
+											"description": "//draft status",
+											"type": "text"
+										}
+									]
+								}
 							},
 							"response": []
 						}
