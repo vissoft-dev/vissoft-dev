@@ -8014,7 +8014,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"dateType\": \"MONTH\",\r\n    \"fromDate\": \"4/2023\",\r\n    \"toDate\": \"12/2023\",\r\n    \"dataType\": 0,\r\n    \"dataValue\": [\"DaiTV\"],\r\n    \"isDetail\": true\r\n}"
+							"raw": "{\r\n    \"dateType\": \"WEEK\",\r\n    \"fromDate\": \"4/2023\",\r\n    \"toDate\": \"42/2023\",\r\n    \"dataType\": 0,\r\n    \"dataValue\": [\"DaiTV\", \"DaiTV\"],\r\n    \"isDetail\": true\r\n}"
 						},
 						"url": "https://gw-staging.vissoft.vn/insight-service/api/v1/worklog/search"
 					},
