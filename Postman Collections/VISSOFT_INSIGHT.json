@@ -6376,17 +6376,42 @@
 									}
 								},
 								"method": "POST",
-								"header": [],
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en-US",
+										"type": "text",
+										"disabled": true
+									}
+								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n  \"id\": null,\r\n  \"employeeId\": \"01H8NHTT6MP6ZE4VRN2C3335C1\",\r\n  \"fromDate\": \"2023-10-16\",\r\n  \"toDate\": \"2023-11-22\",\r\n  \"effort\": 70\r\n}",
+									"raw": "{\r\n  \"employeeId\": \"01H8NHTT6MP6ZE4VRN2C3335C1\",\r\n  \"fromDate\": \"2023-10-16\",\r\n  \"toDate\": \"2023-11-22\",\r\n  \"effort\": 70\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
 										}
 									}
 								},
-								"url": "{{domain}}/v1/project-resources/calculate-budget"
+								"url": {
+									"raw": "{{domain}}/v1/project-resources/calculate-budget",
+									"host": [
+										"{{domain}}"
+									],
+									"path": [
+										"v1",
+										"project-resources",
+										"calculate-budget"
+									],
+									"query": [
+										{
+											"key": "",
+											"value": null,
+											"type": "text",
+											"disabled": true
+										}
+									]
+								}
 							},
 							"response": []
 						},
