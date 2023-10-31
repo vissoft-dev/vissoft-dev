@@ -8039,9 +8039,9 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"dateType\": \"WEEK\",\r\n    \"fromDate\": \"4/2023\",\r\n    \"toDate\": \"42/2023\",\r\n    \"dataType\": 0,\r\n    \"dataValue\": [],\r\n    \"isDetail\": true\r\n}"
+							"raw": "{\r\n    \"dateType\": \"WEEK\",\r\n    \"fromDate\": \"40/2023\",\r\n    \"toDate\": \"42/2023\",\r\n    \"dataType\": 0,\r\n    \"dataValue\": [],\r\n    \"isDetail\": true\r\n}"
 						},
-						"url": "{{domain}}/v1/worklog/search"
+						"url": "https://gw-staging.vissoft.vn/insight-service/api/v1/worklog/search"
 					},
 					"response": []
 				},
