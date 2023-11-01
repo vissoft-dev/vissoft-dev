@@ -8240,17 +8240,39 @@
 					"response": []
 				},
 				{
-					"name": "add Copy",
+					"name": "update",
 					"id": "048abdaa-24c3-4658-a8bd-b3aa1627b589",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
 					"request": {
-						"method": "POST",
+						"method": "PUT",
 						"header": [],
 						"body": {
 							"mode": "raw",
 							"raw": "{\r\n    \"code\" : \"\",\r\n    \"name\" : \"\",\r\n    \"isDefault\": false\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{domain}}/bank"
+					},
+					"response": []
+				},
+				{
+					"name": "delete",
+					"id": "a2c1148c-eb41-47c2-8994-8cecb9388844",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "[\"\"] // list id",
 							"options": {
 								"raw": {
 									"language": "json"
