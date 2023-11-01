@@ -8172,6 +8172,24 @@
 				}
 			],
 			"id": "6513bb9d-6f70-4b9b-b857-d43c552f4c54"
+		},
+		{
+			"name": "Ngân hàng",
+			"item": [
+				{
+					"name": "search",
+					"id": "9097acd6-bdb0-4b5b-a967-5b4fe047dbde",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				}
+			],
+			"id": "7bd0c635-7b08-4ee3-9cab-38bbd8fab568"
 		}
 	],
 	"auth": {
