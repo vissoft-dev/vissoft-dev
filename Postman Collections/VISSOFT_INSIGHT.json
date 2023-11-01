@@ -7574,7 +7574,7 @@
 									}
 								],
 								"url": {
-									"raw": "{{domain}}/v1/project/search-plan-approve?page=0&size=20&q=&clientId&status&managerId",
+									"raw": "{{domain}}/v1/project/search-plan-approve?page=0&size=20&q=&clientId&status&managerId&approveId=",
 									"host": [
 										"{{domain}}"
 									],
@@ -7607,6 +7607,11 @@
 										{
 											"key": "managerId",
 											"value": null
+										},
+										{
+											"key": "approveId",
+											"value": "",
+											"type": "text"
 										}
 									]
 								}
