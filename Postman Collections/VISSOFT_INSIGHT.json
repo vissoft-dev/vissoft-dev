@@ -8184,7 +8184,80 @@
 					},
 					"request": {
 						"method": "GET",
-						"header": []
+						"header": [],
+						"url": {
+							"raw": "{{domain}}/search/bank?q=",
+							"host": [
+								"{{domain}}"
+							],
+							"path": [
+								"search",
+								"bank"
+							],
+							"query": [
+								{
+									"key": "q",
+									"value": ""
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getAll",
+					"id": "28527163-79bf-4b12-a6bc-68231699efc4",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "{{domain}}/bank"
+					},
+					"response": []
+				},
+				{
+					"name": "add",
+					"id": "966f322b-bdff-410a-8f5d-5189f76e18b7",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"code\" : \"\",\r\n    \"name\" : \"\",\r\n    \"isDefault\": false\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{domain}}/bank"
+					},
+					"response": []
+				},
+				{
+					"name": "add Copy",
+					"id": "048abdaa-24c3-4658-a8bd-b3aa1627b589",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"code\" : \"\",\r\n    \"name\" : \"\",\r\n    \"isDefault\": false\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{domain}}/bank"
 					},
 					"response": []
 				}
