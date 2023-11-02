@@ -834,6 +834,45 @@
 						}
 					},
 					"response": []
+				},
+				{
+					"name": "Chi tiết bảng công ver 2",
+					"id": "c09d4fbe-04ee-4383-a7d9-94e1e5a6fe4b",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": {
+								"token": "{{access_token}}"
+							}
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{domain}}/user-timesheet/v2/detail-work?month=10/2023&employeeCode=GiangNTH",
+							"host": [
+								"{{domain}}"
+							],
+							"path": [
+								"user-timesheet",
+								"v2",
+								"detail-work"
+							],
+							"query": [
+								{
+									"key": "month",
+									"value": "10/2023"
+								},
+								{
+									"key": "employeeCode",
+									"value": "GiangNTH"
+								}
+							]
+						}
+					},
+					"response": []
 				}
 			],
 			"id": "417197e0-83f9-4b0a-9de4-1a69efbe1d97"
