@@ -7732,6 +7732,57 @@
 							"response": []
 						},
 						{
+							"name": "download",
+							"id": "ae2c5eaf-66f4-4a26-acd0-6f2549c2af75",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJ1c2VySWQiOiIwMUg1UkpQQzFEWUFYQkZXRk1ZN05TWVdZNiIsInVzZXJuYW1lIjoidmlzYWRtaW5Admlzc29mdC52biIsImZ1bGxOYW1lIjoiIiwidXNlclR5cGUiOiJvd25lciIsInVzZXJDb2RlIjoiQURNSU4iLCJlbXBsb3llZUlkIjoiMDFINldLUjFDMUdNOTFZRVZWMkRNVjFZOEEiLCJlbXBsb3llZUNvZGUiOiJBRE1JTiIsImF1dGgiOltdLCJleHAiOjE2OTkyNDYzMzl9.yrajSfuGfQVsH_nk2v-gRTY3KPDYPhsxYKy1c7PBSXBHhfNCJNhEf2yADbISr-VuG4MqzuSS-bq-4_lksfsqZA"
+									}
+								],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"type": "text",
+											"contentType": "application/json",
+											"key": "data",
+											"value": "{\n    \"projectPlanId\" : \"01HEA8WE7VG69YCFACRYNSQ6XJ\",\n    \"name\" : \"đây là tên\",\n    \"description\" : \"đây là mô tả\"\n}"
+										},
+										{
+											"type": "file",
+											"key": "file",
+											"src": "/path/to/file"
+										}
+									]
+								},
+								"url": {
+									"raw": "{{domain}}/v1/project-file-upload/download?id={id}",
+									"host": [
+										"{{domain}}"
+									],
+									"path": [
+										"v1",
+										"project-file-upload",
+										"download"
+									],
+									"query": [
+										{
+											"key": "id",
+											"value": "{id}",
+											"description": "//id bản ghi"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
 							"name": "xóa",
 							"id": "0dc67b69-c913-4e57-9fce-f8c60a1dc57b",
 							"protocolProfileBehavior": {
