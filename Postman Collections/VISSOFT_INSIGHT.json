@@ -7659,6 +7659,114 @@
 						}
 					],
 					"id": "fc00bcab-af94-4deb-b7e0-e8680cf7d3ef"
+				},
+				{
+					"name": "Hồ sơ dự án",
+					"item": [
+						{
+							"name": "Thêm mới",
+							"id": "17c107d8-991c-4a83-8b6d-6af06fd0da4d",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJ1c2VySWQiOiIwMUg1UkpQQzFEWUFYQkZXRk1ZN05TWVdZNiIsInVzZXJuYW1lIjoidmlzYWRtaW5Admlzc29mdC52biIsImZ1bGxOYW1lIjoiIiwidXNlclR5cGUiOiJvd25lciIsInVzZXJDb2RlIjoiQURNSU4iLCJlbXBsb3llZUlkIjoiMDFINldLUjFDMUdNOTFZRVZWMkRNVjFZOEEiLCJlbXBsb3llZUNvZGUiOiJBRE1JTiIsImF1dGgiOltdLCJleHAiOjE2OTkyNDYzMzl9.yrajSfuGfQVsH_nk2v-gRTY3KPDYPhsxYKy1c7PBSXBHhfNCJNhEf2yADbISr-VuG4MqzuSS-bq-4_lksfsqZA"
+									}
+								],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"type": "text",
+											"contentType": "application/json",
+											"key": "data",
+											"value": "{\n    \"projectPlanId\" : \"01HEA8WE7VG69YCFACRYNSQ6XJ\",\n    \"name\" : \"đây là tên\",\n    \"description\" : \"đây là mô tả\"\n}"
+										},
+										{
+											"type": "file",
+											"key": "file",
+											"src": "/path/to/file"
+										}
+									]
+								},
+								"url": "{{domain}}/v1/project-file-upload"
+							},
+							"response": []
+						},
+						{
+							"name": "Thêm mới Copy",
+							"id": "da9ff670-462d-41e5-a84f-8bc42411475d",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJ1c2VySWQiOiIwMUg1UkpQQzFEWUFYQkZXRk1ZN05TWVdZNiIsInVzZXJuYW1lIjoidmlzYWRtaW5Admlzc29mdC52biIsImZ1bGxOYW1lIjoiIiwidXNlclR5cGUiOiJvd25lciIsInVzZXJDb2RlIjoiQURNSU4iLCJlbXBsb3llZUlkIjoiMDFINldLUjFDMUdNOTFZRVZWMkRNVjFZOEEiLCJlbXBsb3llZUNvZGUiOiJBRE1JTiIsImF1dGgiOltdLCJleHAiOjE2OTkyNDYzMzl9.yrajSfuGfQVsH_nk2v-gRTY3KPDYPhsxYKy1c7PBSXBHhfNCJNhEf2yADbISr-VuG4MqzuSS-bq-4_lksfsqZA"
+									}
+								],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"type": "text",
+											"contentType": "application/json",
+											"key": "data",
+											"value": "{\n    \"projectPlanId\" : \"01HEA8WE7VG69YCFACRYNSQ6XJ\",\n    \"name\" : \"đây là tên\",\n    \"description\" : \"đây là mô tả\"\n}"
+										},
+										{
+											"type": "file",
+											"key": "file",
+											"src": "/path/to/file"
+										}
+									]
+								},
+								"url": "{{domain}}/v1/project-file-upload/{projectPlanId}"
+							},
+							"response": []
+						},
+						{
+							"name": "Thêm mới Copy 2",
+							"id": "0dc67b69-c913-4e57-9fce-f8c60a1dc57b",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "DELETE",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJ1c2VySWQiOiIwMUg1UkpQQzFEWUFYQkZXRk1ZN05TWVdZNiIsInVzZXJuYW1lIjoidmlzYWRtaW5Admlzc29mdC52biIsImZ1bGxOYW1lIjoiIiwidXNlclR5cGUiOiJvd25lciIsInVzZXJDb2RlIjoiQURNSU4iLCJlbXBsb3llZUlkIjoiMDFINldLUjFDMUdNOTFZRVZWMkRNVjFZOEEiLCJlbXBsb3llZUNvZGUiOiJBRE1JTiIsImF1dGgiOltdLCJleHAiOjE2OTkyNDYzMzl9.yrajSfuGfQVsH_nk2v-gRTY3KPDYPhsxYKy1c7PBSXBHhfNCJNhEf2yADbISr-VuG4MqzuSS-bq-4_lksfsqZA"
+									}
+								],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"type": "text",
+											"contentType": "application/json",
+											"key": "data",
+											"value": "{\n    \"projectPlanId\" : \"01HEA8WE7VG69YCFACRYNSQ6XJ\",\n    \"name\" : \"đây là tên\",\n    \"description\" : \"đây là mô tả\"\n}"
+										},
+										{
+											"type": "file",
+											"key": "file",
+											"src": "/path/to/file"
+										}
+									]
+								},
+								"url": "{{domain}}/v1/project-file-upload/{id}"
+							},
+							"response": []
+						}
+					],
+					"id": "a71eb008-92c6-4d4d-ab0d-78cfcddceab7"
 				}
 			],
 			"id": "8b6b17c9-c149-4b49-806d-8c3bb82fc121"
