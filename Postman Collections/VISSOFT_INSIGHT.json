@@ -7698,7 +7698,7 @@
 							"response": []
 						},
 						{
-							"name": "Thêm mới Copy",
+							"name": "getds",
 							"id": "da9ff670-462d-41e5-a84f-8bc42411475d",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
@@ -7732,7 +7732,7 @@
 							"response": []
 						},
 						{
-							"name": "Thêm mới Copy 2",
+							"name": "xóa",
 							"id": "0dc67b69-c913-4e57-9fce-f8c60a1dc57b",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
