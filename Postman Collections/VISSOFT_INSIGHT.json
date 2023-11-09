@@ -629,6 +629,56 @@
 					"response": []
 				},
 				{
+					"name": "get ds nghỉ phép",
+					"id": "99ebc9b5-c80f-4064-ac5b-b0f21005cd96",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": {
+								"token": "{{access_token}}"
+							}
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{domain}}/admin-timesheet/search-off?time=08/2023&employeeCodes=HoangDH, DaiTV&projectCodes=HoangDH, DaiTV&pageNum=1&pageSize=10",
+							"host": [
+								"{{domain}}"
+							],
+							"path": [
+								"admin-timesheet",
+								"search-off"
+							],
+							"query": [
+								{
+									"key": "time",
+									"value": "08/2023"
+								},
+								{
+									"key": "employeeCodes",
+									"value": "HoangDH, DaiTV"
+								},
+								{
+									"key": "projectCodes",
+									"value": "HoangDH, DaiTV"
+								},
+								{
+									"key": "pageNum",
+									"value": "1"
+								},
+								{
+									"key": "pageSize",
+									"value": "10"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
 					"name": "Export Admin Timesheet",
 					"event": [
 						{
