@@ -8548,14 +8548,34 @@
 			"name": "Phân công dự án",
 			"item": [
 				{
-					"name": "New Request",
+					"name": "Lấy danh sách phân công dự án",
 					"id": "aa095224-a8b4-4c54-a1af-6e84990c5901",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
 					"request": {
 						"method": "GET",
-						"header": []
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJ1c2VySWQiOiIwMUg1UkpQQzFEWUFYQkZXRk1ZN05TWVdZNiIsInVzZXJuYW1lIjoidmlzYWRtaW5Admlzc29mdC52biIsImZ1bGxOYW1lIjoiIiwidXNlclR5cGUiOiJvd25lciIsInVzZXJDb2RlIjoiQURNSU4iLCJlbXBsb3llZUlkIjoiMDFINldLUjFDMUdNOTFZRVZWMkRNVjFZOEEiLCJlbXBsb3llZUNvZGUiOiJBRE1JTiIsImF1dGgiOltdLCJleHAiOjE2OTk4NDczNjV9.VIV-gyQgC7yWu52sl3Xvsji3XhopuWuThYZS2keNq1PgPqzeIP9VEW-mIsC_ymZqOGLrE1-YFeujW_wof-RpmA"
+							}
+						],
+						"url": {
+							"raw": "{{domain}}/project-assigned?employeeId=01H8NHTTKWXEPH019Q4145865G",
+							"host": [
+								"{{domain}}"
+							],
+							"path": [
+								"project-assigned"
+							],
+							"query": [
+								{
+									"key": "employeeId",
+									"value": "01H8NHTTKWXEPH019Q4145865G"
+								}
+							]
+						}
 					},
 					"response": []
 				}
