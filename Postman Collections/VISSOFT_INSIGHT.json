@@ -8543,6 +8543,24 @@
 				}
 			],
 			"id": "7bd0c635-7b08-4ee3-9cab-38bbd8fab568"
+		},
+		{
+			"name": "Phân công dự án",
+			"item": [
+				{
+					"name": "New Request",
+					"id": "aa095224-a8b4-4c54-a1af-6e84990c5901",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				}
+			],
+			"id": "a65e18ee-a14e-4b1b-bfa6-49bb11a156df"
 		}
 	],
 	"auth": {
