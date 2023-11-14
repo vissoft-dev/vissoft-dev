@@ -8592,15 +8592,20 @@
 						"disableBodyPruning": true
 					},
 					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": {
+								"token": "eyJhbGciOiJIUzUxMiJ9.eyJ1c2VySWQiOiIwMUhETjNOQ1gxUVNEUENWUVgzTVlFQ1FaSiIsInVzZXJuYW1lIjoiZG9uZ25kQHZpc3NvZnQudm4iLCJmdWxsTmFtZSI6Ik5ndXnhu4VuIER1eSDEkMO0bmciLCJ1c2VyQ29kZSI6ImRvbmduZDEzIiwiZW1wbG95ZWVJZCI6IjAxSEROM05DWTJYMlQxNVdUOEZZSkFESFExIiwiZW1wbG95ZWVDb2RlIjoiRG9uZ05EMTMiLCJ0aXRsZUlkIjoiMDFINjNGNjM3U0FCR0RYVkRIMzIwQjlRQ1giLCJ0aXRsZUNvZGUiOiJCT0QiLCJhdXRoIjpbXSwiZXhwIjoxNjk5OTQ5NzAxfQ.EK94PcdYTXU21F9Sj32h-gt0W4DE8_oj7P-A9mEoxA2JnjOL0SLOrCQBpKf0r4h4gnoO4ug9kah_2RgqdZw2dw"
+							}
+						},
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "{{domain}}/api/v1/employee/searchEmployee?query=nam",
+							"raw": "{{domain}}/v1/employee/searchEmployee?query=nam",
 							"host": [
 								"{{domain}}"
 							],
 							"path": [
-								"api",
 								"v1",
 								"employee",
 								"searchEmployee"
