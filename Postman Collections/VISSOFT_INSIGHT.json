@@ -5394,7 +5394,25 @@
 					},
 					"request": {
 						"method": "GET",
-						"header": []
+						"header": [],
+						"url": {
+							"raw": "{{domain}}/api/v1/employee/searchEmployee?query=nam",
+							"host": [
+								"{{domain}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"employee",
+								"searchEmployee"
+							],
+							"query": [
+								{
+									"key": "query",
+									"value": "nam"
+								}
+							]
+						}
 					},
 					"response": []
 				}
@@ -8593,6 +8611,11 @@
 				}
 			],
 			"id": "a65e18ee-a14e-4b1b-bfa6-49bb11a156df"
+		},
+		{
+			"name": "New Folder",
+			"item": [],
+			"id": "06a1e2c7-426b-4c9a-90ae-988c7a1ad472"
 		}
 	],
 	"auth": {
