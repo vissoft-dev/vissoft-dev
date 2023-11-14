@@ -5385,36 +5385,6 @@
 						}
 					},
 					"response": []
-				},
-				{
-					"name": "Tra cứu nhân sự",
-					"id": "ea10d6da-e76b-45c9-a559-0f8e0b040ed1",
-					"protocolProfileBehavior": {
-						"disableBodyPruning": true
-					},
-					"request": {
-						"method": "GET",
-						"header": [],
-						"url": {
-							"raw": "{{domain}}/api/v1/employee/searchEmployee?query=nam",
-							"host": [
-								"{{domain}}"
-							],
-							"path": [
-								"api",
-								"v1",
-								"employee",
-								"searchEmployee"
-							],
-							"query": [
-								{
-									"key": "query",
-									"value": "nam"
-								}
-							]
-						}
-					},
-					"response": []
 				}
 			],
 			"id": "8c83662d-e9b1-496b-a51f-72612118a00f"
@@ -8613,8 +8583,39 @@
 			"id": "a65e18ee-a14e-4b1b-bfa6-49bb11a156df"
 		},
 		{
-			"name": "New Folder",
-			"item": [],
+			"name": "Tra cứu nhân sự",
+			"item": [
+				{
+					"name": "Tìm kiếm nhân sự",
+					"id": "0168782d-cdd1-4824-a2ee-3918b1f89ffd",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{domain}}/api/v1/employee/searchEmployee?query=nam",
+							"host": [
+								"{{domain}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"employee",
+								"searchEmployee"
+							],
+							"query": [
+								{
+									"key": "query",
+									"value": "nam"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			],
 			"id": "06a1e2c7-426b-4c9a-90ae-988c7a1ad472"
 		}
 	],
