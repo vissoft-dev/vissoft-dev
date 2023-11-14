@@ -5387,7 +5387,7 @@
 					"response": []
 				},
 				{
-					"name": "New Request",
+					"name": "Tra cứu nhân sự",
 					"id": "ea10d6da-e76b-45c9-a559-0f8e0b040ed1",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
