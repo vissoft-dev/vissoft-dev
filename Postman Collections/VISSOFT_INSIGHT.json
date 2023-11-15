@@ -594,7 +594,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "{{domain}}/admin-timesheet/search-timesheet?time=08/2023&employeeCodes=HoangDH, DaiTV&projectCodes=HoangDH, DaiTV&pageNum=1&pageSize=10",
+							"raw": "{{domain}}/admin-timesheet/search-timesheet?time=08/2023&employeeCodes=HoangDH, DaiTV&projectCodes=HoangDH, DaiTV&pageNum=1&pageSize=10&workplaceId&filter=1",
 							"host": [
 								"{{domain}}"
 							],
@@ -622,6 +622,17 @@
 								{
 									"key": "pageSize",
 									"value": "10"
+								},
+								{
+									"key": "workplaceId",
+									"value": null,
+									"type": "text"
+								},
+								{
+									"key": "filter",
+									"value": "1",
+									"description": "//tam thoi de ",
+									"type": "text"
 								}
 							]
 						}
