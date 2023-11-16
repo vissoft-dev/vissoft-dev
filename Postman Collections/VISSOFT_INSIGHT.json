@@ -8506,7 +8506,7 @@
 						"auth": {
 							"type": "bearer",
 							"bearer": {
-								"token": "eyJhbGciOiJIUzUxMiJ9.eyJ1c2VySWQiOiIwMUg1UkpQQzFEWUFYQkZXRk1ZN05TWVdZNiIsInVzZXJuYW1lIjoidmlzYWRtaW5Admlzc29mdC52biIsImZ1bGxOYW1lIjoiIiwidXNlclR5cGUiOiJvd25lciIsInVzZXJDb2RlIjoiQURNSU4iLCJlbXBsb3llZUlkIjoiMDFINldLUjFDMUdNOTFZRVZWMkRNVjFZOEEiLCJlbXBsb3llZUNvZGUiOiJBRE1JTiIsImF1dGgiOltdLCJleHAiOjE3MDAxMTk5MzB9.GMuA-0KAOvmEMwUFncFBH0HlqUKkxdcCdcfPT5irQJmUdTqKqRZa_Kic5EErykghas3y6VgQGB8b5-o1a-7Z2Q"
+								"token": "eyJhbGciOiJIUzUxMiJ9.eyJ1c2VySWQiOiIwMUg1UkpQQzFEWUFYQkZXRk1ZN05TWVdZNiIsInVzZXJuYW1lIjoidmlzYWRtaW5Admlzc29mdC52biIsImZ1bGxOYW1lIjoiIiwidXNlclR5cGUiOiJvd25lciIsInVzZXJDb2RlIjoiQURNSU4iLCJlbXBsb3llZUlkIjoiMDFINldLUjFDMUdNOTFZRVZWMkRNVjFZOEEiLCJlbXBsb3llZUNvZGUiOiJBRE1JTiIsImF1dGgiOltdLCJleHAiOjE3MDAxMzAxMDN9.jXoXOehEWYe-tyX8tl0QvcHVczezYI6hP8IkBN5ls66OvMDAgclHxlobRwso72Mte645FXkdmv89pqcGE_d3QA"
 							}
 						},
 						"method": "GET",
