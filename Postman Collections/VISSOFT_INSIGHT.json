@@ -8495,6 +8495,28 @@
 						"url": "https://gw-staging.vissoft.vn/insight-service/api/v1/worklog/approve-logwork"
 					},
 					"response": []
+				},
+				{
+					"name": "Chốt log work Copy",
+					"id": "75fcfc9e-f491-40f0-a4ab-d65091dbf6cc",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"fromDate\": \"2023-10-18\",\r\n    \"toDate\": \"2023-10-19\",\r\n    \"projectCode\": \"VI\"\r\n}"
+						},
+						"url": "https://gw-staging.vissoft.vn/insight-service/api/v1/worklog/approve-logwork"
+					},
+					"response": []
 				}
 			],
 			"id": "6513bb9d-6f70-4b9b-b857-d43c552f4c54"
