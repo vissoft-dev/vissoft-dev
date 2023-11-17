@@ -6684,6 +6684,12 @@
 								"disableBodyPruning": true
 							},
 							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": {
+										"token": "eyJhbGciOiJIUzUxMiJ9.eyJ1c2VySWQiOiIwMUg1UkpQQzFEWUFYQkZXRk1ZN05TWVdZNiIsInVzZXJuYW1lIjoidmlzYWRtaW5Admlzc29mdC52biIsImZ1bGxOYW1lIjoiIiwidXNlclR5cGUiOiJvd25lciIsInVzZXJDb2RlIjoiQURNSU4iLCJlbXBsb3llZUlkIjoiMDFINldLUjFDMUdNOTFZRVZWMkRNVjFZOEEiLCJlbXBsb3llZUNvZGUiOiJBRE1JTiIsImF1dGgiOltdLCJleHAiOjE3MDAyMDkzMTV9.0l_1JcGtbUN-XemcXkkNFO36hxC--UAZmDoUbGr_XcOQkA9lJvcVbtbmP4MtREbPoWk-bVbOtJrm_vo9XXb66g"
+									}
+								},
 								"method": "GET",
 								"header": [],
 								"body": {
@@ -6695,7 +6701,7 @@
 										}
 									}
 								},
-								"url": "{{domain}}/v1/project-resources/01HC9TWYM55FGSZH0EZ0Y0V2DE"
+								"url": "{{domain}}/v1/project-resources/recalculate-budget"
 							},
 							"response": []
 						}
