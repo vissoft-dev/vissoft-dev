@@ -8506,7 +8506,7 @@
 						"auth": {
 							"type": "bearer",
 							"bearer": {
-								"token": "eyJhbGciOiJIUzUxMiJ9.eyJ1c2VySWQiOiIwMUg1UkpQQzFEWUFYQkZXRk1ZN05TWVdZNiIsInVzZXJuYW1lIjoidmlzYWRtaW5Admlzc29mdC52biIsImZ1bGxOYW1lIjoiIiwidXNlclR5cGUiOiJvd25lciIsInVzZXJDb2RlIjoiQURNSU4iLCJlbXBsb3llZUlkIjoiMDFINldLUjFDMUdNOTFZRVZWMkRNVjFZOEEiLCJlbXBsb3llZUNvZGUiOiJBRE1JTiIsImF1dGgiOltdLCJleHAiOjE3MDAxMzAxMDN9.jXoXOehEWYe-tyX8tl0QvcHVczezYI6hP8IkBN5ls66OvMDAgclHxlobRwso72Mte645FXkdmv89pqcGE_d3QA"
+								"token": "eyJhbGciOiJIUzUxMiJ9.eyJ1c2VySWQiOiIwMUg1UkpQQzFEWUFYQkZXRk1ZN05TWVdZNiIsInVzZXJuYW1lIjoidmlzYWRtaW5Admlzc29mdC52biIsImZ1bGxOYW1lIjoiIiwidXNlclR5cGUiOiJvd25lciIsInVzZXJDb2RlIjoiQURNSU4iLCJlbXBsb3llZUlkIjoiMDFINldLUjFDMUdNOTFZRVZWMkRNVjFZOEEiLCJlbXBsb3llZUNvZGUiOiJBRE1JTiIsImF1dGgiOltdLCJleHAiOjE3MDAyMDUxMDR9.vjHKi-yjG825mM4JLkMfTBTFjtFdSx1lhtLfGOMbObmzB9E_nqbbbMTUClsin4ofRbnymSVgn4dOup1GhU8EDQ"
 							}
 						},
 						"method": "GET",
@@ -8516,10 +8516,6 @@
 								"value": "application/json"
 							}
 						],
-						"body": {
-							"mode": "raw",
-							"raw": "{\r\n    \"fromDate\": \"2023-10-18\",\r\n    \"toDate\": \"2023-10-19\",\r\n    \"projectCode\": \"VI\"\r\n}"
-						},
 						"url": "{{domain}}/v1/worklog/calculate-budget-worklog"
 					},
 					"response": []
