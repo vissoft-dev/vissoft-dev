@@ -6676,6 +6676,28 @@
 								"url": "{{domain}}/v1/project-resources/01HC9TWYM55FGSZH0EZ0Y0V2DE"
 							},
 							"response": []
+						},
+						{
+							"name": "Tính lại ngân sách kế hoạch cho tất cả dự án",
+							"id": "61fba8d4-0d19-4781-95bf-6c335144c87b",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": "{{domain}}/v1/project-resources/01HC9TWYM55FGSZH0EZ0Y0V2DE"
+							},
+							"response": []
 						}
 					],
 					"id": "7fa51001-1878-469d-85c1-136b8d8ddab7"
