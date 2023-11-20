@@ -8547,6 +8547,54 @@
 						"url": "{{domain}}/v1/worklog/calculate-budget-worklog"
 					},
 					"response": []
+				},
+				{
+					"name": "Đồng bộ logwork",
+					"id": "98250c6f-cb41-4632-b056-3f1f3b993a7c",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": {
+								"token": "eyJhbGciOiJIUzUxMiJ9.eyJ1c2VySWQiOiIwMUg1UkpQQzFEWUFYQkZXRk1ZN05TWVdZNiIsInVzZXJuYW1lIjoidmlzYWRtaW5Admlzc29mdC52biIsImZ1bGxOYW1lIjoiIiwidXNlclR5cGUiOiJvd25lciIsInVzZXJDb2RlIjoiQURNSU4iLCJlbXBsb3llZUlkIjoiMDFINldLUjFDMUdNOTFZRVZWMkRNVjFZOEEiLCJlbXBsb3llZUNvZGUiOiJBRE1JTiIsImF1dGgiOltdLCJleHAiOjE3MDAyMTQwMzJ9.9bSKeKH8omYw_FRMT92bVZ76nuvTXUID9vR8W5-S6PeSlTCqzar412AajsOK0ubfSkq_YIWgXWfo55bH-rsYeA"
+							}
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"url": "{{domain}}/v1/worklog/sync-worklog"
+					},
+					"response": []
+				},
+				{
+					"name": "Flux message đồng bộ",
+					"id": "e2ea32ee-1ad9-4f1d-8651-be6647d9256f",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": {
+								"token": "eyJhbGciOiJIUzUxMiJ9.eyJ1c2VySWQiOiIwMUg1UkpQQzFEWUFYQkZXRk1ZN05TWVdZNiIsInVzZXJuYW1lIjoidmlzYWRtaW5Admlzc29mdC52biIsImZ1bGxOYW1lIjoiIiwidXNlclR5cGUiOiJvd25lciIsInVzZXJDb2RlIjoiQURNSU4iLCJlbXBsb3llZUlkIjoiMDFINldLUjFDMUdNOTFZRVZWMkRNVjFZOEEiLCJlbXBsb3llZUNvZGUiOiJBRE1JTiIsImF1dGgiOltdLCJleHAiOjE3MDAyMTQwMzJ9.9bSKeKH8omYw_FRMT92bVZ76nuvTXUID9vR8W5-S6PeSlTCqzar412AajsOK0ubfSkq_YIWgXWfo55bH-rsYeA"
+							}
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"url": "{{domain}}/v1/worklog/sync-notification"
+					},
+					"response": []
 				}
 			],
 			"id": "6513bb9d-6f70-4b9b-b857-d43c552f4c54"
