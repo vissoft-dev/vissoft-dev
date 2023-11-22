@@ -8599,7 +8599,7 @@
 							}
 						],
 						"url": {
-							"raw": "{{domain}}/v1/worklog/search-mater-schedule?ids=&clientId=&managerId=&status=0",
+							"raw": "{{domain}}/v1/worklog/search-mater-schedule?ids=01H63F2C16YESTCYPGJN2VX75F,01H63F2PFJPJFV09WH2J6EFHNB&clientId=&managerId=&status=0",
 							"host": [
 								"{{domain}}"
 							],
@@ -8611,7 +8611,7 @@
 							"query": [
 								{
 									"key": "ids",
-									"value": ""
+									"value": "01H63F2C16YESTCYPGJN2VX75F,01H63F2PFJPJFV09WH2J6EFHNB"
 								},
 								{
 									"key": "clientId",
@@ -8864,7 +8864,7 @@
 	],
 	"variable": [
 		{
-			"id": "c9bf1b7e-5dcc-4a24-a19c-77739e616fb3",
+			"id": "9cd27723-6eba-49ba-84a1-3e0d617f59a7",
 			"key": "domain",
 			"value": "gw-staging.vissoft.vn/insight-service"
 		}
