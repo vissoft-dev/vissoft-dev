@@ -6980,12 +6980,6 @@
 								"disableBodyPruning": true
 							},
 							"request": {
-								"auth": {
-									"type": "bearer",
-									"bearer": {
-										"token": "eyJhbGciOiJIUzUxMiJ9.eyJ1c2VySWQiOiIwMUg1UkpQQzFEWUFYQkZXRk1ZN05TWVdZNiIsInVzZXJuYW1lIjoidmlzYWRtaW5Admlzc29mdC52biIsImZ1bGxOYW1lIjoiIiwidXNlclR5cGUiOiJvd25lciIsInVzZXJDb2RlIjoiQURNSU4iLCJlbXBsb3llZUlkIjoiMDFINldLUjFDMUdNOTFZRVZWMkRNVjFZOEEiLCJlbXBsb3llZUNvZGUiOiJBRE1JTiIsImF1dGgiOltdLCJleHAiOjE3MDA2MjQxODl9.MNMq4Lnd-XNEiAHnd9sSwOWxcG7V1cUTSzaLaDvlT-PuJRuj6Z-GXPfuS6taDAVjSv5pnOifHx6I_YRSrL0zLw"
-									}
-								},
 								"method": "POST",
 								"header": [],
 								"body": {
@@ -8818,7 +8812,7 @@
 	],
 	"variable": [
 		{
-			"id": "842cc697-738d-4f2f-8f20-f258ac5d70dd",
+			"id": "159c30ab-dbd8-42e5-bae1-c5a13002bb7b",
 			"key": "domain",
 			"value": "gw-staging.vissoft.vn/insight-service"
 		}
