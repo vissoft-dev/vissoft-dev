@@ -8577,6 +8577,24 @@
 						"url": "{{domain}}/v1/worklog/sync-notification"
 					},
 					"response": []
+				},
+				{
+					"name": "Search master schedule dự án",
+					"id": "7a82511c-8fee-4dd9-9cb5-019a46af86c9",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"url": "{{domain}}/v1/worklog/sync-notification"
+					},
+					"response": []
 				}
 			],
 			"id": "6513bb9d-6f70-4b9b-b857-d43c552f4c54"
@@ -8812,7 +8830,7 @@
 	],
 	"variable": [
 		{
-			"id": "159c30ab-dbd8-42e5-bae1-c5a13002bb7b",
+			"id": "ea1e2bdb-47e6-4d21-9d47-6cc2bd3e79d1",
 			"key": "domain",
 			"value": "gw-staging.vissoft.vn/insight-service"
 		}
