@@ -8585,6 +8585,12 @@
 						"disableBodyPruning": true
 					},
 					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": {
+								"token": "{{access_token}}"
+							}
+						},
 						"method": "GET",
 						"header": [
 							{
@@ -8830,7 +8836,7 @@
 	],
 	"variable": [
 		{
-			"id": "e4ba5a46-540c-4cd7-a44e-bd7dfc73b882",
+			"id": "9eab45c9-f8ec-46ea-a7c7-87badd67bcbc",
 			"key": "domain",
 			"value": "gw-staging.vissoft.vn/insight-service"
 		}
