@@ -8598,7 +8598,35 @@
 								"value": "application/json"
 							}
 						],
-						"url": "{{domain}}/v1/worklog/search-mater-schedule"
+						"url": {
+							"raw": "{{domain}}/v1/worklog/search-mater-schedule?ids=&clientId=&managerId=&status=0",
+							"host": [
+								"{{domain}}"
+							],
+							"path": [
+								"v1",
+								"worklog",
+								"search-mater-schedule"
+							],
+							"query": [
+								{
+									"key": "ids",
+									"value": ""
+								},
+								{
+									"key": "clientId",
+									"value": ""
+								},
+								{
+									"key": "managerId",
+									"value": ""
+								},
+								{
+									"key": "status",
+									"value": "0"
+								}
+							]
+						}
 					},
 					"response": []
 				}
@@ -8836,7 +8864,7 @@
 	],
 	"variable": [
 		{
-			"id": "fd7ec557-a163-48c9-a630-61562f4565fa",
+			"id": "272158a5-cf8c-4901-918f-c0a4c6ec2377",
 			"key": "domain",
 			"value": "gw-staging.vissoft.vn/insight-service"
 		}
