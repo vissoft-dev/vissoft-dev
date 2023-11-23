@@ -6984,7 +6984,7 @@
 								"header": [],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"projectPlanId\": \"01HFQTBCMHWBG68QD7EBTHJ8CJ\",\r\n    \"startDate\": \"2023-10-10\",\r\n    \"endDate\": \"2023-10-15\",\r\n    \"status\": \"1\",\r\n    \"workItem\": \"lam tai lieu\",\r\n    \"endCondition\": \"end task\",\r\n    \"name\":\"tesst----------------\"\r\n}",
+									"raw": "{\r\n    \"projectPlanId\": \"01HFQTBCMHWBG68QD7EBTHJ8CJ\",\r\n    \"startDate\": \"2023-10-10\",\r\n    \"endDate\": \"2023-10-15\",\r\n    \"startDateActual\": \"2023-10-10\",\r\n    \"endDateActual\": \"2023-10-15\",\r\n    \"status\": \"1\",\r\n    \"workItem\": \"lam tai lieu\",\r\n    \"endCondition\": \"end task\",\r\n    \"name\":\"tesst----------------\"\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -8864,7 +8864,7 @@
 	],
 	"variable": [
 		{
-			"id": "020c19a5-4bcb-4ddb-ba09-76b9beb17ea7",
+			"id": "2791bad3-dd65-4d3a-a91b-824c87cff1c0",
 			"key": "domain",
 			"value": "gw-staging.vissoft.vn/insight-service"
 		}
