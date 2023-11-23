@@ -7054,7 +7054,7 @@
 								"header": [],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"id\": \"01HCBWQ0RZGD45CNGD1KR2FAV5\",\r\n    \"projectPlanId\": \"01HC9EMTD7DCER7Q71QCBR451P\",\r\n    \"startDate\": \"10/10/2023\",\r\n    \"endDate\": \"15/10/2023\",\r\n    \"status\": \"3\",\r\n    \"workItem\": \"lam tai lieu up date lan nua\",\r\n    \"endCondition\": \"end task\",\r\n    \"name\":\"tesst----------------\"\r\n}",
+									"raw": "{\r\n    \"id\": \"01HCBWQ0RZGD45CNGD1KR2FAV5\",\r\n    \"projectPlanId\": \"01HC9EMTD7DCER7Q71QCBR451P\",\r\n    \"startDate\": \"10/10/2023\",\r\n    \"endDate\": \"15/10/2023\",\r\n    \"startDateActual\": \"2023-10-10\",\r\n    \"endDateActual\": \"2023-10-15\",\r\n    \"status\": \"3\",\r\n    \"workItem\": \"lam tai lieu up date lan nua\",\r\n    \"endCondition\": \"end task\",\r\n    \"name\":\"tesst----------------\"\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -8864,7 +8864,7 @@
 	],
 	"variable": [
 		{
-			"id": "ff68be5a-e182-4270-be15-c31a9679a167",
+			"id": "f676306c-dd63-4e30-a956-af7f81376a86",
 			"key": "domain",
 			"value": "gw-staging.vissoft.vn/insight-service"
 		}
