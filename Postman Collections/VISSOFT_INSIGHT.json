@@ -8866,6 +8866,18 @@
 						"url": "{{domain}}/v1/project-types/01HFZQYFDDZ558GH2K1XTA6WH5"
 					},
 					"response": []
+				},
+				{
+					"name": "New Request",
+					"id": "c96c58a1-c372-4107-b25d-b1ea86e684e0",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
 				}
 			],
 			"id": "77dbe70c-ffaf-47f6-a681-7dc69d58daf3"
@@ -8909,7 +8921,7 @@
 	],
 	"variable": [
 		{
-			"id": "fe4fc317-2478-4308-bd17-35211c9382e5",
+			"id": "b6dd5e76-16b2-43e0-8a87-dd79d47f7785",
 			"key": "domain",
 			"value": "gw-staging.vissoft.vn/insight-service"
 		}
