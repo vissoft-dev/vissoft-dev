@@ -8837,7 +8837,7 @@
 					"request": {
 						"method": "POST",
 						"header": [],
-						"url": "{{domain}}/api/v1/project-types"
+						"url": "{{domain}}/v1/project-types"
 					},
 					"response": []
 				}
@@ -8883,7 +8883,7 @@
 	],
 	"variable": [
 		{
-			"id": "05fcd2a7-997f-4e1a-bc64-5c1e147a1ac3",
+			"id": "033ff13a-992b-44eb-9991-41ba6f410e9f",
 			"key": "domain",
 			"value": "gw-staging.vissoft.vn/insight-service"
 		}
