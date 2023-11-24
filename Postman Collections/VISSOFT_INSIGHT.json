@@ -8827,7 +8827,20 @@
 		},
 		{
 			"name": "Danh mục loại dự án",
-			"item": [],
+			"item": [
+				{
+					"name": "New Request",
+					"id": "2d4fc53c-de79-488d-a5f4-2020e4cd4578",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				}
+			],
 			"id": "77dbe70c-ffaf-47f6-a681-7dc69d58daf3"
 		}
 	],
@@ -8869,7 +8882,7 @@
 	],
 	"variable": [
 		{
-			"id": "ea7e37c5-0c57-4f8e-9065-cb64e7b1407d",
+			"id": "a715273d-a356-4433-8382-2860aef48c6e",
 			"key": "domain",
 			"value": "gw-staging.vissoft.vn/insight-service"
 		}
