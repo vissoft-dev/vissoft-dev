@@ -8829,7 +8829,7 @@
 			"name": "Danh mục loại dự án",
 			"item": [
 				{
-					"name": "thêm l",
+					"name": "create",
 					"id": "2d4fc53c-de79-488d-a5f4-2020e4cd4578",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
@@ -8882,7 +8882,7 @@
 	],
 	"variable": [
 		{
-			"id": "cf7a06af-41cc-4536-aa24-e73e4d7ad86a",
+			"id": "751ebccb-34d8-4ea4-ba68-38840c1e9255",
 			"key": "domain",
 			"value": "gw-staging.vissoft.vn/insight-service"
 		}
