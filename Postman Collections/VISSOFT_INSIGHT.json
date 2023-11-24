@@ -8826,7 +8826,7 @@
 			"id": "06a1e2c7-426b-4c9a-90ae-988c7a1ad472"
 		},
 		{
-			"name": "New Folder",
+			"name": "Danh mục loại dự án",
 			"item": [],
 			"id": "77dbe70c-ffaf-47f6-a681-7dc69d58daf3"
 		}
@@ -8869,7 +8869,7 @@
 	],
 	"variable": [
 		{
-			"id": "7e7c6952-693a-40d2-ab26-da19159f5a34",
+			"id": "ea7e37c5-0c57-4f8e-9065-cb64e7b1407d",
 			"key": "domain",
 			"value": "gw-staging.vissoft.vn/insight-service"
 		}
