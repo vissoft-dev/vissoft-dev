@@ -8848,8 +8848,9 @@
 						"disableBodyPruning": true
 					},
 					"request": {
-						"method": "GET",
-						"header": []
+						"method": "PUT",
+						"header": [],
+						"url": "{{domain}}/v1/project-types"
 					},
 					"response": []
 				}
@@ -8895,7 +8896,7 @@
 	],
 	"variable": [
 		{
-			"id": "c0e8d8d4-101d-4ade-84b3-e0d42599eae0",
+			"id": "e38664b1-090a-4d01-b709-e19e8b151b6f",
 			"key": "domain",
 			"value": "gw-staging.vissoft.vn/insight-service"
 		}
