@@ -8881,7 +8881,7 @@
 					"response": []
 				},
 				{
-					"name": "New Request",
+					"name": "delete by id",
 					"id": "e57ea673-b0c0-48ae-a5ac-837eaca80680",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
@@ -8934,7 +8934,7 @@
 	],
 	"variable": [
 		{
-			"id": "6c3518af-7c0c-40da-b1e5-efa5631648a0",
+			"id": "cd2bb69d-955a-4ebf-a653-3013a414d7e2",
 			"key": "domain",
 			"value": "gw-staging.vissoft.vn/insight-service"
 		}
