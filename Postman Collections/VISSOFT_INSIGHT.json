@@ -8887,8 +8887,9 @@
 						"disableBodyPruning": true
 					},
 					"request": {
-						"method": "GET",
-						"header": []
+						"method": "DELETE",
+						"header": [],
+						"url": "{{domain}}/v1/project-types/01HFZQYFDDZ558GH2K1XTA6WH5"
 					},
 					"response": []
 				}
@@ -8934,7 +8935,7 @@
 	],
 	"variable": [
 		{
-			"id": "cd2bb69d-955a-4ebf-a653-3013a414d7e2",
+			"id": "673d30e4-0323-49fe-b943-50db6b3025b7",
 			"key": "domain",
 			"value": "gw-staging.vissoft.vn/insight-service"
 		}
