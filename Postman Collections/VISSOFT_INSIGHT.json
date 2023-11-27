@@ -9010,8 +9010,18 @@
 						"disableBodyPruning": true
 					},
 					"request": {
-						"method": "GET",
-						"header": []
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"id\":\"01HG79W2HTRCEKQSF4MP9PH840\",\r\n    \"contractCode\": \"LGBT\",\r\n    \"customer\": \"AOP\",\r\n    \"contractValue\": 12.13,\r\n    \"status\": 4\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{domain}}/v1/project-contracts"
 					},
 					"response": []
 				}
@@ -9057,7 +9067,7 @@
 	],
 	"variable": [
 		{
-			"id": "634ef0aa-e94e-4b4a-a520-3bcb661d1291",
+			"id": "28299c41-588d-4410-bfe0-acc55c3fce96",
 			"key": "domain",
 			"value": "gw-staging.vissoft.vn/insight-service"
 		}
