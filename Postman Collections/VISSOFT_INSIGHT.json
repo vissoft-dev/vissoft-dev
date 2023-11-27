@@ -8960,7 +8960,7 @@
 			"name": "Danh mục hợp đồng",
 			"item": [
 				{
-					"name": "New Request",
+					"name": "create",
 					"id": "32efbf56-a171-4bf6-88cb-19d21f8f4ff5",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
@@ -9013,7 +9013,7 @@
 	],
 	"variable": [
 		{
-			"id": "b73a4abf-c95f-47ab-9ec3-2c25b2d601eb",
+			"id": "420a223d-570f-41a9-9645-2f393f14b7f3",
 			"key": "domain",
 			"value": "gw-staging.vissoft.vn/insight-service"
 		}
