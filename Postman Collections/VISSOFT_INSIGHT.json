@@ -9037,6 +9037,18 @@
 						"url": "{{domain}}/v1/project-contracts"
 					},
 					"response": []
+				},
+				{
+					"name": "New Request",
+					"id": "8edd8518-acbc-4441-99e5-9424fd3dca2c",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
 				}
 			],
 			"id": "048c329f-a6d6-4b4a-aa0f-228aba4357b4"
@@ -9080,7 +9092,7 @@
 	],
 	"variable": [
 		{
-			"id": "d76d10be-ea27-4d9b-8079-5dc6e0bbdd27",
+			"id": "8ac8aeba-324b-4110-8461-62800ed5d231",
 			"key": "domain",
 			"value": "gw-staging.vissoft.vn/insight-service"
 		}
