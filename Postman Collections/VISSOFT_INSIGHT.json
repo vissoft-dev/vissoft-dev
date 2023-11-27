@@ -8955,6 +8955,11 @@
 				}
 			],
 			"id": "77dbe70c-ffaf-47f6-a681-7dc69d58daf3"
+		},
+		{
+			"name": "New Folder",
+			"item": [],
+			"id": "048c329f-a6d6-4b4a-aa0f-228aba4357b4"
 		}
 	],
 	"auth": {
@@ -8995,7 +9000,7 @@
 	],
 	"variable": [
 		{
-			"id": "ddec54a0-b809-4e08-8251-7dbd153a6d05",
+			"id": "155815a7-a3f1-485a-a7f3-6ff554424127",
 			"key": "domain",
 			"value": "gw-staging.vissoft.vn/insight-service"
 		}
