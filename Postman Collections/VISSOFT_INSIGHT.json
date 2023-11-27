@@ -9004,7 +9004,7 @@
 					"response": []
 				},
 				{
-					"name": "New Request",
+					"name": "update",
 					"id": "6466ff91-75d9-4ff3-9b15-7daee03e9fc3",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
@@ -9057,7 +9057,7 @@
 	],
 	"variable": [
 		{
-			"id": "689fdc7c-9648-4765-8ca9-c34e3b4322b2",
+			"id": "634ef0aa-e94e-4b4a-a520-3bcb661d1291",
 			"key": "domain",
 			"value": "gw-staging.vissoft.vn/insight-service"
 		}
