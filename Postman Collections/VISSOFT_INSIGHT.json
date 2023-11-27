@@ -8958,7 +8958,20 @@
 		},
 		{
 			"name": "Danh mục hợp đồng",
-			"item": [],
+			"item": [
+				{
+					"name": "New Request",
+					"id": "32efbf56-a171-4bf6-88cb-19d21f8f4ff5",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				}
+			],
 			"id": "048c329f-a6d6-4b4a-aa0f-228aba4357b4"
 		}
 	],
@@ -9000,7 +9013,7 @@
 	],
 	"variable": [
 		{
-			"id": "58b4b465-a6d4-470c-aaef-741b4c9656e9",
+			"id": "b73a4abf-c95f-47ab-9ec3-2c25b2d601eb",
 			"key": "domain",
 			"value": "gw-staging.vissoft.vn/insight-service"
 		}
