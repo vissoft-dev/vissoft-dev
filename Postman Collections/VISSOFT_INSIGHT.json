@@ -8957,7 +8957,7 @@
 			"id": "77dbe70c-ffaf-47f6-a681-7dc69d58daf3"
 		},
 		{
-			"name": "Danh muc",
+			"name": "Danh mục",
 			"item": [],
 			"id": "048c329f-a6d6-4b4a-aa0f-228aba4357b4"
 		}
@@ -9000,7 +9000,7 @@
 	],
 	"variable": [
 		{
-			"id": "c4116160-8929-4ae7-99b5-60f3f8ae4398",
+			"id": "9282b354-8f1b-4a18-92fe-ee667b99a728",
 			"key": "domain",
 			"value": "gw-staging.vissoft.vn/insight-service"
 		}
