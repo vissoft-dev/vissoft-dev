@@ -8957,7 +8957,7 @@
 			"id": "77dbe70c-ffaf-47f6-a681-7dc69d58daf3"
 		},
 		{
-			"name": "New Folder",
+			"name": "Danh muc",
 			"item": [],
 			"id": "048c329f-a6d6-4b4a-aa0f-228aba4357b4"
 		}
@@ -9000,7 +9000,7 @@
 	],
 	"variable": [
 		{
-			"id": "155815a7-a3f1-485a-a7f3-6ff554424127",
+			"id": "c4116160-8929-4ae7-99b5-60f3f8ae4398",
 			"key": "domain",
 			"value": "gw-staging.vissoft.vn/insight-service"
 		}
