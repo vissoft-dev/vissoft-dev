@@ -5294,6 +5294,11 @@
 									"key": "image",
 									"value": "linkurl",
 									"type": "text"
+								},
+								{
+									"key": "calculateSalary",
+									"value": "true",
+									"type": "text"
 								}
 							]
 						},
@@ -8990,7 +8995,7 @@
 	],
 	"variable": [
 		{
-			"id": "d9d879c5-d92d-4355-9e86-b629f76af9fe",
+			"id": "ddec54a0-b809-4e08-8251-7dbd153a6d05",
 			"key": "domain",
 			"value": "gw-staging.vissoft.vn/insight-service"
 		}
