@@ -9046,7 +9046,8 @@
 					},
 					"request": {
 						"method": "GET",
-						"header": []
+						"header": [],
+						"url": "{{domain}}/v1/project-contracts/01HG83Y7702EEDPPCTQCF0M3G9"
 					},
 					"response": []
 				}
@@ -9092,7 +9093,7 @@
 	],
 	"variable": [
 		{
-			"id": "09cac6b2-26e0-4c3d-aa63-9e86eabc402c",
+			"id": "ac13cb8c-0421-450f-af96-19f7cb3b761d",
 			"key": "domain",
 			"value": "gw-staging.vissoft.vn/insight-service"
 		}
