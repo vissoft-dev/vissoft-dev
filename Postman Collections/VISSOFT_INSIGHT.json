@@ -8837,6 +8837,15 @@
 					"request": {
 						"method": "POST",
 						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "\"projectTypeCode\":\"xyz123456789\",\r\n\"projectTypeName\":\"testxyz123\",\r\n\"description\":\"testxyz3123\"",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
 						"url": "{{domain}}/v1/project-types"
 					},
 					"response": []
@@ -8972,7 +8981,7 @@
 	],
 	"variable": [
 		{
-			"id": "d8b5ce20-a1e6-470c-996c-fed2dc392513",
+			"id": "e451a8ed-d949-41e6-b28d-b77db379fc4f",
 			"key": "domain",
 			"value": "gw-staging.vissoft.vn/insight-service"
 		}
