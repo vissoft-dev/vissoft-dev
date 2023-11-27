@@ -8899,7 +8899,7 @@
 					"response": []
 				},
 				{
-					"name": "delete by ids",
+					"name": "delete by list ids",
 					"id": "e57ea673-b0c0-48ae-a5ac-837eaca80680",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
@@ -8990,7 +8990,7 @@
 	],
 	"variable": [
 		{
-			"id": "92071de2-181a-46d8-be9e-2620124696c0",
+			"id": "4ed48fda-9b82-4ba3-8618-f946b2e6fe74",
 			"key": "domain",
 			"value": "gw-staging.vissoft.vn/insight-service"
 		}
