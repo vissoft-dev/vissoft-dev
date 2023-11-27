@@ -8988,11 +8988,11 @@
 						"disableBodyPruning": true
 					},
 					"request": {
-						"method": "PUT",
+						"method": "DELETE",
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "",
+							"raw": "[\"01HG83Y7702EEDPPCTQCF0M3G9\"]",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -9045,7 +9045,7 @@
 	],
 	"variable": [
 		{
-			"id": "094e32f0-bb24-4b10-891f-fa5dd4c8f512",
+			"id": "ab5aead5-877e-488e-a89e-9e4f7a956ea3",
 			"key": "domain",
 			"value": "gw-staging.vissoft.vn/insight-service"
 		}
