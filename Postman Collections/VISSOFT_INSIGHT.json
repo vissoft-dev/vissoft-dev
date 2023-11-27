@@ -5318,7 +5318,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"employeeCode\": \"testAddWorkPlace1234\",\r\n    \"fullName\": \"duong\",\r\n    \"email\": \"\",\r\n    \"employeeType\": \"STAFF\",\r\n    \"titleId\": \"12312312\",\r\n    \"departmentId\": \"123123\",\r\n    \"profileCode\": \"1242\"\r\n}",
+							"raw": "{\r\n    \"employeeCode\": \"testAddWorkPlace1234\",\r\n    \"fullName\": \"duong\",\r\n    \"email\": \"\",\r\n    \"employeeType\": \"STAFF\",\r\n    \"titleId\": \"12312312\",\r\n    \"departmentId\": \"123123\",\r\n    \"profileCode\": \"1242\",\r\n    \"calculateSalary\" : 1\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -8990,7 +8990,7 @@
 	],
 	"variable": [
 		{
-			"id": "4ed48fda-9b82-4ba3-8618-f946b2e6fe74",
+			"id": "d9d879c5-d92d-4355-9e86-b629f76af9fe",
 			"key": "domain",
 			"value": "gw-staging.vissoft.vn/insight-service"
 		}
