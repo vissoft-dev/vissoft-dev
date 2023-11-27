@@ -8907,7 +8907,16 @@
 					"request": {
 						"method": "DELETE",
 						"header": [],
-						"url": "{{domain}}/v1/project-types/01HFZQYFDDZ558GH2K1XTA6WH5"
+						"body": {
+							"mode": "raw",
+							"raw": "[\"01HG7EGKG4R6KN27MF9Z913VRP\"] //list id",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{domain}}/v1/project-types"
 					},
 					"response": []
 				},
@@ -8981,7 +8990,7 @@
 	],
 	"variable": [
 		{
-			"id": "c516cfd6-859b-4dd0-857a-3ddc01d70154",
+			"id": "75178d00-ac3a-4644-986c-60a7c9e6df97",
 			"key": "domain",
 			"value": "gw-staging.vissoft.vn/insight-service"
 		}
