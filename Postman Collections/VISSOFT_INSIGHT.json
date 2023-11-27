@@ -8966,8 +8966,18 @@
 						"disableBodyPruning": true
 					},
 					"request": {
-						"method": "GET",
-						"header": []
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \r\n    \"contractCode\": \"testac123456\",\r\n    \"customer\": \"AOP\",\r\n    \"contractValue\": 12.13,\r\n    \"status\": 1\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{domain}}/v1/project-contracts"
 					},
 					"response": []
 				}
@@ -9013,7 +9023,7 @@
 	],
 	"variable": [
 		{
-			"id": "420a223d-570f-41a9-9645-2f393f14b7f3",
+			"id": "33205ec8-9879-4345-b798-d10033845fad",
 			"key": "domain",
 			"value": "gw-staging.vissoft.vn/insight-service"
 		}
