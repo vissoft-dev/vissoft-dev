@@ -8839,7 +8839,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "\"projectTypeCode\":\"xyz123456789\",\r\n\"projectTypeName\":\"testxyz123\",\r\n\"description\":\"testxyz3123\"",
+							"raw": " {\r\n          \"projectTypeCode\":\"xyz123456789\",\r\n          \"projectTypeName\":\"testxyz123\",\r\n          \"description\":\"testxyz3123\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -8981,7 +8981,7 @@
 	],
 	"variable": [
 		{
-			"id": "e451a8ed-d949-41e6-b28d-b77db379fc4f",
+			"id": "790be1fe-a0aa-486e-b038-9e59bb845c82",
 			"key": "domain",
 			"value": "gw-staging.vissoft.vn/insight-service"
 		}
