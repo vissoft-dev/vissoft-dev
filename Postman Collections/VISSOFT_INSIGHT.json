@@ -9050,6 +9050,41 @@
 						"url": "{{domain}}/v1/project-contracts/01HG83Y7702EEDPPCTQCF0M3G9"
 					},
 					"response": []
+				},
+				{
+					"name": "quick search",
+					"id": "19f0f7c8-a3ca-446e-96e6-f69cc386ff4a",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{domain}}search/project-contracts?q=&page=0&size=999",
+							"host": [
+								"{{domain}}search"
+							],
+							"path": [
+								"project-contracts"
+							],
+							"query": [
+								{
+									"key": "q",
+									"value": ""
+								},
+								{
+									"key": "page",
+									"value": "0"
+								},
+								{
+									"key": "size",
+									"value": "999"
+								}
+							]
+						}
+					},
+					"response": []
 				}
 			],
 			"id": "048c329f-a6d6-4b4a-aa0f-228aba4357b4"
@@ -9093,7 +9128,6 @@
 	],
 	"variable": [
 		{
-			"id": "ac13cb8c-0421-450f-af96-19f7cb3b761d",
 			"key": "domain",
 			"value": "gw-staging.vissoft.vn/insight-service"
 		}
