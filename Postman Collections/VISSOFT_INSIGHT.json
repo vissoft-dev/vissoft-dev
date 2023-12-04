@@ -9058,6 +9058,12 @@
 						"disableBodyPruning": true
 					},
 					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": {
+								"token": "eyJhbGciOiJIUzUxMiJ9.eyJ1c2VySWQiOiIwMUg1UkpQQzFEWUFYQkZXRk1ZN05TWVdZNiIsInVzZXJuYW1lIjoidmlzYWRtaW5Admlzc29mdC52biIsImZ1bGxOYW1lIjoiIiwidXNlclR5cGUiOiJvd25lciIsInVzZXJDb2RlIjoiQURNSU4iLCJlbXBsb3llZUlkIjoiMDFINldLUjFDMUdNOTFZRVZWMkRNVjFZOEEiLCJlbXBsb3llZUNvZGUiOiJBRE1JTiIsInRpdGxlSWQiOiIwMUg2M0Y2MzdTQUJHRFhWREgzMjBCOVFDWCIsInRpdGxlQ29kZSI6IkJPRCIsImF1dGgiOltdLCJleHAiOjE3MDE2NzY1NjN9.FdfWa5w6hTwWRITqDRtNat89bk-eWkjkopG_ogE7QdA_hbvKvy0uYzufyC5Ydca_HOFuDHXPp1nzSx29TOJxNw"
+							}
+						},
 						"method": "GET",
 						"header": [],
 						"url": {
