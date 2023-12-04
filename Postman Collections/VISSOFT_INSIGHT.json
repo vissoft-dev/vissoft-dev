@@ -9061,16 +9061,18 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "{{domain}}search/project-contracts?q=&page=0&size=999",
+							"raw": "{{domain}}/v1/project-contracts/searchContract?query=&page=0&size=999",
 							"host": [
-								"{{domain}}search"
+								"{{domain}}"
 							],
 							"path": [
-								"project-contracts"
+								"v1",
+								"project-contracts",
+								"searchContract"
 							],
 							"query": [
 								{
-									"key": "q",
+									"key": "query",
 									"value": ""
 								},
 								{
