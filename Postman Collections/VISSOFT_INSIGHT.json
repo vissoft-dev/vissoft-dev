@@ -9061,18 +9061,17 @@
 						"auth": {
 							"type": "bearer",
 							"bearer": {
-								"token": "eyJhbGciOiJIUzUxMiJ9.eyJ1c2VySWQiOiIwMUg1UkpQQzFEWUFYQkZXRk1ZN05TWVdZNiIsInVzZXJuYW1lIjoidmlzYWRtaW5Admlzc29mdC52biIsImZ1bGxOYW1lIjoiIiwidXNlclR5cGUiOiJvd25lciIsInVzZXJDb2RlIjoiQURNSU4iLCJlbXBsb3llZUlkIjoiMDFINldLUjFDMUdNOTFZRVZWMkRNVjFZOEEiLCJlbXBsb3llZUNvZGUiOiJBRE1JTiIsInRpdGxlSWQiOiIwMUg2M0Y2MzdTQUJHRFhWREgzMjBCOVFDWCIsInRpdGxlQ29kZSI6IkJPRCIsImF1dGgiOltdLCJleHAiOjE3MDE2NzY1NjN9.FdfWa5w6hTwWRITqDRtNat89bk-eWkjkopG_ogE7QdA_hbvKvy0uYzufyC5Ydca_HOFuDHXPp1nzSx29TOJxNw"
+								"token": "eyJhbGciOiJIUzUxMiJ9.eyJ1c2VySWQiOiIwMUg1UkpQQzFEWUFYQkZXRk1ZN05TWVdZNiIsInVzZXJuYW1lIjoidmlzYWRtaW5Admlzc29mdC52biIsImZ1bGxOYW1lIjoiIiwidXNlclR5cGUiOiJvd25lciIsInVzZXJDb2RlIjoiQURNSU4iLCJlbXBsb3llZUlkIjoiMDFINldLUjFDMUdNOTFZRVZWMkRNVjFZOEEiLCJlbXBsb3llZUNvZGUiOiJBRE1JTiIsInRpdGxlSWQiOiIwMUg2M0Y2MzdTQUJHRFhWREgzMjBCOVFDWCIsInRpdGxlQ29kZSI6IkJPRCIsImF1dGgiOltdLCJleHAiOjE3MDE2NzgyMzd9.S8gswnGoxSrlblwWqLlDEjoqHnVKs_A6Y5jwoF3j_iGO6pfv-9FgaSQGq3RL-wq1vN0GCT0vsV1Hjt41xoblaQ"
 							}
 						},
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "{{domain}}/v1/project-contracts/searchContract?query=&page=0&size=999",
+							"raw": "{{domain}}v1/project-contracts/searchContract?query=&page=0&size=999&status=2",
 							"host": [
-								"{{domain}}"
+								"{{domain}}v1"
 							],
 							"path": [
-								"v1",
 								"project-contracts",
 								"searchContract"
 							],
@@ -9088,6 +9087,10 @@
 								{
 									"key": "size",
 									"value": "999"
+								},
+								{
+									"key": "status",
+									"value": "2"
 								}
 							]
 						}
