@@ -9099,6 +9099,64 @@
 				}
 			],
 			"id": "048c329f-a6d6-4b4a-aa0f-228aba4357b4"
+		},
+		{
+			"name": "Notification",
+			"item": [
+				{
+					"name": "get All Notification",
+					"id": "429be2b4-28bf-479d-ac9b-9b36effb97f8",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "{{domain}}/notification/all"
+					},
+					"response": []
+				},
+				{
+					"name": "get All Notification not seen",
+					"id": "d42acaa6-70fd-412f-bad4-005391b85079",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "{{domain}}/notification/not-seen"
+					},
+					"response": []
+				},
+				{
+					"name": "chi tiết noti",
+					"id": "a85b4717-1e37-4fd0-9a43-43791944ace6",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": "{{domain}}/notification/seen/{id}"
+					},
+					"response": []
+				},
+				{
+					"name": "đánh dấu tất cả đã  đọc",
+					"id": "d401d7e5-fd8e-47f1-8b7e-762b20576914",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": "{{domain}}/notification/mark-all-seen"
+					},
+					"response": []
+				}
+			],
+			"id": "f1acf6c9-403e-4552-a07d-f9c6afe7b706"
 		}
 	],
 	"auth": {
