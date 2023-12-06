@@ -9136,6 +9136,12 @@
 						"disableBodyPruning": true
 					},
 					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": {
+								"token": "eyJhbGciOiJIUzUxMiJ9.eyJ1c2VySWQiOiIwMUg4TkhUVjhZMVRZQkFBNUVZV0NCUEZGMyIsInVzZXJuYW1lIjoidGh1eXB0QHZpc3NvZnQudm4iLCJmdWxsTmFtZSI6IlBo4bqhbSBUxrDhu51uZyBUaOG7pXkiLCJ1c2VyQ29kZSI6IlRIVVlQVCIsImVtcGxveWVlSWQiOiIwMUg4TkhUVFBGNkFINFpUN1hRNktNQ1pKQiIsImVtcGxveWVlQ29kZSI6IlRIVVlQVCIsInRpdGxlSWQiOiIwMUg2M0Y2N0FaUjBDQ1owUzVLQ01WMDJOVyIsInRpdGxlQ29kZSI6IlBNIiwiaXNNYW5hZ2VyIjp0cnVlLCJhdXRoIjpbXSwiZXhwIjoxNzAxODU1NDg2fQ.z5tfPpLO80mrzeDsUn_iRAJG_0yHYIf0cEbipaPVG4l4JY8VeH2BoTSXtC5l1pL3dMbAqfJQVdWqCdJRyN4AwA"
+							}
+						},
 						"method": "PUT",
 						"header": [],
 						"url": "{{domain}}/notification/seen/{id}"
