@@ -9112,7 +9112,26 @@
 					"request": {
 						"method": "GET",
 						"header": [],
-						"url": "{{domain}}/notification/all"
+						"url": {
+							"raw": "{{domain}}/notification/all?limit=1&lastNotificationId=01HGYZHDF1K52KSZ4FQFM9MPQ1",
+							"host": [
+								"{{domain}}"
+							],
+							"path": [
+								"notification",
+								"all"
+							],
+							"query": [
+								{
+									"key": "limit",
+									"value": "1"
+								},
+								{
+									"key": "lastNotificationId",
+									"value": "01HGYZHDF1K52KSZ4FQFM9MPQ1"
+								}
+							]
+						}
 					},
 					"response": []
 				},
@@ -9125,7 +9144,26 @@
 					"request": {
 						"method": "GET",
 						"header": [],
-						"url": "{{domain}}/notification/not-seen"
+						"url": {
+							"raw": "{{domain}}/notification/not-seen?limit=1&lastNotificationId=01HGYZHDF1K52KSZ4FQFM9MPQ1",
+							"host": [
+								"{{domain}}"
+							],
+							"path": [
+								"notification",
+								"not-seen"
+							],
+							"query": [
+								{
+									"key": "limit",
+									"value": "1"
+								},
+								{
+									"key": "lastNotificationId",
+									"value": "01HGYZHDF1K52KSZ4FQFM9MPQ1"
+								}
+							]
+						}
 					},
 					"response": []
 				},
