@@ -9213,10 +9213,20 @@
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "d0618652-1dd4-419f-8342-bf2ce7ab76c4",
+				"id": "c7f8c133-69d8-4b27-9a97-6d0debdb03a0",
 				"type": "text/javascript",
 				"exec": [
-					"pm.sendRequest(pm.environment.get(\"request_ogin\"), function (err, res) {",
+					"pm.sendRequest({",
+					"        url: 'https://gw-staging.vissoft.vn/insight-service/api/authenticate',",
+					"        method: 'POST',",
+					"        header: {",
+					"            'Content-Type': 'application/json'",
+					"        },",
+					"        body: {",
+					"            mode: 'raw',",
+					"            raw: JSON.stringify({ username: 'admin', password: '123456a@A' })",
+					"        }",
+					"    }, function (err, res) {",
 					"    if (err === null) {",
 					"        let response = res.json();",
 					"        console.log(response);",
@@ -9231,7 +9241,7 @@
 		{
 			"listen": "test",
 			"script": {
-				"id": "053babb7-4674-4e6a-b1b7-f7f8de6ed8b9",
+				"id": "42cfbd39-228b-4fc9-bd3f-aaedcc45a2f8",
 				"type": "text/javascript",
 				"exec": [
 					""
