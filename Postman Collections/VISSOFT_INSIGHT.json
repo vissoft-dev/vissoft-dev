@@ -3980,9 +3980,9 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"departmentId\": \"01H9STQ2Q6SN4DK5CEF0N2SFY6\",\r\n    \"departmentCode\": 5,\r\n    \"departmentName\": \"\",\r\n    \"status\": 1,\r\n    \"createdBy\": \"VanNT\",\r\n    \"createdDate\": \"2023-09-08T07:22:16.000+0000\"\r\n}"
+							"raw": "{\r\n    \"departmentCode\": \"testCreate 123\",\r\n    \"departmentName\": \"test update\",\r\n    \"managerId\": \"01H8NHTTDRSMN9SPX5VS7837KG\",\r\n    \"managerCode\": \"LongTT\",\r\n    \"description\": \"Day la mo ta\",\r\n    \"status\": 1,\r\n    \"createdBy\": \"VanNT\",\r\n    \"createdDate\": \"2023-09-08T07:22:16.000+0000\"\r\n}"
 						},
-						"url": "{{domain}}/api/department/update"
+						"url": "{{domain}}/department/update"
 					},
 					"response": []
 				},
