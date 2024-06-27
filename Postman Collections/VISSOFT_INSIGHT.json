@@ -3918,7 +3918,7 @@
 								"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJ1c2VySWQiOiIwMUg4TkhUVFhQRERNMTlZMTZRNDNLNTVWViIsInVzZXJuYW1lIjoidmFubnRAdmlzc29mdC52biIsImZ1bGxOYW1lIjoiTmd1eeG7hW4gVGjhu4sgVsOibiIsInVzZXJDb2RlIjoiVmFuTlQiLCJlbXBsb3llZUlkIjoiMDFIOE5IVFRCOVlKODlHNFJNSzhLMFhSRTQiLCJlbXBsb3llZUNvZGUiOiJWYW5OVCIsImF1dGgiOltdLCJleHAiOjE2OTQxNjEyMTV9.JlzANDsUFIJiQSJAuS1LZ_qnVW2upXNJe3iakM-vfOHNwqs2HYkEjWSgzPE8m2JQLLLekY2ehyO6GiRKfLmQ9A"
 							}
 						],
-						"url": "{{domain}}/api/department/01H9STQ2Q6SN4DK5CEF0N2SFY6"
+						"url": "{{domain}}/department/01H8E6F1KMKXVC2X6R5B9045N7"
 					},
 					"response": []
 				},
@@ -3948,7 +3948,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"departmentCode\": \"testCreate\",\r\n    \"departmentName\": \"Phát triển\"\r\n}"
+							"raw": "{\r\n    \"departmentCode\": \"testCreate 1\",\r\n    \"departmentName\": \"test update\",\r\n    \"managerId\": \"\",\r\n    \"managerCode\": \"LongTT\",\r\n    \"description\": \"Day la mo ta\"\r\n}"
 						},
 						"url": "{{domain}}/department/create"
 					},
@@ -3980,7 +3980,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"departmentCode\": \"testCreate 123\",\r\n    \"departmentName\": \"test update\",\r\n    \"managerId\": \"01H8NHTTDRSMN9SPX5VS7837KG\",\r\n    \"managerCode\": \"LongTT\",\r\n    \"description\": \"Day la mo ta\",\r\n    \"status\": 1,\r\n    \"createdBy\": \"VanNT\",\r\n    \"createdDate\": \"2023-09-08T07:22:16.000+0000\"\r\n}"
+							"raw": "{\r\n    \"departmentId\": \"01J1CAQZ5QXMNGRD5V4RHT01QZ\",\r\n    \"departmentCode\": \"testCreate 123\",\r\n    \"departmentName\": \"test update\",\r\n    \"managerId\": \"01H8NHTTDRSMN9SPX5VS7837KG\",\r\n    \"managerCode\": \"LongTT\",\r\n    \"description\": \"Day la mo ta\",\r\n    \"status\": 1\r\n}"
 						},
 						"url": "{{domain}}/department/update"
 					},
@@ -4007,7 +4007,7 @@
 							}
 						],
 						"url": {
-							"raw": "{{domain}}/search/department?q=pha&page=0&size=10",
+							"raw": "{{domain}}/search/department?q=&page=0&size=10",
 							"host": [
 								"{{domain}}"
 							],
@@ -4018,7 +4018,7 @@
 							"query": [
 								{
 									"key": "q",
-									"value": "pha"
+									"value": ""
 								},
 								{
 									"key": "page",
