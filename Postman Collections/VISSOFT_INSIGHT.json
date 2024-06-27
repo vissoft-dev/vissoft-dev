@@ -4064,6 +4064,18 @@
 						"url": "{{domain}}/department/delete"
 					},
 					"response": []
+				},
+				{
+					"name": "GET ALL",
+					"id": "ce6e3190-d0f6-48c5-9395-9d42917ae4bd",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
 				}
 			],
 			"id": "0a5876e2-6326-4452-b16b-c373b4a1725b"
