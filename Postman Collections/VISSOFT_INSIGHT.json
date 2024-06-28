@@ -7779,7 +7779,7 @@
 									}
 								],
 								"url": {
-									"raw": "{{domain}}/v1/project/search-plan-approve?page=0&size=20&q=&clientId&status&managerId&approveId=",
+									"raw": "{{domain}}/v1/project/search-plan-approve?page=0&size=20&q=&clientId&status&managerId&approveId=&departmentId=",
 									"host": [
 										"{{domain}}"
 									],
@@ -7815,6 +7815,10 @@
 										},
 										{
 											"key": "approveId",
+											"value": ""
+										},
+										{
+											"key": "departmentId",
 											"value": "",
 											"type": "text"
 										}
