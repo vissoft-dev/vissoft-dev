@@ -6238,7 +6238,7 @@
 									}
 								},
 								"url": {
-									"raw": "{{domain}}/v1/project/search?q=&clientId=&status&managerId",
+									"raw": "{{domain}}/v1/project/search?q=sao&clientId=&status&managerId=&approveId=&departmentId=01J1CAQZ5QXMNGRD5V4RHT01QZ",
 									"host": [
 										"{{domain}}"
 									],
@@ -6250,7 +6250,7 @@
 									"query": [
 										{
 											"key": "q",
-											"value": ""
+											"value": "sao"
 										},
 										{
 											"key": "clientId",
@@ -6262,12 +6262,16 @@
 										},
 										{
 											"key": "managerId",
-											"value": null
+											"value": ""
 										},
 										{
 											"key": "approveId",
-											"value": null,
-											"disabled": true
+											"value": ""
+										},
+										{
+											"key": "departmentId",
+											"value": "01J1CAQZ5QXMNGRD5V4RHT01QZ",
+											"type": "text"
 										}
 									]
 								}
@@ -6424,7 +6428,7 @@
 								"method": "GET",
 								"header": [],
 								"url": {
-									"raw": "{{domain}}/v1/project/search-plan?q=&clientId=&status&managerId",
+									"raw": "{{domain}}/v1/project/search-plan?q=&clientId=&status&managerId&departmentId=01J1CAQZ5QXMNGRD5V4RHT01QZ",
 									"host": [
 										"{{domain}}"
 									],
@@ -6449,6 +6453,11 @@
 										{
 											"key": "managerId",
 											"value": null
+										},
+										{
+											"key": "departmentId",
+											"value": "01J1CAQZ5QXMNGRD5V4RHT01QZ",
+											"type": "text"
 										}
 									]
 								}
