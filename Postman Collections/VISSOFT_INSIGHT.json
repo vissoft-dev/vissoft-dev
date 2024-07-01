@@ -7462,7 +7462,7 @@
 								"auth": {
 									"type": "bearer",
 									"bearer": {
-										"token": "eyJhbGciOiJIUzUxMiJ9.eyJ1c2VySWQiOiIwMUg1UkpQQzFEWUFYQkZXRk1ZN05TWVdZNiIsInVzZXJuYW1lIjoidmlzYWRtaW5Admlzc29mdC52biIsImZ1bGxOYW1lIjoiIiwidXNlclR5cGUiOiJvd25lciIsInVzZXJDb2RlIjoiQURNSU4iLCJlbXBsb3llZUlkIjoiMDFINldLUjFDMUdNOTFZRVZWMkRNVjFZOEEiLCJlbXBsb3llZUNvZGUiOiJBRE1JTiIsImF1dGgiOltdLCJleHAiOjE2OTcxODA4Nzd9.uuQ160ccHWwWTgl04Xt2C1bJRk2oB5EUYD18pP0SMvDo0193p0MPJIKI5jH7DGwm3TOB6JD6WLRW_O3DLHMcEQ"
+										"token": "{{access_token}}"
 									}
 								},
 								"method": "GET",
