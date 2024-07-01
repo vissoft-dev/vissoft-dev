@@ -4469,6 +4469,18 @@
 						"url": "{{domain}}/contract-type/delete"
 					},
 					"response": []
+				},
+				{
+					"name": "get all",
+					"id": "7dea05e1-0efc-435b-b597-d9727ddfb9a2",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
 				}
 			],
 			"id": "aa3ed307-d7e7-42fd-9aeb-99e2310c3aa5"
