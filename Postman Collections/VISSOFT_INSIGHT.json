@@ -4072,8 +4072,15 @@
 						"disableBodyPruning": true
 					},
 					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": {
+								"token": "{{access_token}}"
+							}
+						},
 						"method": "GET",
-						"header": []
+						"header": [],
+						"url": "{{domain}}/department/get-all"
 					},
 					"response": []
 				}
@@ -6174,7 +6181,7 @@
 								"header": [],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n  \"id\": \"\",\r\n  \"projectCode\": \"LOGGGGGGGGGGGGGGGGGGG\",\r\n  \"projectName\": \"LOGGGGGGGGGGGGGGGGGGG\",\r\n  \"description\": \"LOGGGGGGGGGGGGGGGGGGG\",\r\n  \"status\": 0,\r\n  \"clientId\": \"01HCGXJ9KKV57MZHYR31M490NP\",\r\n  \"managerId\": \"01H8NHTTN8606PNJGEV4FEY6DW\",\r\n  \"isLogwork\": true\r\n}",
+									"raw": "{\r\n    \"id\": \"\",\r\n    \"projectCode\": \"LOGGGGGGGGGGGGGGGGGGG\",\r\n    \"projectName\": \"LOGGGGGGGGGGGGGGGGGGG\",\r\n    \"description\": \"LOGGGGGGGGGGGGGGGGGGG\",\r\n    \"status\": 0,\r\n    \"clientId\": \"01HCGXJ9KKV57MZHYR31M490NP\",\r\n    \"managerId\": \"01H8NHTTN8606PNJGEV4FEY6DW\",\r\n    \"departmentId\": \"01H8NHTTN8606PNJGEV4FEY6DW\",\r\n    \"isLogwork\": true\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
