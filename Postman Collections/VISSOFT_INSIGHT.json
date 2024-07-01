@@ -8636,7 +8636,7 @@
 							}
 						],
 						"url": {
-							"raw": "{{domain}}/v1/worklog/search-mater-schedule?ids=01H63F2C16YESTCYPGJN2VX75F,01H63F2PFJPJFV09WH2J6EFHNB&clientId=&managerId=&status=",
+							"raw": "{{domain}}/v1/worklog/search-mater-schedule?ids=01H63F2C16YESTCYPGJN2VX75F,01H63F2PFJPJFV09WH2J6EFHNB&clientId=&managerId=&status=&departmentIds=",
 							"host": [
 								"{{domain}}"
 							],
@@ -8661,6 +8661,11 @@
 								{
 									"key": "status",
 									"value": ""
+								},
+								{
+									"key": "departmentIds",
+									"value": "",
+									"type": "text"
 								}
 							]
 						}
