@@ -7468,7 +7468,7 @@
 								"method": "GET",
 								"header": [],
 								"url": {
-									"raw": "localhost:8080/api/v1/project-budget/get-all-by-project-plan-id?planId=01HC9EMTD7DCER7Q71QCBR451P&sort",
+									"raw": "localhost:8080/api/v1/project-budget/get-all-by-project-plan-id?planId=01HKKJSVQB2HSFYYY566BYYBFJ&sort",
 									"host": [
 										"localhost"
 									],
@@ -7482,7 +7482,7 @@
 									"query": [
 										{
 											"key": "planId",
-											"value": "01HC9EMTD7DCER7Q71QCBR451P"
+											"value": "01HKKJSVQB2HSFYYY566BYYBFJ"
 										},
 										{
 											"key": "sort",
