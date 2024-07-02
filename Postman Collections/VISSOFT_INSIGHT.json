@@ -4488,6 +4488,18 @@
 						"url": "{{domain}}/contract-type/get-all-code-type"
 					},
 					"response": []
+				},
+				{
+					"name": "get all contract",
+					"id": "19893061-6e9b-4db7-96b3-e407f89f0dda",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
 				}
 			],
 			"id": "aa3ed307-d7e7-42fd-9aeb-99e2310c3aa5"
