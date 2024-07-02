@@ -8458,7 +8458,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n  \"dateType\": \"MONTH\",\r\n  \"fromDate\": \"05/2024\",\r\n  \"toDate\": \"09/2024\",\r\n  \"dataType\": \"1\",\r\n  \"dataValue\": [],\r\n  \"isDetail\": false\r\n}"
+							"raw": "{\r\n    \"dateType\": \"MONTH\",\r\n    \"fromDate\": \"05/2024\",\r\n    \"toDate\": \"09/2024\",\r\n    \"dataType\": \"1\",\r\n    \"dataValue\": [],\r\n    \"isDetail\": false,\r\n    \"departmentIds\": [\r\n        \"01H8E6F9DTMHB86EH1KCB5C33Q\"\r\n    ]\r\n}"
 						},
 						"url": "{{domain}}/v1/worklog/search"
 					},
