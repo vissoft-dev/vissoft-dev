@@ -5442,49 +5442,47 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "{{domain}}/v1/employee?page&size&departmentCode&titleCode&employeeType&status&query",
+							"raw": "{{domain}}/v1/employee/search-data?page=&size=&departmentCode=&titleCode&employeeType&contractTypeCode=HDL1&status&query",
 							"host": [
 								"{{domain}}"
 							],
 							"path": [
 								"v1",
-								"employee"
+								"employee",
+								"search-data"
 							],
 							"query": [
 								{
 									"key": "page",
-									"value": null,
-									"type": "text"
+									"value": ""
 								},
 								{
 									"key": "size",
-									"value": null,
-									"type": "text"
+									"value": ""
 								},
 								{
 									"key": "departmentCode",
-									"value": null,
-									"type": "text"
+									"value": ""
 								},
 								{
 									"key": "titleCode",
-									"value": null,
-									"type": "text"
+									"value": null
 								},
 								{
 									"key": "employeeType",
-									"value": null,
-									"type": "text"
+									"value": null
+								},
+								{
+									"key": "contractTypeCode",
+									"value": "HDL1"
 								},
 								{
 									"key": "status",
-									"value": null,
-									"type": "text"
+									"value": null
 								},
 								{
 									"key": "query",
-									"value": null,
-									"type": "text"
+									"value": null
 								}
 							]
 						}
