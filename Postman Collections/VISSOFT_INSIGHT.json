@@ -5445,10 +5445,16 @@
 						"disableBodyPruning": true
 					},
 					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": {
+								"token": "{{access_token}}"
+							}
+						},
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "{{domain}}/v1/employee/search-data?page=&size=&departmentCode=&titleCode&employeeType&contractTypeCode=HDL1&status&query",
+							"raw": "{{domain}}/v1/employee/search-data?page=&size=&departmentCode=&titleCode&employeeType=1&contractTypeCode=&status&query",
 							"host": [
 								"{{domain}}"
 							],
@@ -5476,11 +5482,11 @@
 								},
 								{
 									"key": "employeeType",
-									"value": null
+									"value": "1"
 								},
 								{
 									"key": "contractTypeCode",
-									"value": "HDL1"
+									"value": ""
 								},
 								{
 									"key": "status",
