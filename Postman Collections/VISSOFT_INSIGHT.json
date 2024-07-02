@@ -7809,7 +7809,7 @@
 									}
 								],
 								"url": {
-									"raw": "{{domain}}/v1/project/search-plan-approve?page=0&size=20&q=&clientId&status&managerId&approveId=&departmentId=",
+									"raw": "{{domain}}/v1/project/search-plan-approve?page=0&size=20&q=&clientId&status&managerId=&approveId=&departmentId=01J1CAQZ5QXMNGRD5V4RHT01QZ",
 									"host": [
 										"{{domain}}"
 									],
@@ -7841,7 +7841,7 @@
 										},
 										{
 											"key": "managerId",
-											"value": null
+											"value": ""
 										},
 										{
 											"key": "approveId",
@@ -7849,8 +7849,7 @@
 										},
 										{
 											"key": "departmentId",
-											"value": "",
-											"type": "text"
+											"value": "01J1CAQZ5QXMNGRD5V4RHT01QZ"
 										}
 									]
 								}
@@ -8447,7 +8446,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"dateType\": \"DAY\",\r\n    \"fromDate\": \"05/2024\",\r\n    \"toDate\": \"09/2024\",\r\n    \"dataType\": 1,\r\n    \"dataValue\": [],\r\n    \"isDetail\": true\r\n}"
+							"raw": "{\r\n  \"dateType\": \"MONTH\",\r\n  \"fromDate\": \"05/2024\",\r\n  \"toDate\": \"09/2024\",\r\n  \"dataType\": \"1\",\r\n  \"dataValue\": [],\r\n  \"isDetail\": false\r\n}"
 						},
 						"url": "{{domain}}/v1/worklog/search"
 					},
