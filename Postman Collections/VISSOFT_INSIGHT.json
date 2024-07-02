@@ -1247,7 +1247,7 @@
 						"auth": {
 							"type": "bearer",
 							"bearer": {
-								"token": "eyJhbGciOiJIUzUxMiJ9.eyJ1c2VySWQiOiIwMUg1UkpQQzFEWUFYQkZXRk1ZN05TWVdZNiIsInVzZXJuYW1lIjoidmlzYWRtaW5Admlzc29mdC52biIsImZ1bGxOYW1lIjoiIiwidXNlclR5cGUiOiJvd25lciIsInVzZXJDb2RlIjoiQURNSU4iLCJlbXBsb3llZUlkIjoiMDFINldLUjFDMUdNOTFZRVZWMkRNVjFZOEEiLCJlbXBsb3llZUNvZGUiOiJBRE1JTiIsImF1dGgiOltdLCJleHAiOjE2OTIxNTc1NDd9.VKCikhCr3DGZmgDRcJQYO9FRrqORq-9c5o56qXqrxB3d_QoufdZpbNxESBDlcrrud4R-Q3kWhb2--wYvBZcc0Q"
+								"token": "{{access_token}}"
 							}
 						},
 						"method": "PUT",
@@ -1263,7 +1263,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n    \"id\" : \"01H7Y33G56JCGA5VJF7RVN624X\",\n    \"approvedNote\" : \"oke\"\n}"
+							"raw": "{\n    \"id\" : \"01J1PW206BKSGNJ2ENKRT879SN\",\n    \"approvedNote\" : \"oke\"\n}"
 						},
 						"url": "{{domain}}/v1/application/approve"
 					},
