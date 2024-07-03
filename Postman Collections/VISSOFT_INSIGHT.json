@@ -4510,7 +4510,8 @@
 					},
 					"request": {
 						"method": "GET",
-						"header": []
+						"header": [],
+						"url": "{{domain}}/contract-type/get-all-order-by-name"
 					},
 					"response": []
 				}
