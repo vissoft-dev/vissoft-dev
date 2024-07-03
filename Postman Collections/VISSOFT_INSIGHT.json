@@ -4498,7 +4498,7 @@
 						},
 						"method": "GET",
 						"header": [],
-						"url": "{{domain}}/contract-type/get-all-code-type"
+						"url": "{{domain}}/contract-type/get-all"
 					},
 					"response": []
 				},
