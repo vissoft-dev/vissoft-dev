@@ -991,6 +991,19 @@
 						}
 					},
 					"response": []
+				},
+				{
+					"name": "Export Month Timesheet",
+					"id": "f80b80a2-a86e-488b-bc2a-73b8a9dfe4cb",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": "{{domain}}/admin-timesheet/export-month-timesheet"
+					},
+					"response": []
 				}
 			],
 			"id": "417197e0-83f9-4b0a-9de4-1a69efbe1d97"
