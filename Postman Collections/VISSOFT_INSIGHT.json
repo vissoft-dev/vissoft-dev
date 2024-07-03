@@ -8471,7 +8471,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"dateType\": \"MONTH\",\r\n    \"fromDate\": \"05/2024\",\r\n    \"toDate\": \"09/2024\",\r\n    \"dataType\": \"1\",\r\n    \"dataValue\": [],\r\n    \"isDetail\": false,\r\n    \"departmentIds\": [\r\n        \"01H8E6F6YEKEZQNY4RFZKEV77D\",\r\n        \"01J1CAQZ5QXMNGRD5V4RHT01QZ\"\r\n    ]\r\n}"
+							"raw": "{\r\n    \"dateType\": \"MONTH\",\r\n    \"fromDate\": \"05/2024\",\r\n    \"toDate\": \"09/2024\",\r\n    \"dataType\": \"1\",\r\n    \"dataValue\": [],\r\n    \"isDetail\": false,\r\n    \"departmentId\": [\r\n        \"01H8E6FCHC8G4Q0PXNR87S6TTS\",\"01H8E6F1KMKXVC2X6R5B9045N7\"\r\n    ]\r\n}"
 						},
 						"url": "{{domain}}/v1/worklog/search"
 					},
@@ -8683,7 +8683,7 @@
 							}
 						],
 						"url": {
-							"raw": "{{domain}}/v1/worklog/search-mater-schedule?ids=01H63F2C16YESTCYPGJN2VX75F,01H63F2PFJPJFV09WH2J6EFHNB&clientId=&managerId=&status=&departmentIds=",
+							"raw": "{{domain}}/v1/worklog/search-mater-schedule?ids=01H63F2C16YESTCYPGJN2VX75F,01H63F2PFJPJFV09WH2J6EFHNB&clientId=&managerId=&status=&departmentIds= 01H8E6FCHC8G4Q0PXNR87S6TTS,01H8E6F1KMKXVC2X6R5B9045N7",
 							"host": [
 								"{{domain}}"
 							],
@@ -8711,8 +8711,7 @@
 								},
 								{
 									"key": "departmentIds",
-									"value": "",
-									"type": "text"
+									"value": " 01H8E6FCHC8G4Q0PXNR87S6TTS,01H8E6F1KMKXVC2X6R5B9045N7"
 								}
 							]
 						}
