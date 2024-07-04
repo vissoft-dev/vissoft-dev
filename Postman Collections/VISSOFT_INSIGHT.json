@@ -9293,8 +9293,18 @@
 				"disableBodyPruning": true
 			},
 			"request": {
-				"method": "GET",
-				"header": []
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"contractTypeId\":\"01HBQYHFVTJPCD5VYFSZ39PY09\",\r\n    \"typeName\":\"Cộng tác viên\",\r\n    \"signingDate\":\"2024-07-04\",\r\n    \"startDate\":\"2024-07-04\",\r\n    \"endDate\":\"2024-07-04\",\r\n    \"type\":1,\r\n    \"employeeId\":\"01H8NHTTK1C54QTT5D39HJQVMY\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "{{domain}}/employee-contract/create"
 			},
 			"response": []
 		}
