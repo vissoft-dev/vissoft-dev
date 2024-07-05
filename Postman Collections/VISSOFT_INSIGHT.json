@@ -5480,7 +5480,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "{{domain}}/v1/employee/search-data?page=&size=&departmentCode=&titleCode&employeeType=1&contractTypeCode=&status&query",
+							"raw": "{{domain}}/v1/employee/search-data?page=&size=&departmentCode=&titleCode&employeeType=&contractTypeId=01HCXMQENH629N5WJYRYBR3K66&status&query",
 							"host": [
 								"{{domain}}"
 							],
@@ -5508,11 +5508,11 @@
 								},
 								{
 									"key": "employeeType",
-									"value": "1"
+									"value": ""
 								},
 								{
-									"key": "contractTypeCode",
-									"value": ""
+									"key": "contractTypeId",
+									"value": "01HCXMQENH629N5WJYRYBR3K66"
 								},
 								{
 									"key": "status",
