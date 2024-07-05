@@ -9297,14 +9297,14 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"contractTypeId\":\"01HD3M5R8AR006BMMSTT150MW7\",\r\n    \"typeName\":\"Chính thức\",\r\n    \"signingDate\":\"2024-07-05\",\r\n    \"startDate\":\"2023-12-08\",\r\n    \"endDate\":\"2024-11-05\",\r\n    \"type\":1,\r\n    \"employeeId\":\"01H8NHTTPF6AH4ZT7XQ6KMCZJB\"\r\n}",
+					"raw": "{\r\n    \"contractTypeId\":\"01HD3M5R8AR006BMMSTT150MW7\",\r\n    \"typeName\":\"Chính thức\",\r\n    \"signingDate\":\"2024-07-05\",\r\n    \"startDate\":\"2023-12-10\",\r\n    \"endDate\":\"2024-11-05\",\r\n    \"type\":1,\r\n    \"employeeId\":\"01H8NHTTPF6AH4ZT7XQ6KMCZJB\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
 						}
 					}
 				},
-				"url": "{{domain}}/employee-contract/create"
+				"url": ""
 			},
 			"response": []
 		}
