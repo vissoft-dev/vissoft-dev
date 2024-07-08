@@ -1001,6 +1001,15 @@
 					"request": {
 						"method": "POST",
 						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"time\":\"07/2024\",\r\n    \"employeeCodes\":null,\r\n    \"projectCodes\":null,\r\n    \"groupIds\":null\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
 						"url": "{{domain}}/admin-timesheet/export-month-timesheet"
 					},
 					"response": []
