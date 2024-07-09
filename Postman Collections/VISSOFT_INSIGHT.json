@@ -1155,6 +1155,12 @@
 						"disableBodyPruning": true
 					},
 					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": {
+								"token": "{{access_token}}"
+							}
+						},
 						"method": "POST",
 						"header": [
 							{
@@ -1168,7 +1174,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n    \"applicationType\": \"2\",\n    \"subType\": \"1\",\n    \"approveBy\": \"DaiNT2\",\n    \"relevantEmployeeCode\": [\n        \"PhamToan\"\n    ],\n    \"description\": \"sdfasfd\",\n    \"startDate\": \"2023-08-01T04:08:45.004Z\",\n    \"endDate\": \"2023-08-01T04:08:45.004Z\",\n    \"projectId\" : \"\",\n    \"totalHours\": \"0.5\",\n    \"applicationDetails\":  [\n        {\n            \"employeeCode\": [\n                \"VanNT\",\n                \"DongND\"\n            ],\n            \"startDate\": \"2023-09-05T18:30:00.000Z\",\n            \"endDate\": \"2023-09-05T20:30:00.000Z\",\n            \"numberHours\": \"2\",\n            \"salaryRate\": \"150\"\n        }\n    ],\n    \"workplaceId\" : \"\",\n    \"workingShiftId\" : \"\",\n    \"timeRestFrom\" : \"12:00:00\",\n    \"timeRestTo\" : \"13:00:00\"\n}"
+							"raw": "{\n    \"applicationType\": \"3\",\n    \"subType\": \"1\",\n    \"approveBy\": \"DaiNT2\",\n    \"relevantEmployeeCode\": [\n        \"PhamToan\"\n    ],\n    \"description\": \"sdfasfd\",\n    \"startDate\": \"2024-07-09T04:09:45.004Z\",\n    \"endDate\": \"2024-07-09T04:09:45.004Z\",\n    \"projectId\" : \"\",\n    \"totalHours\": \"2\",\n    \"applicationDetails\":  [\n        {\n            \"employeeCode\": [\n                \"VanNT\",\n                \"DongND\"\n            ],\n            \"startDate\": \"2024-07-09T18:30:00.000Z\",\n            \"endDate\": \"2024-07-09T20:30:00.000Z\",\n            \"numberHours\": \"2\",\n            \"salaryRate\": \"150\"\n        }\n    ],\n    \"workplaceId\" : \"\",\n    \"workingShiftId\" : \"\",\n    \"timeRestFrom\" : \"12:00:00\",\n    \"timeRestTo\" : \"13:00:00\"\n}"
 						},
 						"url": "{{domain}}/v1/application/create"
 					},
