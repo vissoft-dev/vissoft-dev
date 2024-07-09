@@ -9315,6 +9315,18 @@
 						"header": []
 					},
 					"response": []
+				},
+				{
+					"name": "Lấy danh sách chỉnh sửa",
+					"id": "eb331da3-2d59-4eb6-a43a-4d0bd5b89839",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
 				}
 			],
 			"id": "e8b7b1d6-1160-45ee-a323-ce3172604984"
