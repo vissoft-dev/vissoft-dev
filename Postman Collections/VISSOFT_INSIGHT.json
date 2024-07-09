@@ -9305,7 +9305,7 @@
 			"name": "Chỉnh sửa ngày nghỉ phép",
 			"item": [
 				{
-					"name": "Tạo chỉnh sửa mới",
+					"name": "Lấy danh sách chỉnh sửa",
 					"id": "2ea50cec-6a75-49b4-aedc-a11b486927dd",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
@@ -9317,14 +9317,24 @@
 					"response": []
 				},
 				{
-					"name": "Lấy danh sách chỉnh sửa",
+					"name": "Tạo chỉnh sửa mới",
 					"id": "eb331da3-2d59-4eb6-a43a-4d0bd5b89839",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
 					"request": {
-						"method": "GET",
-						"header": []
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"employeeId\": \"01H8NHTT6SK38947288ZN3PV3Y\",\r\n    \"daysNumber\": \"-30\",\r\n    \"reason\": \"test\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{domain}}/v1/employee-day-off-update/create-new-update"
 					},
 					"response": []
 				}
