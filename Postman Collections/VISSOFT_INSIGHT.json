@@ -9337,7 +9337,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"employeeId\": \"01H8NHTT6SK38947288ZN3PV3Y\",\r\n    \"daysNumber\": \"-30\",\r\n    \"reason\": \"test\"\r\n}",
+							"raw": "{\r\n    \"employeeId\": \"01H8NHTT6SK38947288ZN3PV3Y\",\r\n    \"daysNumber\": \"30\",\r\n    \"reason\": \"test\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
