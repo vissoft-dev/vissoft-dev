@@ -4526,7 +4526,7 @@
 					"request": {
 						"method": "GET",
 						"header": [],
-						"url": "{{domain}}/contract-type/get-all-order-by-name"
+						"url": "{{domain}}/contract-type/get-all-contract"
 					},
 					"response": []
 				}
