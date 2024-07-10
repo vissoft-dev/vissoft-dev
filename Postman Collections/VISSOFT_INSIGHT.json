@@ -9352,7 +9352,7 @@
 			"id": "e8b7b1d6-1160-45ee-a323-ce3172604984"
 		},
 		{
-			"name": "New Request",
+			"name": "Tạo Hợp đồng mới",
 			"id": "9aec13f4-9085-4be5-8c92-f7cc51297d57",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
@@ -9362,14 +9362,14 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"contractTypeId\":\"01HD3M5R8AR006BMMSTT150MW7\",\r\n    \"typeName\":\"Chính thức\",\r\n    \"signingDate\":\"2024-07-05\",\r\n    \"startDate\":\"2023-12-10\",\r\n    \"endDate\":\"2024-11-05\",\r\n    \"type\":1,\r\n    \"employeeId\":\"01H8NHTTPF6AH4ZT7XQ6KMCZJB\"\r\n}",
+					"raw": "{\r\n    \"contractTypeId\":\"01HCXMQENH629N5WJYRYBR3K66\",\r\n    \"typeName\":\"Chính thức\",\r\n    \"type\":1,\r\n    \"signingDate\":\"2024-07-30\",\r\n    \"startDate\":\"2024-09-06\",\r\n    \"endDate\":\"2024-09-09\",\r\n    \"employeeId\":\"01H8NHTTPF6AH4ZT7XQ6KMCZJB\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
 						}
 					}
 				},
-				"url": ""
+				"url": "{{domain}}/employee-contract/create"
 			},
 			"response": []
 		}
