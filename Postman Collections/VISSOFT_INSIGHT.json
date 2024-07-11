@@ -9362,7 +9362,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"contractTypeId\":\"01HCXMQENH629N5WJYRYBR3K66\",\r\n    \"typeName\":\"Chính thức\",\r\n    \"type\":1,\r\n    \"signingDate\":\"2024-07-30\",\r\n    \"startDate\":\"2024-09-06\",\r\n    \"endDate\":\"2024-09-09\",\r\n    \"employeeId\":\"01H8NHTTPF6AH4ZT7XQ6KMCZJB\"\r\n}",
+					"raw": "{\r\n    \"contractTypeId\":\"01HCXMQENH629N5WJYRYBR3K66\",\r\n    \"typeName\":\"Chính thức\",\r\n    \"type\":1,\r\n    \"signingDate\":\"2024-09-01\",\r\n    \"startDate\":\"2024-09-13\",\r\n    \"endDate\":\"2024-09-14\",\r\n    \"employeeId\":\"01H8NHTTPF6AH4ZT7XQ6KMCZJB\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
