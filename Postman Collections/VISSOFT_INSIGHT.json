@@ -999,8 +999,27 @@
 						"disableBodyPruning": true
 					},
 					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": {
+								"token": "eyJhbGciOiJIUzUxMiJ9.eyJ1c2VySWQiOiIwMUg1UkpQQzFEWUFYQkZXRk1ZN05TWVdZNiIsInVzZXJuYW1lIjoidmlzYWRtaW5Admlzc29mdC52biIsImZ1bGxOYW1lIjoiIiwidXNlclR5cGUiOiJvd25lciIsInVzZXJDb2RlIjoiQURNSU4iLCJlbXBsb3llZUlkIjoiMDFIOVE5NzRKSFdOWFhDNFhUMjE5QjBQUjMiLCJlbXBsb3llZUNvZGUiOiJBRE1JTiIsImlzTWFuYWdlciI6dHJ1ZSwiYXV0aCI6W10sImV4cCI6MTcyMDc1NjcwMH0.MijTpFR9NfscsLSVw13mEZo4hjdgS3C2FdpW7Ha7kX-XdXSr7Wprurzt6uU9TiAgkDOqXklaHeZn5xL3kcRxng"
+							}
+						},
 						"method": "POST",
-						"header": [],
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text",
+								"disabled": true
+							},
+							{
+								"key": "Accept",
+								"value": "*",
+								"type": "text",
+								"disabled": true
+							}
+						],
 						"body": {
 							"mode": "raw",
 							"raw": "{\r\n    \"time\":\"07/2024\",\r\n    \"employeeCodes\":null,\r\n    \"projectCodes\":null,\r\n    \"groupIds\":null\r\n}",
