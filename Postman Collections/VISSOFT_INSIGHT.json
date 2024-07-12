@@ -1322,6 +1322,18 @@
 						"url": "{{domain}}/v1/application/denial"
 					},
 					"response": []
+				},
+				{
+					"name": "Số đơn ngoại lệ trong tháng",
+					"id": "e07399fe-4062-456e-b2a7-c95828e156ce",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
 				}
 			],
 			"id": "02e16c69-7c3b-4138-942a-0a982b88d303"
