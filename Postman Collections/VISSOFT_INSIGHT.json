@@ -3428,6 +3428,18 @@
 						"url": "{{domain}}/employee-contract/create"
 					},
 					"response": []
+				},
+				{
+					"name": "New Request",
+					"id": "0c68a1a2-8535-4a52-a14f-6e6b600b9530",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
 				}
 			],
 			"id": "8d22fdba-2db0-49f7-b8cc-ac389ec66254"
