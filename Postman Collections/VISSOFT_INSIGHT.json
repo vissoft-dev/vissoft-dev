@@ -9381,21 +9381,48 @@
 						"auth": {
 							"type": "bearer",
 							"bearer": {
-								"token": "eyJhbGciOiJIUzUxMiJ9.eyJ1c2VySWQiOiIwMUg4TkhUVjhZMVRZQkFBNUVZV0NCUEZGMyIsInVzZXJuYW1lIjoidGh1eXB0QHZpc3NvZnQudm4iLCJmdWxsTmFtZSI6IlBo4bqhbSBUxrDhu51uZyBUaOG7pXkiLCJ1c2VyQ29kZSI6IlRIVVlQVCIsImVtcGxveWVlSWQiOiIwMUg4TkhUVFBGNkFINFpUN1hRNktNQ1pKQiIsImVtcGxveWVlQ29kZSI6IlRIVVlQVCIsInRpdGxlSWQiOiIwMUg2M0Y2N0FaUjBDQ1owUzVLQ01WMDJOVyIsInRpdGxlQ29kZSI6IlBNIiwiaXNNYW5hZ2VyIjp0cnVlLCJpc0RlcGFydG1lbnRNYW5hZ2VyIjp0cnVlLCJhdXRoIjpbXSwiZXhwIjoxNzIxMDMzNTQ3fQ.d0alq8oQbuDyA_F3eWz6Xib2vqg1zPCXRGKhFNE9DNiM1VAj1G3sxxbcGOzlxnbZjK66d81l6MgYmd9quXlN9w"
+								"token": "eyJhbGciOiJIUzUxMiJ9.eyJ1c2VySWQiOiIwMUg4TkhUVjhZMVRZQkFBNUVZV0NCUEZGMyIsInVzZXJuYW1lIjoidGh1eXB0QHZpc3NvZnQudm4iLCJmdWxsTmFtZSI6IlBo4bqhbSBUxrDhu51uZyBUaOG7pXkiLCJ1c2VyQ29kZSI6IlRIVVlQVCIsImVtcGxveWVlSWQiOiIwMUg4TkhUVFBGNkFINFpUN1hRNktNQ1pKQiIsImVtcGxveWVlQ29kZSI6IlRIVVlQVCIsInRpdGxlSWQiOiIwMUg2M0Y2N0FaUjBDQ1owUzVLQ01WMDJOVyIsInRpdGxlQ29kZSI6IlBNIiwiaXNNYW5hZ2VyIjp0cnVlLCJhdXRoIjpbXSwiZXhwIjoxNzIxMDM4MDU3fQ.nMsbdgOLx8YrX_a-_U2UISgcFEY1Cb8_65nuSkmf-ndoT7pmxX8_fBajO89pQPRDRnXAM5Wyevb4mQ8i7e8C6w"
 							}
 						},
 						"method": "GET",
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"employeeCode\": \"ThuyPT\",\r\n    \"startDate\": \"2024-07-07\",\r\n    \"endDate\": \"2024-07-30\"\r\n}",
+							"raw": "",
 							"options": {
 								"raw": {
 									"language": "json"
 								}
 							}
 						},
-						"url": "{{domain}}/v1/employee-day-off-update/history"
+						"url": {
+							"raw": "{{domain}}/v1/employee-day-off-update/history?employeeCode=AnhHV&startDate=2024-06-15&endDate=2024-08-15",
+							"host": [
+								"{{domain}}"
+							],
+							"path": [
+								"v1",
+								"employee-day-off-update",
+								"history"
+							],
+							"query": [
+								{
+									"key": "employeeCode",
+									"value": "AnhHV",
+									"type": "text"
+								},
+								{
+									"key": "startDate",
+									"value": "2024-06-15",
+									"type": "text"
+								},
+								{
+									"key": "endDate",
+									"value": "2024-08-15",
+									"type": "text"
+								}
+							]
+						}
 					},
 					"response": []
 				},
