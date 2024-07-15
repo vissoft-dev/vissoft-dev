@@ -9363,7 +9363,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"employeeId\": \"01H8NHTT6SK38947288ZN3PV3Y\",\r\n    \"startDate\": \"2024-07-07\",\r\n    \"endDate\": \"2024-07-30\"\r\n}",
+							"raw": "{\r\n    \"employeeCode\": \"ThuyPT\",\r\n    \"startDate\": \"2024-07-07\",\r\n    \"endDate\": \"2024-07-30\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
