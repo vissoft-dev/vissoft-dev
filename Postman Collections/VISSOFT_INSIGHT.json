@@ -3436,8 +3436,15 @@
 						"disableBodyPruning": true
 					},
 					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": {
+								"token": "eyJhbGciOiJIUzUxMiJ9.eyJ1c2VySWQiOiIwMUg4TkhUVjhZMVRZQkFBNUVZV0NCUEZGMyIsInVzZXJuYW1lIjoidGh1eXB0QHZpc3NvZnQudm4iLCJmdWxsTmFtZSI6IlBo4bqhbSBUxrDhu51uZyBUaOG7pXkiLCJ1c2VyQ29kZSI6IlRIVVlQVCIsImVtcGxveWVlSWQiOiIwMUg4TkhUVFBGNkFINFpUN1hRNktNQ1pKQiIsImVtcGxveWVlQ29kZSI6IlRIVVlQVCIsInRpdGxlSWQiOiIwMUg2M0Y2N0FaUjBDQ1owUzVLQ01WMDJOVyIsInRpdGxlQ29kZSI6IlBNIiwiaXNNYW5hZ2VyIjp0cnVlLCJpc0RlcGFydG1lbnRNYW5hZ2VyIjp0cnVlLCJhdXRoIjpbXSwiZXhwIjoxNzIxMDMzNDU3fQ.oY9qxjdZHHURZ5dA3SIQSRcUSy5mtf2lUYMP487Nn1Qyw7rvOfLnldISHEBZhYeVaG9hIVmrEThbOOtGx6MJkQ"
+							}
+						},
 						"method": "GET",
-						"header": []
+						"header": [],
+						"url": "{{domain}}/v1/project"
 					},
 					"response": []
 				}
