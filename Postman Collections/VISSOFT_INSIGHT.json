@@ -1349,8 +1349,24 @@
 						"disableBodyPruning": true
 					},
 					"request": {
-						"method": "GET",
-						"header": []
+						"auth": {
+							"type": "bearer",
+							"bearer": {
+								"token": "{{access_token}}"
+							}
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"createBy\":\"Thuypt\",\r\n    \"applicationType\": \"1\",\r\n    \"subType\": \"1\",\r\n    \"approveBy\": \"DaiNT2\",\r\n    \"description\": \"demo1\",\r\n    \"startDate\": \"2024-07-22T04:09:45.004Z\",\r\n    \"endDate\": \"2024-07-22T04:09:45.004Z\",\r\n    \"projectId\" : \"\",\r\n    \"totalHours\": \"8\",\r\n    \"workplaceId\" : \"01H683N9X9XZE9P0N57RQKKDTS\",\r\n    \"workingShiftId\" : \"01H680MB5Z31BV389AXYTEQKXG\"\r\n   \r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{domain}}/v1/application/create"
 					},
 					"response": []
 				}
