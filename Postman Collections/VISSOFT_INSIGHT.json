@@ -1245,7 +1245,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "[\"01H63T63SGVFAXQQXY35Z908XX\"]"
+							"raw": "[\"01J2XAT0HWCKT39GY3WZHHB16R\"\r\n,\"01J2XAM48G27ZGKRWG6G103B2D\"\r\n,\"01J2XAJEFPFSAHV4XC44KHQCWE\"\r\n,\"01J2XAFX1YFY7SMVZYT45HJQNA\"\r\n,\"01J2XAD2P813J289WXYVPDPYPF\"\r\n,\"01J2XA69JTT8DJEKPQDAWB95EW\"\r\n,\"01J2X9FYDBH0EA4VG6FF40WEZ6\"\r\n,\"01J2X8VMDK67J8S5R7SBJJYZ2G\"]"
 						},
 						"url": "localhost:8080/api/v1/application/delete/{id}"
 					},
