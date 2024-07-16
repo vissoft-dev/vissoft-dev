@@ -3430,7 +3430,7 @@
 					"response": []
 				},
 				{
-					"name": "Lấy toàn bộ dự án",
+					"name": "Lấy toàn bộ PM",
 					"id": "0c68a1a2-8535-4a52-a14f-6e6b600b9530",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
@@ -3439,9 +3439,22 @@
 						"auth": {
 							"type": "bearer",
 							"bearer": {
-								"token": "eyJhbGciOiJIUzUxMiJ9.eyJ1c2VySWQiOiIwMUg4TkhUVjhZMVRZQkFBNUVZV0NCUEZGMyIsInVzZXJuYW1lIjoidGh1eXB0QHZpc3NvZnQudm4iLCJmdWxsTmFtZSI6IlBo4bqhbSBUxrDhu51uZyBUaOG7pXkiLCJ1c2VyQ29kZSI6IlRIVVlQVCIsImVtcGxveWVlSWQiOiIwMUg4TkhUVFBGNkFINFpUN1hRNktNQ1pKQiIsImVtcGxveWVlQ29kZSI6IlRIVVlQVCIsInRpdGxlSWQiOiIwMUg2M0Y2N0FaUjBDQ1owUzVLQ01WMDJOVyIsInRpdGxlQ29kZSI6IlBNIiwiaXNNYW5hZ2VyIjp0cnVlLCJpc0RlcGFydG1lbnRNYW5hZ2VyIjp0cnVlLCJhdXRoIjpbXSwiZXhwIjoxNzIxMDMzNDU3fQ.oY9qxjdZHHURZ5dA3SIQSRcUSy5mtf2lUYMP487Nn1Qyw7rvOfLnldISHEBZhYeVaG9hIVmrEThbOOtGx6MJkQ"
+								"token": "eyJhbGciOiJIUzUxMiJ9.eyJ1c2VySWQiOiIwMUg4TkhUVjhZMVRZQkFBNUVZV0NCUEZGMyIsInVzZXJuYW1lIjoidGh1eXB0QHZpc3NvZnQudm4iLCJmdWxsTmFtZSI6IlBo4bqhbSBUxrDhu51uZyBUaOG7pXkiLCJ1c2VyQ29kZSI6IlRIVVlQVCIsImVtcGxveWVlSWQiOiIwMUg4TkhUVFBGNkFINFpUN1hRNktNQ1pKQiIsImVtcGxveWVlQ29kZSI6IlRIVVlQVCIsInRpdGxlSWQiOiIwMUg2M0Y2N0FaUjBDQ1owUzVLQ01WMDJOVyIsInRpdGxlQ29kZSI6IlBNIiwiaXNNYW5hZ2VyIjp0cnVlLCJpc0RlcGFydG1lbnRNYW5hZ2VyIjp0cnVlLCJhdXRoIjpbXSwiZXhwIjoxNzIxMDk5MTk0fQ.HjckmzC_sA_p0W5Rqp7IXwRNHEcnLzPR6ONpC5428Kvac-Xe4MYn0RYGqBjiKmnuBhfxrsVSBSzzE95KFXZuPA"
 							}
 						},
+						"method": "GET",
+						"header": [],
+						"url": "{{domain}}/v1/project/all-pm"
+					},
+					"response": []
+				},
+				{
+					"name": "Lấy toàn bộ dự án",
+					"id": "088d2a18-577f-4380-9e45-0d95bf5b2d0b",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
 						"method": "GET",
 						"header": [],
 						"url": "{{domain}}/v1/project"
