@@ -5657,14 +5657,31 @@
 					"response": []
 				},
 				{
-					"name": "New Request",
+					"name": "Thống kê nhân sự",
 					"id": "b3a465b2-a3bd-4c68-86b1-a7a7dfd5347e",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
 					"request": {
 						"method": "GET",
-						"header": []
+						"header": [],
+						"url": {
+							"raw": "{{domain}}/v1/employee/departmentSummary?departmentID=01H8E6EYRS3JYSNZB2MPSTZDDQ,01H8E6F1KMKXVC2X6R5B9045N7",
+							"host": [
+								"{{domain}}"
+							],
+							"path": [
+								"v1",
+								"employee",
+								"departmentSummary"
+							],
+							"query": [
+								{
+									"key": "departmentID",
+									"value": "01H8E6EYRS3JYSNZB2MPSTZDDQ,01H8E6F1KMKXVC2X6R5B9045N7"
+								}
+							]
+						}
 					},
 					"response": []
 				}
