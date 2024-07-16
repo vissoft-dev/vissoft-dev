@@ -1341,6 +1341,18 @@
 						"url": "{{domain}}/v1/application/denial"
 					},
 					"response": []
+				},
+				{
+					"name": "tạo đơn",
+					"id": "4c2e9626-d719-4e55-8da5-46dff1c251c6",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
 				}
 			],
 			"id": "02e16c69-7c3b-4138-942a-0a982b88d303"
