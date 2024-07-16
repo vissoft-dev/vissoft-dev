@@ -3430,7 +3430,7 @@
 					"response": []
 				},
 				{
-					"name": "Lấy toàn bộ hợp đồng",
+					"name": "Lấy toàn bộ dự án",
 					"id": "0c68a1a2-8535-4a52-a14f-6e6b600b9530",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
