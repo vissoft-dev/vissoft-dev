@@ -9535,6 +9535,18 @@
 						"url": "{{domain}}/v1/employee-day-off-update/create-new-update"
 					},
 					"response": []
+				},
+				{
+					"name": "New Request",
+					"id": "9a2b3e3c-7d56-4790-b7cc-3503ca9ecd2d",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
 				}
 			],
 			"id": "e8b7b1d6-1160-45ee-a323-ce3172604984"
