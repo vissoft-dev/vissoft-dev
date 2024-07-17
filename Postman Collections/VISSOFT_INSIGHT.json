@@ -1359,7 +1359,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"createBy\":\"Thuypt\",\r\n    \"applicationType\": \"1\",\r\n    \"subType\": \"1\",\r\n    \"approveBy\": \"DaiNT2\",\r\n    \"description\": \"demo1\",\r\n    \"startDate\": \"2024-07-22T04:09:45.004Z\",\r\n    \"endDate\": \"2024-07-22T04:09:45.004Z\",\r\n    \"projectId\" : \"\",\r\n    \"totalHours\": \"8\",\r\n    \"workplaceId\" : \"01H683N9X9XZE9P0N57RQKKDTS\",\r\n    \"workingShiftId\" : \"01H680MB5Z31BV389AXYTEQKXG\"\r\n   \r\n}",
+							"raw": "{\r\n    \"createdForBy\":\"Thuypt\",\r\n    \"applicationType\": \"1\",\r\n    \"subType\": \"1\",\r\n    \"approveBy\": \"DaiNT2\",\r\n    \"relevantEmployeeCode\": [\r\n        \"PhamToan\"\r\n    ],\r\n    \"description\": \"demo02\",\r\n    \"startDate\": \"2024-08-20T04:09:45.004Z\",\r\n    \"endDate\": \"2024-08-20T04:09:45.004Z\",\r\n    \"projectId\" : \"\",\r\n    \"totalHours\": \"8\",\r\n    \"applicationDetails\":  [\r\n        {\r\n            \"employeeCode\": [\r\n                \"VanNT\",\r\n                \"DongND\"\r\n            ],\r\n            \"startDate\": \"2024-08-25T18:30:00.000Z\",\r\n            \"endDate\": \"2024-08-20T20:30:00.000Z\",\r\n            \"numberHours\": \"2\",\r\n            \"salaryRate\": \"150\"\r\n        }\r\n    ],\r\n    \"workplaceId\" : \"\",\r\n    \"workingShiftId\" : \"\"\r\n   \r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -1367,6 +1367,31 @@
 							}
 						},
 						"url": "{{domain}}/v1/application/create"
+					},
+					"response": []
+				},
+				{
+					"name": "tạo đơn nháp",
+					"id": "83725ddc-0a9e-4830-8ad5-ee2c7bb57f13",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"createBy\":\"Thuypt\",\r\n    \"applicationType\": \"1\",\r\n    \"subType\": \"1\",\r\n    \"approveBy\": \"DaiNT2\",\r\n    \"description\": \"demo1\",\r\n    \"startDate\": \"2024-07-22T04:09:45.004Z\",\r\n    \"endDate\": \"2024-07-22T04:09:45.004Z\",\r\n    \"projectId\" : \"\",\r\n    \"totalHours\": \"8\",\r\n    \"workplaceId\" : \"01H683N9X9XZE9P0N57RQKKDTS\",\r\n    \"workingShiftId\" : \"01H680MB5Z31BV389AXYTEQKXG\"\r\n   \r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{domain}}/v1/application/create-demo"
 					},
 					"response": []
 				}
