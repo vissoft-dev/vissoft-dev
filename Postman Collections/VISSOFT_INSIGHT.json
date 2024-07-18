@@ -5405,12 +5405,11 @@
 							}
 						],
 						"url": {
-							"raw": "{{domain}}/api/v1/employee/get-detail?q=DUONGNT",
+							"raw": "{{domain}}/v1/employee/get-detail?q=ThuyPT",
 							"host": [
 								"{{domain}}"
 							],
 							"path": [
-								"api",
 								"v1",
 								"employee",
 								"get-detail"
@@ -5418,7 +5417,7 @@
 							"query": [
 								{
 									"key": "q",
-									"value": "DUONGNT"
+									"value": "ThuyPT"
 								}
 							]
 						}
