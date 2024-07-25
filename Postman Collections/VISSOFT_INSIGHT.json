@@ -7007,6 +7007,18 @@
 								"url": "{{domain}}/v1/project-resources/recalculate-budget"
 							},
 							"response": []
+						},
+						{
+							"name": "Search",
+							"id": "49d86c97-6be2-46df-8b3c-7bd69f16f8d8",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": []
+							},
+							"response": []
 						}
 					],
 					"id": "7fa51001-1878-469d-85c1-136b8d8ddab7"
