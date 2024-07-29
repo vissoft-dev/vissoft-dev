@@ -9601,6 +9601,11 @@
 				}
 			],
 			"id": "e8b7b1d6-1160-45ee-a323-ce3172604984"
+		},
+		{
+			"name": "Báo cáo phân bổ nguồn lực",
+			"item": [],
+			"id": "f1da99b6-41fa-4a26-94ad-4a8e83ff8945"
 		}
 	],
 	"auth": {
