@@ -9604,7 +9604,20 @@
 		},
 		{
 			"name": "Báo cáo phân bổ nguồn lực",
-			"item": [],
+			"item": [
+				{
+					"name": "search test",
+					"id": "51e138ab-239a-47a8-bd88-d0fe0663bc56",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				}
+			],
 			"id": "f1da99b6-41fa-4a26-94ad-4a8e83ff8945"
 		}
 	],
