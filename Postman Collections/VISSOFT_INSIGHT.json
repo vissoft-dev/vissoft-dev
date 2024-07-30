@@ -9613,7 +9613,17 @@
 					},
 					"request": {
 						"method": "GET",
-						"header": []
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"dateType\": \"MONTH\",\r\n    \"fromDate\": \"06/2024\",\r\n    \"toDate\": \"06/2024\",\r\n    \"dataType\": \"0\",\r\n    \"dataValue\": [],\r\n    \"isDetail\": true,\r\n    \"departmentId\": [\r\n        \r\n    ]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{domain}}/v1/resource-allocate/demo"
 					},
 					"response": []
 				}
